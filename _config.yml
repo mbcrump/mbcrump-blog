@@ -266,7 +266,7 @@ defaults:
   # _about
   - scope:
       path: ""
-      type: about
+      type: posts
     values:
       layout: single
       author_profile: true
@@ -275,7 +275,7 @@ defaults:
   # _media
   - scope:
       path: ""
-      type: media
+      type: posts
     values:
       layout: single
       author_profile: true
