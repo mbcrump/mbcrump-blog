@@ -168,6 +168,15 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+  media:
+    output: true
+    permalink: /:collection/:path/
+  about:
+    output: true
+    permalink: /:collection/:path/
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -255,3 +264,21 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _about
+  - scope:
+      path: ""
+      type: about
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _media
+  - scope:
+      path: ""
+      type: media
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
