@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Michael Crump Media
 tags: [about, speaker, author, developer]
 comments: false
