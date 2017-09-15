@@ -5,6 +5,7 @@ excerpt: "Media that Michael Crump has been a part of"
 tags: [about, speaker, author, developer]
 share: true
 comments: false
+author_profile: true
 ---
 
 On this page, you'll find a list of media for Michael Crump. All of the content on this page has been scoped to the current year (2017). 
