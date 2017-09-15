@@ -1,0 +1,9 @@
+---
+layout: post
+title: 1360x768x32 Resolution in Windows 8 in VirtualBox
+excerpt: 
+tags: 
+comments: true
+---
+
+My Lenovo ThinkPad's built-in screen maxes at 1366x768x32. I wanted to use that same resolution with Windows 8 Developer Preview inside of VirtualBox. So what did I do?     - Downloaded the latest build of [VirtualBox][1] v4.1.6 (because it supports Windows 8 x64).   - Installed Windows 8 Developer Preview in VirtualBox as I did earlier this year.    - Installed Guest Additions.    - Ran the CustomVideoMode described in this [blog post][2].     …and quickly found out that I didn’t have the option to use 1366x768x32 inside of VirtualBox despite using the following command:    VBoxManage.exe setextradata  "[Virtual Machine Name]" CustomVideoMode1 1920x1080x32    So how do you fix it?  If you do a little research on this resolution then you will find it is a non-standard resolution. Even if you run the command:    VBoxManage.exe setextradata "[Virtual Machine Name]" CustomVideoMode1 136**6**x768x32    It will still not show that resolution inside of VirtualBox. You can fix this easily by using the following command as shown below:    VBoxManage.exe setextradata "[Virtual Machine Name]" CustomVideoMode1 136**0**x768x32    ![alt text][3]    I hope that you noticed the command used the resolution of 1360 instead of 1366. Now if you go to your display option for Windows 8 inside of Virtualbox then you can select that resolution.    ![alt text][4]    Anyways I hope this helps someone with a similar problem. I created this blog partially for myself but it is always nice to help my fellow developer.     Thanks for reading.        [1]: https://www.virtualbox.org/    [2]: http://www.pitorque.de/MisterGoodcat/post/Installing-Windows-8-Developer-Preview-in-a-virtual-machine.aspx    [3]: http://michaelcrump.net/get/command.png    [4]: http://michaelcrump.net/get/resolution1.png      

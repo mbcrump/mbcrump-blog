@@ -1,0 +1,9 @@
+---
+layout: post
+title: Turn NumLock on Automatically upon Boot in Windows 8
+excerpt: 
+tags: 
+comments: true
+---
+
+<h3>Introduction</h3>  <p>I’ve ran into this issue on three separate machines where the NumLock key needs to be pressed to login to Windows 8 upon boot (assuming you have a number in your password). My BIOS setting is correct but for some reason Windows 8 ignores it. </p>  <h3>The Solution</h3>  <p><strong>Note:</strong> If you don’t want to dig into the registry yourself then you can just download the completed .REG file <a href="http://michaelcrump.net/get/numlock.reg">here</a>. Double-click it and done. </p>  <p>For those that want to do it manually then follow the instructions below: </p>  <p>Navigate to <strong>[HKEY_USERS\.DEFAULT\Control Panel\Keyboard]</strong> and change &quot;<strong>InitialKeyboardIndicators</strong>&quot; to <strong>2</strong> as shown below. </p>  <p><a href="http://michaelcrump.net/files/SNAGHTML99eb32c_634827084747263776.png"><img title="SNAGHTML99eb32c" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="SNAGHTML99eb32c" src="http://michaelcrump.net/files/SNAGHTML99eb32c_thumb_634827084763644196.png" width="655" height="311" /></a></p>  <p>Simple right? </p>  <p>Also as stated earlier you can download a .REG file from <a href="http://michaelcrump.net/get/numlock.reg">here</a> to avoid performing any of this work. The contents of the registry file are as follows:</p>  <pre class="brush: plain;">Windows Registry Editor Version 5.00    [HKEY_USERS\.DEFAULT\Control Panel\Keyboard]  &quot;KeyboardSpeed&quot;=&quot;31&quot;  &quot;InitialKeyboardIndicators&quot;=&quot;2&quot;  &quot;KeyboardDelay&quot;=&quot;1&quot;</pre>    <h3>Wrap-up</h3>    <p>I hope this helped! Thanks for reading.</p>

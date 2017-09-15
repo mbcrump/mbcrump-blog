@@ -1,12 +1,13 @@
-# main links
+# main links links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Posts"
+    url: /posts/
+
+  - title: "Media"
+    url: /media/    
+
+  - title: "About Me"
+    url: /about/    
+    
+  - title: "RSS"
+    url: https://michaelcrump.net/feed

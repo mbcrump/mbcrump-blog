@@ -1,0 +1,9 @@
+---
+layout: post
+title: Installing SQL Server 2014 on Windows 8.1 Update 1
+excerpt: 
+tags: 
+comments: true
+---
+
+<h3>Introduction</h3>  <p>I ran into a problem installing SQL Server 2014 on my Windows 8.1 Update 1 box. It kept giving me this error: </p>  <p><a href="http://michaelcrump.net/files/image_635333382011705398.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://michaelcrump.net/files/image_thumb_635333382015761424.png" width="661" height="171" /></a></p>  <p>“Could not find the Database Engine startup handle.”</p>  <p>After lots of searching and reading different recommendations I finally decided to do the following: </p>  <ul>   <li>Disable UAC</li>    <li>Extract the ISO to a folder and run the setup.exe from there. </li>    <li>Change the SQL Server Database Engine to LocalSystem. </li> </ul>  <p>After doing&#160; that my setup was successful. I then launched SQL Server Configuration Manager and made sure that SQL Server was running as shown below: </p>  <p><a href="http://michaelcrump.net/files/image_635333382023093471.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://michaelcrump.net/files/image_thumb_635333382028709507.png" width="756" height="233" /></a></p>  <p>Thanks for reading and I hope this helps! </p>
