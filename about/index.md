@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: About Michael Crump
 tags: [about, speaker, author, developer]
 share: true
