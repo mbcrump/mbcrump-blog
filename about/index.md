@@ -1,8 +1,6 @@
 ---
 layout: post
 title: "Michael Crump"
-excerpt: "Information about Michael Crump"
-tags: [about, speaker, author, developer]
 share: true
 comments: false
 author_profile: true
