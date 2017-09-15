@@ -13,7 +13,7 @@ title                    : "Main Page"
 title_separator          : "-"
 name                     : "Michael Crump"
 description              : "Michael Crump's Software Development Blog"
-url                      : "https://landlord-knocks-30103.netlify.com/"
+url                      : https://landlord-knocks-30103.netlify.com/
 baseurl                  : #
 repository               : "mbcrump/mbcrump.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -115,6 +115,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - files
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -166,7 +167,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
 
 # Sass/SCSS
 sass:
@@ -248,3 +248,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
