@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Michael Crump Media
+title: "Michael Crump Media"
+excerpt: "Media that Michael Crump has been a part of"
 tags: [about, speaker, author, developer]
 share: true
 comments: false

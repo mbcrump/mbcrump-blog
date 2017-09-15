@@ -1,6 +1,7 @@
 ---
 layout: post
-title: About Michael Crump
+title: "Michael Crump"
+excerpt: "Information about Michael Crump"
 tags: [about, speaker, author, developer]
 share: true
 comments: false
