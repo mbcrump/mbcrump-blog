@@ -10,4 +10,4 @@ main:
     url: /about/    
     
   - title: "RSS"
-    url: https://michaelcrump.net/feed
+    url: /feed.xml
