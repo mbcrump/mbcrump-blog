@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "default" # "air", "contrast", "dark", "dirt", "mint"
 
 # Site Settings
 locale                   : "en"
-title                    : "Main Page"
+title                    : "Michael Crump"
 title_separator          : "-"
 name                     : "Michael Crump"
 description              : "Michael Crump's Software Development Blog"
@@ -85,7 +85,7 @@ author:
   location         : "Redmond, WA"
   email            : "michael@michaelcrump.net"
   uri              : "https://michaelcrump.net"
-  bitbucket        : "mbcrump"
+  bitbucket        : 
   codepen          :
   dribbble         :
   flickr           :
@@ -93,7 +93,7 @@ author:
   foursquare       :
   github           : "mbcrump"
   gitlab           :
-  google_plus      :
+  google_plus      : "mbcrump"
   keybase          :
   instagram        : "mbcrump"
   lastfm           :
