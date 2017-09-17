@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Michael Crump Media"
+title: "Media"
 share: true
 comments: false
 author_profile: true
