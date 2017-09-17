@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: splash
 title: "Azure Tips and Tricks Part 16 - Deploy Jekyll Site Hosted on GitHub Pages to Azure"
 excerpt: "Learn how to quickly deploy a Jekyll based site hosted on GitHub Pages to Azure"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
