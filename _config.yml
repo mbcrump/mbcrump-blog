@@ -13,7 +13,7 @@ title                    : "Michael Crump"
 title_separator          : "-"
 name                     : "Michael Crump"
 description              : "Michael Crump's Software Development Blog"
-url                      : https://landlord-knocks-30103.netlify.com
+url                      : https://michaelcrump.net
 baseurl                  : #
 repository               : "mbcrump/mbcrump.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
