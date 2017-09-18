@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Azure Tips and Tricks Part 17 - Use PowerShell with Azure Cloud Shell"
-excerpt: "Learn how to take advantage of the settings menu within Azure Cloud Shell"
+excerpt: "Learn how to take advantage of PowerShell within Azure Cloud Shell"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
 comments: true
@@ -40,7 +40,7 @@ On first launch, it'll authenticate with Azure (just like BASH does) and build y
 	Mode SubscriptionName                     SubscriptionId                       TenantId                             State
 	---- ----------------                     --------------                       --------                             -----
 	+    Demo - Azure Monitoring				xxx-xxx-xxx-xxx						xxx-xxx-xxx-xxx 					Enabled
-	+    Michael's Internal Subscription		xxx-xxx-xxx-xxx 					xxx-xxx-xxx-xxx						Enabled
+
 
 Now that I have access to my subscriptions, I can traverse the "Demo - Azure Monitor" subscription by typing `cd '.\Demo - Azure Monitoring\'`.
 
