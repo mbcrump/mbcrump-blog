@@ -13,17 +13,17 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## The Complete List
 
-[Click here to view the complete list of Azure Tips and Tricks ](https://michaelcrump.net/azure-tips-and-tricks-complete-list/)
+[Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
 ## Custom Tile Sizes in the Azure Dashboard
 
 We learned in the last Azure tip and Trick that the Azure dashboard supports drag and drop and re-size tiles in the Azure dashboard. We also learned that you can customize charts (such as the ones seen in Virtual Machines) to include stats such as CPU when you pin it to the dashboard.  
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/azuretip4.gif">
+<img style="border:3px solid #021a40" src="/files/azuretip4.gif">
 
 But some tiles support custom tile sizes which you can locate by looking in the bottom right hand corner. If you see a corner arrow then you can resize the tile! 
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/azuretip5.gif">
+<img style="border:3px solid #021a40" src="/files/azuretip5.gif">
 
 Big thanks to [Sean Watson](https://twitter.com/Seanwatson3) for that tip!
 

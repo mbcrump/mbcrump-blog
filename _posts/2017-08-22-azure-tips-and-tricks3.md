@@ -13,17 +13,17 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## The Complete List
 
-[Click here to view the complete list of Azure Tips and Tricks ](https://michaelcrump.net/azure-tips-and-tricks-complete-list/)
+[Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
 ## Drag Tiles to customize your Azure Dashboard
 
 You are probably aware that you can press the "Edit" button on your dashboard to begin customizing your Azure dashboard :
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/azurecustomizetiles.png">
+<img style="border:3px solid #021a40" src="/files/azurecustomizetiles.png">
 
 You can not only drag tiles but you can customize their layout to show information with just a couple of clicks:
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/azuretip3.gif">
+<img style="border:3px solid #021a40" src="/files/azuretip3.gif">
 
 If you are putting together a dashboard, then this might come in handy. In the next tip, I'll show you how to customize data that might come from a graph such as IO in an Azure VM. 
 

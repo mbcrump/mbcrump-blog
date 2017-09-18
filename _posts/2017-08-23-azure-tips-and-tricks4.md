@@ -13,17 +13,17 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## The Complete List
 
-[Click here to view the complete list of Azure Tips and Tricks ](https://michaelcrump.net/azure-tips-and-tricks-complete-list/)
+[Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
 ## Customize and Pin Charts to your Azure Dashboard
 
 You are probably aware that you can drag and drop and re-size tiles in the Azure dashboard. 
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/azuredashboard1.gif">
+<img style="border:3px solid #021a40" src="/files/azuredashboard1.gif">
 
 You can not only drag and resize tiles but you can customize charts (such as the ones seen in Virtual Machines). In this sample, we change the CPU chart to use a bar chart and then pin it to the dashboard. 
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/azuretip4.gif">
+<img style="border:3px solid #021a40" src="/files/azuretip4.gif">
 
 Pretty cool stuff, eh? 
 

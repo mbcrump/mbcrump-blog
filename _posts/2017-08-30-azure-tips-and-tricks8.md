@@ -13,7 +13,7 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## The Complete List
 
-[Click here to view the complete list of Azure Tips and Tricks ](https://michaelcrump.net/azure-tips-and-tricks-complete-list/)
+[Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
 ## Configure the Azure CLI to set Defaults and More
 
@@ -54,7 +54,7 @@ And finally an option to opt into data collection:
 
 Here is a sample of setting the configuration and running a command:
 
-<img src="https://michaelcrump.net/files/azuretip8.gif">
+<img src="/files/azuretip8.gif">
 
 
 ## Want more Azure Tips and Tricks?
