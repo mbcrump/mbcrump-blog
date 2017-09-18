@@ -13,13 +13,13 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## The Complete List
 
-[Click here to view the complete list of Azure Tips and Tricks ](https://michaelcrump.net/azure-tips-and-tricks-complete-list/)
+[Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
 ## Access Cloud Shell from within Microsoft Documentation
 
 Most everyone is aware that you can access the Azure Cloud Shell from within the [Azure Portal](https://docs.microsoft.com/en-us/azure/cloud-shell/overview) or from mobile apps such as iOS and Android. But a little known fact is that a lot of the Azure documentation pages include an embedded Cloud Shell experience that can be found with the "Try It" button as shown below.   
 
-<img src="https://michaelcrump.net/files/azuretip11.gif">
+<img src="/files/azuretip11.gif">
 
 
 ## Want more Azure Tips and Tricks?

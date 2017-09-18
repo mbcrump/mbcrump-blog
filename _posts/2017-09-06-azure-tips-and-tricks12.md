@@ -13,13 +13,13 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## The Complete List
 
-[Click here to view the complete list of Azure Tips and Tricks ](https://michaelcrump.net/azure-tips-and-tricks-complete-list/)
+[Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
 ## Easily Start, Restart, Stop or Delete Multiple VMs
 
 You may be aware that you can restart, start, stop or delete a VM but did you know that you can select multiple at the same time? Just open the Azure Portal and select the VMs you wish to control and press the desired button. It really is that easy!  
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/azuretip12.gif">
+<img style="border:3px solid #021a40" src="/files/azuretip12.gif">
 
 
 ## Want more Azure Tips and Tricks?
