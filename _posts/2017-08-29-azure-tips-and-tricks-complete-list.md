@@ -31,6 +31,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 14 - Generate SSH public key to log into Linux VM with Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks14/)
 * [Azure Tips and Tricks Part 15 - Underlying Software in Azure Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks15/)
 * [Azure Tips and Tricks Part 16 - Deploy Jekyll Site Hosted on GitHub to Azure](http://www.michaelcrump.net/azure-tips-and-tricks16/)
+* [Azure Tips and Tricks Part 17 - Use PowerShell with Azure Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks17/)
 
 ## Got a Azure Tip or Trick?
 
