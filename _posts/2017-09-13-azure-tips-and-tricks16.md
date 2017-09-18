@@ -42,15 +42,15 @@ Once you have these three files, ensure they are in the root of your public GitH
 
 You'll want to go inside of your **Azure Portal** (or use the CLI tools) and create an **App Service** -> **Web App**. Once the site is deployed, then go to **Deployment Options** and select GitHub, your project and press OK. 
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/azuretip16.gif">
+<img style="border:3px solid #021a40" src="/files/azuretip16.gif">
 
 You should see "Settup up Deployment Source..." in the notification windows. You'll probably want to wait a good 15 to 20 minutes for Azure to setup everything. You can stay on the **Deployment Options** blade and you should  see the status of the deployment. 
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/fetchanddeploy.png">
+<img style="border:3px solid #021a40" src="/files/fetchanddeploy.png">
 
 After a while you see a check mark that it completed successfully. Now you can navigate to the URL listed on the **Overview** blade. 
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/fetchanddeploy1.png">
+<img style="border:3px solid #021a40" src="/files/fetchanddeploy1.png">
 
 ## Want more Azure Tips and Tricks?
 

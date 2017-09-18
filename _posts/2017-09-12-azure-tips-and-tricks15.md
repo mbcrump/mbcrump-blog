@@ -13,11 +13,11 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## The Complete List
 
-[Click here to view the complete list of Azure Tips and Tricks ](https://michaelcrump.net/azure-tips-and-tricks-complete-list/)
+[Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
 ## Underlying Software in Azure Cloud Shell
 
-The Azure Cloud Shell is an extremely powerful feature of Azure and one that I'm a big fan of. In the previous tips, we've talked a bit about [Storage](https://michaelcrump.net/azure-tips-and-tricks13/) and then using that [storage to store an SSH key](https://michaelcrump.net/azure-tips-and-tricks14/) for a Linux VM. I thought that I should take a step back and talk about the underlying software that is running in an Azure Cloud VM instance. Keep in mind, that I don't work on the Azure Cloud Shell team, this is just my understanding of it. 
+The Azure Cloud Shell is an extremely powerful feature of Azure and one that I'm a big fan of. In the previous tips, we've talked a bit about [Storage](https://www.michaelcrump.net/azure-tips-and-tricks13/) and then using that [storage to store an SSH key](https://www.michaelcrump.net/azure-tips-and-tricks14/) for a Linux VM. I thought that I should take a step back and talk about the underlying software that is running in an Azure Cloud VM instance. Keep in mind, that I don't work on the Azure Cloud Shell team, this is just my understanding of it. 
 
 When you spin up an Azure Cloud Shell, it create a container that contains things such the OS and other runtimes. By default you get Linux, Node.js and more (covered later). The storage account setup the first time you use Cloud Shell then persist data (like shell scripts, SSH keys, etc.) that you can use once you are connected to the container. It also persist things automatically such as your `.bash_history` and stores your Azure authentication token in `./azure/accessTokens.json`. 
 
@@ -57,7 +57,7 @@ You can pull up specific pages for help documentation such as `man ls`.
 
 You have access to vim, nano and other editors. 
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/azuretip15.gif">
+<img style="border:3px solid #021a40" src="/files/azuretip15.gif">
 
 
 ### Additional Software Installed in Cloud Shell

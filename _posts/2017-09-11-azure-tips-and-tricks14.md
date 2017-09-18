@@ -13,11 +13,11 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## The Complete List
 
-[Click here to view the complete list of Azure Tips and Tricks ](https://michaelcrump.net/azure-tips-and-tricks-complete-list/)
+[Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
 ## Generate SSH keys to log into Linux VM with Cloud Shell
 
-We will take what we just learned about [Azure Cloud Shell and Storage accounts](https://michaelcrump.net/azure-tips-and-tricks13/) to connect to create and store a SSH key pair that we'll use to automatically log into a Linux VM. In my case, we'll work with a Ubuntu 16.0.4 LTS VM that I originally setup a password for. Instead of typing in a password every time that I wish to connect, I'd prefer to use Cloud Shell storage to generate a public key that I can use to automatically log into the Linux VM without ever typing a password again. 
+We will take what we just learned about [Azure Cloud Shell and Storage accounts](https://www.michaelcrump.net/azure-tips-and-tricks13/) to connect to create and store a SSH key pair that we'll use to automatically log into a Linux VM. In my case, we'll work with a Ubuntu 16.0.4 LTS VM that I originally setup a password for. Instead of typing in a password every time that I wish to connect, I'd prefer to use Cloud Shell storage to generate a public key that I can use to automatically log into the Linux VM without ever typing a password again. 
 
 For these instructions, I'll assume you have a Linux VM already setup and connecting via Cloud Shell. 
 
@@ -101,7 +101,7 @@ Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-92-generic x86_64)
 Last login: Sun Sep 10 23:49:35 2017 from 40.83.147.69
 ```
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/cloudshellpersistdata.gif">
+<img style="border:3px solid #021a40" src="/files/cloudshellpersistdata.gif">
 
 ## BONUS: If you want to disable the password you previously set on the Linux machine
 
@@ -125,7 +125,7 @@ If you want to disable the password on the Linux machine that you previously set
 
 You can have the same goodness that you have with Azure Cloud Shell on your local machine. In my case, I'm using BASH on Windows and can just run steps 1-5 listed above. Boom! 
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/cloudshellcapturebash.gif">
+<img style="border:3px solid #021a40" src="/files/cloudshellcapturebash.gif">
 
 
 ## Want more Azure Tips and Tricks?

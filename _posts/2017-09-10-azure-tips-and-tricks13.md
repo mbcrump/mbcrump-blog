@@ -13,7 +13,7 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## The Complete List
 
-[Click here to view the complete list of Azure Tips and Tricks ](https://michaelcrump.net/azure-tips-and-tricks-complete-list/)
+[Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
 ## What's under the hood of Azure Cloud Shell?
 
@@ -23,11 +23,11 @@ When you first open the Cloud Shell, you will find that it requires you to creat
 
 You can find it once you go to your Resource Group and look for `cloud-shell*` as shown below. 
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/cloudshell1.png">
+<img style="border:3px solid #021a40" src="/files/cloudshell1.png">
 
 If you drill down into the Storage account, you'll land on two directories - `.cloudconsole` and `.pscloudshell`. More on that later. 
 
-<img style="border:3px solid #021a40" src="https://michaelcrump.net/files/cloudshell2.png">
+<img style="border:3px solid #021a40" src="/files/cloudshell2.png">
 
 Open the Azure Cloud Shell inside of the portal by clicking on the icon at the top (looks like `>_`)
 
