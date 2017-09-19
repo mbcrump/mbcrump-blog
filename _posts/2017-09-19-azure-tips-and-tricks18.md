@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 17 - Use Tags to quickly organize Azure Resources"
+title: "Azure Tips and Tricks Part 18 - Use Tags to quickly organize Azure Resources"
 excerpt: "Learn how to take advantage of tags to organize your Azure resources"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
@@ -23,7 +23,7 @@ Head over to the Azure Portal and select service. In my example, I'm going to se
 
 <img style="border:3px solid #021a40" src="/files/azuretag1.png">
 
-**Tip within a Tip!** Tags are user-defined key/value pairs which can be placed directly on a resource or a resource group.
+**Remember this!** Tags are user-defined key/value pairs which can be placed directly on a resource or a resource group.
 {: .notice--primary}
 
 I selected "Environment" and gave it the value of "Production". I then clicked "Save". I could also do this for other Production resources and even tag the appropriate ones with "Dev".
