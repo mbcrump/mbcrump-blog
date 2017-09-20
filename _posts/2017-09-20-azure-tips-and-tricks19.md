@@ -19,7 +19,9 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 While I love working with the Azure Portal or even Visual Studio, it is sometimes nice to do everything from the command line. While I'm a power Windows user, in this tutorial I'll be using a Linux VM and BASH to do everything. 
 
-Go ahead and SSH into your Linux VM and ensure the following are installed. This will gives us a full web development stack we can work with in the future. 
+Step 1) Ensure you have the following stack installed. 
+
+*This will give us a full web development stack we can work with in the future. *
 
 ``` shell
 mbcrump@crumplinux:~$ git --version
@@ -42,11 +44,13 @@ I'm particularly interested in the [MEAN.JS](https://github.com/meanjs/mean) sta
 **What is MEAN.JS?** MEAN.JS is a Full-Stack JavaScript Using MongoDB, Express, AngularJS, and Node.js -
 {: .notice--primary}
 
-Create a folder and then change the directory to go inside of it. Then run the following command `git clone https://github.com/crpietschmann/jsQuizEngine.git`. This is a JavaScript based quiz engine by [Chris Pietschmann](https://github.com/crpietschmann). 
+Step 2) Create a folder such as `webapp` and then `cd webapp`. 
 
-Change directory to `jsQuizEngine/src` and now we'll need to create a deployment user that can deploy web app through Git. 
+Step 3) Run the following command `git clone https://github.com/crpietschmann/jsQuizEngine.git`. This is a JavaScript based quiz engine by [Chris Pietschmann](https://github.com/crpietschmann). 
 
-	az webapp deployment user set --user-name mbcrump --password Mike8261@3456
+Step 4) Change your working directory to `jsQuizEngine/src` and now we'll need to create a deployment user that can deploy web app through Git. 
+
+	az webapp deployment user set --user-name mbcrump --password AREALLYLONGPW
 
 ```shell
 Name    PublishingUserName
@@ -54,7 +58,7 @@ Name    PublishingUserName
 web     mbcrump
 ```
 
-We'll need an resource group. I'm going to put mine in the West US. 
+Step 5) We'll need a resource group. I'm going to put mine in the West US. 
 
 	az group create --name StaticResourceGroup --location "West US"
 
@@ -64,7 +68,7 @@ Location    Name
 westus      StaticResourceGroup
 ```
 
-We'll also need an Azure App Service Plan. I'll use the free one for this example. 
+Step 6) We'll also need an Azure App Service Plan. I'll use the free one for this example. 
 
 	az appservice plan create --name StaticAppServicePlan --resource-group StaticResourceGroup --sku FREE
 
@@ -74,18 +78,21 @@ AppServicePlanName    GeoRegion    Kind    Location      MaximumNumberOfWorkers 
 StaticAppServicePlan  West US      app     West US                            1  StaticAppServicePlan  Succeeded            StaticResourceGroup  Ready     d1ecc7ac-c1d8-40dc-97d6-2507597e7404
 ```
 
-We'll create a web app and deploy it using local Git.
+Step 7) We'll create an Azure Web App and deploy it using local Git.
 
 	az webapp create --name MyQuizApplication --resource-group StaticResourceGroup --plan StaticAppServicePlan --deployment-local-git
 
 You should see in the output `Local git is configured with url of 'https://mbcrump@myquizapplication.scm.azurewebsites.net/MyQuizApplication.git'` Copy and paste this to your editor of choice.
 
-We'll need to add azure to our local Git repo and then push the changes. 
+Step 8) We'll need to add azure to our local Git repo. 
 
 	git remote add azure https://mbcrump@myquizapplication.scm.azurewebsites.net/MyQuizApplication.git
+
+Step 9) Push the changes.
+
 	git push azure master
 
-Nice! We can now browse to our [new site](http://myquizapplication.azurewebsites.net/#). 
+Step 10) Nice! We can now browse to our [new site](http://myquizapplication.azurewebsites.net/#). 
 
 <img style="border:3px solid #021a40" src="/files/azureappservicequiz.png">
 
