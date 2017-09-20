@@ -33,6 +33,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 16 - Deploy Jekyll Site Hosted on GitHub to Azure](http://www.michaelcrump.net/azure-tips-and-tricks16/)
 * [Azure Tips and Tricks Part 17 - Use PowerShell with Azure Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks17/)
 * [Azure Tips and Tricks Part 18 - Use Tags to quickly organize Azure Resources](http://www.michaelcrump.net/azure-tips-and-tricks18/)
+* [Azure Tips and Tricks Part 19 - Deploy an Azure Web App using only the CLI](http://www.michaelcrump.net/azure-tips-and-tricks19/)
 
 ## Got a Azure Tip or Trick?
 
