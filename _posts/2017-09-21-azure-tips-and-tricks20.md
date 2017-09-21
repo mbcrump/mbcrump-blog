@@ -30,7 +30,7 @@ I can go to the Azure Portal and select my App Service and click on **Console** 
 
 As you can tell from the screen-shot, I start in `D:\home\site\wwwroot`. I can type `dir` to see a current directory listing. 
 
-```shell
+```text
 
 Volume in drive D is Windows
  Volume Serial Number is FE33-4717
