@@ -35,7 +35,9 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 18 - Use Tags to quickly organize Azure Resources](http://www.michaelcrump.net/azure-tips-and-tricks18/)
 * [Azure Tips and Tricks Part 19 - Deploy an Azure Web App using only the CLI](http://www.michaelcrump.net/azure-tips-and-tricks19/)
 * [Azure Tips and Tricks Part 20 - Working with Files in Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks20/)
-
+* [Azure Tips and Tricks Part 21 - Adding Extensions to Web Apps in Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks21/)
+* [Azure Tips and Tricks Part 22 - Deployment Slots for Web Apps using Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks22/)
+* [Azure Tips and Tricks Part 23 - Testing Web Apps in Production with Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks23/)
 
 ## Got a Azure Tip or Trick?
 
