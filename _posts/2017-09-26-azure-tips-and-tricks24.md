@@ -13,7 +13,7 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## The Complete List
 
-[Click here to view the complete list of Azure Tips and Tricks ](https://michaelcrump.net/azure-tips-and-tricks-complete-list/)
+Click [here](https://michaelcrump.net/azure-tips-and-tricks-complete-list/){: .btn .btn--success} to view the complete list of Azure Tips and Tricks.
 
 ## Intro
 
@@ -82,4 +82,4 @@ You can go back to the `Testing in Production` section and if you refresh your b
 
 ## Want more Azure Tips and Tricks?
 
-If you'd like to learn more Azure Tips and Tricks, then follow me on [twitter](http://twitter.com/mbcrump) or stay tuned to this blog! I'd also love to hear your tips and tricks for working in Azure, just leave a comment below. 
+If you'd like to learn more Azure Tips and Tricks, then follow me on [twitter](http://twitter.com/mbcrump){: .btn .btn--info} or stay tuned to this blog! I'd also love to hear your tips and tricks for working in Azure, just leave a comment below. 
