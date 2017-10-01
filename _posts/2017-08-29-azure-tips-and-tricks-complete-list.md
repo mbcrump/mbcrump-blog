@@ -39,6 +39,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 22 - Deployment Slots for Web Apps using Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks22/)
 * [Azure Tips and Tricks Part 23 - Testing Web Apps in Production with Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks23/)
 * [Azure Tips and Tricks Part 24 - Add logic to your Testing in Production sites with PowerShell](http://www.michaelcrump.net/azure-tips-and-tricks24/)
+* [Azure Tips and Tricks Part 25 - Use the Azure Resource Explorer to quickly explore REST APIs](http://www.michaelcrump.net/azure-tips-and-tricks25/)
+* [Azure Tips and Tricks Part 26 - Load Testing web app with Azure App Services](http://www.michaelcrump.net/azure-tips-and-tricks26/)
 
 ## Got a Azure Tip or Trick?
 
