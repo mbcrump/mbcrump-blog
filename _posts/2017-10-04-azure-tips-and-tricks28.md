@@ -31,9 +31,6 @@ You'll want to configure the **Backup Storage** first as that sets the container
 
 I simply gave it a name, used stardard performance and setup replication and location. 
 
-**Keep this in mind** You're creating a container that will store your backup and will need to configure it
-{: .notice--info}
-
 Now you'll need to configure a container to store your backup. 
 
 <img style="border:3px solid #021a40" src="/files/backupazure4.png">
@@ -43,6 +40,10 @@ Next, you'll want to make sure that **Scheduled backup** is set to **On**. You'l
 Once everything is set, you can see whatn the next backup is configured and can either force it manually or restore from an existing backup with just a visit to the Azure Portal. 
 
 <img style="border:3px solid #021a40" src="/files/backupazure5.png">
+
+Once it completed, you can click on the backup and see a feature called **Snapshot** which automatically create periodic restore points of your app when hosted in a Premium App Service plan. You can even download a zip of the app. 
+
+<img style="border:3px solid #021a40" src="/files/backupazure6.png">
 
 ## Want more Azure Tips and Tricks?
 
