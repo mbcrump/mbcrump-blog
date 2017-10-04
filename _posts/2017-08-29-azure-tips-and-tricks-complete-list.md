@@ -42,6 +42,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 25 - Use the Azure Resource Explorer to quickly explore REST APIs](http://www.michaelcrump.net/azure-tips-and-tricks25/)
 * [Azure Tips and Tricks Part 26 - Load Testing web app with Azure App Services](http://www.michaelcrump.net/azure-tips-and-tricks26/)
 * [Azure Tips and Tricks Part 27 - Working with App Settings and Azure App Services](http://www.michaelcrump.net/azure-tips-and-tricks27/)
+* [Azure Tips and Tricks Part 28 - Configure a Backup for you Azure App Service and Database](http://www.michaelcrump.net/azure-tips-and-tricks27/)
 
 ## Got a Azure Tip or Trick?
 
