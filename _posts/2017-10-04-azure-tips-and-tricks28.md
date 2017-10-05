@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 27 - Configure a Backup for you Azure App Service and Database"
+title: "Azure Tips and Tricks Part 28 - Configure a Backup for you Azure App Service and Database"
 excerpt: "Learn how to configure a Backup for you Azure App Service and Database"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
