@@ -19,11 +19,11 @@ Download macOS High Sierra directly from the App Store. It'll say **Open** if yo
 
 Click Open to verify the installer launches. 
 
-![image](/files/macoshighsierra2.png)
-
-Go ahead and close the installer and insert your USB drive into your Mac. Open up the **Disk Utility** app by typing "Disk Utility" in spotlight search. Once you are in Disk Utility, rename the USB drive to `HighSierraInstaller`”` as shown below:
-
 ![image](/files/macoshighsierra3.png)
+
+Go ahead and close the installer and insert your USB drive into your Mac. Open up the **Disk Utility** app by typing "Disk Utility" in spotlight search. Once you are in Disk Utility, rename the USB drive to `HighSierraInstaller` as shown below:
+
+![image](/files/macoshighsierra2.png)
 
 Open the **Terminal** app and copy and paste the following code and press enter: 
 
