@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 28 - Configure a Backup for you Azure App Service and Database"
-excerpt: "Learn how to configure a Backup for you Azure App Service and Database"
+title: "Azure Tips and Tricks Part 28 - Configure a Backup for your Azure App Service and Database"
+excerpt: "Learn how to configure a Backup for your Azure App Service and Database"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
 comments: true
@@ -15,7 +15,7 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Available Now!](https://michaelcrump.net/azure-tips-and-tricks-complete-list/){: .btn .btn--success} 
 
-## Configure a Backup for you Azure App Service and Database
+## Configure a Backup for your Azure App Service and Database
 
 Most folks don't realize how easy it is to configure a backup copy of your Azure App Service to ensure you have restorable archive copies of your app and database. In order to take advantage of this, you'll need to log into your Azure account and go to your App Service that you created and look under **Settings** then you will see **Backup**. 
 
