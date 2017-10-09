@@ -17,6 +17,8 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## Cloning Web Apps Using and Azure App Services
 
+Keep in mind that this feature is only available to apps hosted on Premium App Service Plans - Thanks to **Mike Kauspedas** for reminding me! 
+
 **Cloning** is the ability to clone an existing Web App to a newly created app that is often in a different region. This will enable customers to deploy a number of apps across different regions quickly and easily. 
 
 **Scenario:** A company has an existing web app in **West US**, they would like to clone the app to **East US** to serve folks that live on that site with better performance such as latency. 
