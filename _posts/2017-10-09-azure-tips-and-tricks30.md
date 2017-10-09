@@ -27,8 +27,8 @@ In order to correct this, we'll need to go to the **Diagnostic logs** setting in
 
 Here you'll see the following options: 
 
-* Aplication Logging - which allows you to collect diagnostic traces from your web code. This is requrired for the streaming log feature and turns itself off after 12 hours. 
-* Aplication Logging (Blob) - logs are collected in the blob container that is specified under Storage Settings.
+* Application Logging - which allows you to collect diagnostic traces from your web code. This is requrired for the streaming log feature and turns itself off after 12 hours. 
+* Application Logging (Blob) - logs are collected in the blob container that is specified under Storage Settings.
 * Web server logging - Gathers diagnostic information for your web server.
 * Detailed error messages - Gathers detailed error messages from your web app. 
 * Failed request tracing - Gathers diagnostic information on failed request. 
@@ -45,6 +45,7 @@ You should see the following:
 If you look at the first couple of lines, then you'll see a **ReadyForRequest** on port 80. Then a request coming from our web browser that includes pulling down the `favicon.ico` file (which is the only image being sent down). 
 
 ### Adding Trace Logging in Code
+
 
 If you’re using ASP.NET MVC, then navigate to your **appname/Views/Controllers/HomeController.cs** file (or wherever you'd like to test this functionality) and add the following line as shown below :
 
