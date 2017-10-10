@@ -28,12 +28,12 @@ Here you'll see the following options:
 * Resouce - selects which resource you want the alert active on. 
 * Name - you'll need to give it a unique name.
 * Description (optional) - Provide a description of the alert. Though this is optional, I'd recommend adding one.
-* Alert on Metric | Events - You can trigger an alert on some metric or an event. 
+* Alert on Metric or Events - You can trigger an alert on some metric or an event. 
 
 **Metric vs. Event**  A metric would be something like "If we receive 5 or more Http Server Errors over the last 5 minutes then trigger an alert". An Event would be if something Started, Stopped, Deleted or all of the above happened with our App Service than trigger an alert. 
 {: .notice--info}
 
-Go ahead and select a resource and provide a **Name** and **Description** and select **Http 404** for the metric with the **Greater than** condition set for **O** and **Over the last 5 minutes**. Go ahead and add a checkmark for the email and provide an additional email address as shown below. 
+Go ahead and select a resource and provide a **Name** and **Description** and select **Http 404** for the metric with the **Greater than** condition set for **O threshold** and **Over the last 5 minutes**. Go ahead and add a checkmark for the email and provide an additional email address as shown below. 
 
 <img style="border:3px solid #021a40" src="/files/alertblog2.png">
 

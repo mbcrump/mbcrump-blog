@@ -47,7 +47,7 @@ If you look at the first couple of lines, then you'll see a **ReadyForRequest** 
 ### Adding Trace Logging in Code
 
 
-If you’re using ASP.NET MVC, then navigate to your **appname/Views/Controllers/HomeController.cs** file (or wherever you'd like to test this functionality) and add the following line as shown below :
+If you’re using ASP.NET MVC, then navigate to your **appname/Controllers/HomeController.cs** file (or wherever you'd like to test this functionality) and add the following line as shown below :
 
 ```csharp
 System.Diagnostics.Trace.WriteLine("Entering the About View");
