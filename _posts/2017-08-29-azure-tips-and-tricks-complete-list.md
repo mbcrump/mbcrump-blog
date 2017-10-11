@@ -45,8 +45,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 28 - Configure a Backup for your Azure App Service and Database](http://www.michaelcrump.net/azure-tips-and-tricks28/)
 * [Azure Tips and Tricks Part 29 - Cloning Web Apps Using and Azure App Services](http://www.michaelcrump.net/azure-tips-and-tricks29/)
 * [Azure Tips and Tricks Part 30 - Working with Log Stream and Azure App Services](http://www.michaelcrump.net/azure-tips-and-tricks30/)
-* [Azure Tips and Tricks Part 31 - Setting up Email Alerts with Azure App Services](http://www.michaelcrump.net/azure-tips-and-tricks31/)
-
+* [Azure Tips and Tricks Part 31 - Setting up Email Alerts with Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks31/)
+* [Azure Tips and Tricks Part 32 - Using Application Insights with Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks32/)
 
 ## Got a Azure Tip or Trick?
 
