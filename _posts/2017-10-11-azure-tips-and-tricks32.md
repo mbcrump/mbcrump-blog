@@ -38,7 +38,7 @@ It is working as expected, but let's add an error into our application. Go to yo
 ```csharp
 public ActionResult ThrowNewError()
 {
-  throw new InvalidOperationException("The app just throwed an error!"); 
+  throw new InvalidOperationException("The app just threw an error!"); 
 }
 ```
 
