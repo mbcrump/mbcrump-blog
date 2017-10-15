@@ -32,7 +32,7 @@ You'll want to provide the following information, but only the **Lock type** is 
 Delete - means that you can't delete the resource, your users can still read and modify though.
 ReadOnly - means users can read a resource, but they can't delete or update the resource.
 
-* Description - A description of the Lock.
+* Notes - A description of the Lock.
 
 Fill out the form and press **OK** as shown below. 
 
