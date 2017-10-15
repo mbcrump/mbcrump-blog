@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 32 - Using Application Insights with Azure App Service"
-excerpt: "Learn how to setup Application Insights in an MVC application using Azure App Service"
+title: "Azure Tips and Tricks Part 33 - Prevent Changes to Resources in Azure App Service"
+excerpt: "Learn how to prevent changes to resources with Azure App Service"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
 comments: true
@@ -15,49 +15,35 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Available Now!](https://michaelcrump.net/azure-tips-and-tricks-complete-list/){: .btn .btn--success} 
 
-## Using Application Insights with Azure App Service
+## Prevent Changes to Resources in Azure App Service
 
-**Application Insights** is a simple way to detect and diagnose exceptions and application performance issues in your web apps and web services. In this blog post, I'll walk you through adding it to an ASP.NET MVC application. 
+**Locks** allow you to prevent changes to a subscription or resources to prevent other users from accidentally deleting or modifying critical resources.
+{: .notice--info}
 
-In order to take advantage of this, you'll need to log into your Azure account and go to your App Service that you created and look under **Monitoring** then you will see **Application Insights**. Open it and create a new resource and press OK as shown below. 
+In order to take advantage of locks, you'll need to log into your Azure account and go to your App Service that you created and look under **Settings** then you will see **Locks**. Open it and you'll see that you don't have any locks created. Go ahead and click **Add** and you'll see the following. 
 
-<img style="border:3px solid #021a40" src="/files/appinsight1.png">
+<img style="border:3px solid #021a40" src="/files/locksblog1.png">
 
-It will bring you to a page with no data but will present you with the following prompt: 
+You'll want to provide the following information, but only the **Lock type** is required: 
 
-<img style="border:3px solid #021a40" src="/files/appinsight2.png">
+* Name - Give it any name that you want
+* Lock Type - This can be **Read-only** or **Delete**
 
-You'll see that you can automatically instrument your ASP.NET app with a restart. **Yes, please**. Go ahead, and click on the orange banner to restart your app. 
+Delete - means that you can't delete the resource, your users can still read and modify though.
+ReadOnly - means users can read a resource, but they can't delete or update the resource.
 
-Once complete, go and visit your app and refresh a couple of times and then go back and take a look at the live stream. I've included a sample below: 
+* Description - A description of the Lock.
 
-<img style="border:3px solid #021a40" src="/files/appinsight3.gif">
+Fill out the form and press **OK** as shown below. 
 
-It is working as expected, but let's add an error into our application. Go to your **appname/Controllers/HomeController.cs** and add the following code: 
+<img style="border:3px solid #021a40" src="/files/locksblog2.png">
 
-```csharp
-public ActionResult ThrowNewError()
-{
-  throw new InvalidOperationException("The app just threw an error!"); 
-}
-```
+You can delete the lock by clicking on the ellipsis. 
 
-You'll need to go back to your site and depending on where you placed it, you can invoke the code by going to *.azurewebsites.net/**Home/ThrowNewError**. If you switch back over to Application Insights, then you'll see the errors are being reported. 
+<img style="border:3px solid #021a40" src="/files/locksblog3.png">
 
-<img style="border:3px solid #021a40" src="/files/appinsight4.png">
-
-You can drill deeper down by clicking on **Open in Application Insights**. From here you can see how many **Failed Request** were reported.
-
-<img style="border:3px solid #021a40" src="/files/appinsight5.png">
-
-You can even drill down on what URL was called to trigger the error. 
-
-<img style="border:3px solid #021a40" src="/files/appinsight6.png">
-
-If you add Application Insights to your Visual Studio project by right-clicking the project and then adding **Configure Application Insights**, then you can add code to collect exception telemetry. You can learn more about that by [clicking here](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-asp-net-exceptions). 
-
-
-That is really just the tip of the iceberg with Application Insights. I'd encourage you to learn more about it by [visiting their page](https://azure.microsoft.com/en-us/services/application-insights/). 
+**No Portal, no problem!** If you don't want to use the portal, then you can also use Templates, PowerShell, Azure CLI or the REST API. The choice is yours!
+{: .notice--info}
 
 ## Want more Azure Tips and Tricks?
 
