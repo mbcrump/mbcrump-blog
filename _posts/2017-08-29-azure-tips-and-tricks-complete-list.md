@@ -50,6 +50,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 33 - Prevent Changes to Resources in Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks33/)
 * [Azure Tips and Tricks Part 34 - Working with the Azure CLI using a Mac](http://www.michaelcrump.net/azure-tips-and-tricks34/)
 * [Azure Tips and Tricks Part 35 - Work with the Azure Functions File System using the Console](http://www.michaelcrump.net/azure-tips-and-tricks35/)
+* [Azure Tips and Tricks Part 36 - Quickly Renew or Revoke Azure Functions Keys](http://www.michaelcrump.net/azure-tips-and-tricks36/)
 
 ## Got a Azure Tip or Trick?
 
