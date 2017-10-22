@@ -51,6 +51,10 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 34 - Working with the Azure CLI using a Mac](http://www.michaelcrump.net/azure-tips-and-tricks34/)
 * [Azure Tips and Tricks Part 35 - Work with the Azure Functions File System using the Console](http://www.michaelcrump.net/azure-tips-and-tricks35/)
 * [Azure Tips and Tricks Part 36 - Quickly Renew or Revoke Azure Functions Keys](http://www.michaelcrump.net/azure-tips-and-tricks36/)
+* [Azure Tips and Tricks Part 37 - Parse Emails to be used in a Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks37/)
+* [Azure Tips and Tricks Part 38 - Create a JSON Schema to be used in a Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks38/)
+* [Azure Tips and Tricks Part 39 - Setup an HTTP Request Trigger that is used in an Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks39/)
+* [Azure Tips and Tricks Part 40 - Upload Files from a URL with Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks40/)
 
 ## Got a Azure Tip or Trick?
 
