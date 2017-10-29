@@ -55,6 +55,10 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 38 - Create a JSON Schema to be used in a Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks38/)
 * [Azure Tips and Tricks Part 39 - Setup an HTTP Request Trigger that is used in an Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks39/)
 * [Azure Tips and Tricks Part 40 - Upload Files from a URL with Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks40/)
+* [Azure Tips and Tricks Part 41 - Quickly Roll Back to a Previous Version of an Azure Logic App](http://www.michaelcrump.net/azure-tips-and-tricks41/)
+* [Azure Tips and Tricks Part 42 - Modifying an existing API Connection with Azure Logic App](http://www.michaelcrump.net/azure-tips-and-tricks42/)
+* [Azure Tips and Tricks Part 43 - Working with Azure Logic App using Visual Studio 2017](http://www.michaelcrump.net/azure-tips-and-tricks43/)
+* [Azure Tips and Tricks Part 44 - Deploying Azure Logic App through Visual Studio 2017](http://www.michaelcrump.net/azure-tips-and-tricks44/)
 
 ## Got a Azure Tip or Trick?
 
