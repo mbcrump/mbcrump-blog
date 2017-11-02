@@ -37,11 +37,11 @@ If there are any fields that you missed, then it will prompt you to enter them n
 
 Now you'll see in the output window that it calls the PowerShell script to deploy the resources for your Logic App. 
 
-<img style="border:3px solid #021a40" src="/files/vs2017deploylogicapp5.png">
+<img style="border:3px solid #021a40" src="/files/deploylogicapp5.png">
 
 Once it finishes deploying, log into the Azure Portal to see your new resource. 
 
-<img style="border:3px solid #021a40" src="/files/vs2017deploylogicapp6.png">
+<img style="border:3px solid #021a40" src="/files/deploylogicapp6.png">
 
 ## Want more Azure Tips and Tricks?
 
