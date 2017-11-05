@@ -8,4 +8,4 @@ Notice
 **Remember this!** Tags are user-defined key/value pairs which can be placed directly on a resource or a resource group.
 {: .notice--primary}
 
-1) Azure Logic Apps with Visual Studio
+1) Powershell on mac
