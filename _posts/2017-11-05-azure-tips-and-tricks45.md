@@ -20,9 +20,9 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 For some reason, I find containers are confusing and my goal with my [Azure Tips and Tricks](https://michaelcrump.net/azure-tips-and-tricks-complete-list/) is to try to make things easier. In this mini-series, I'll walk you through [Docker](https://www.docker.com) and how I use it with Azure. Below is a list of post that you can expect for this week. 
 
 * [Today - Azure Tips and Tricks Part 45 - Getting Started with Docker and Azure](http://www.michaelcrump.net/azure-tips-and-tricks45/)
-* [Azure Tips and Tricks Part 46 - Run an app inside a Container Image with Docker](http://www.michaelcrump.net/azure-tips-and-tricks46/)
-* [Azure Tips and Tricks Part 47 - Creating a Container Image with Docker](http://www.michaelcrump.net/azure-tips-and-tricks47/)
-* [Azure Tips and Tricks Part 48 - Pushing a Container Image to a Docker Repo](http://www.michaelcrump.net/azure-tips-and-tricks48/)
+* Azure Tips and Tricks Part 46 - Run an app inside a Container Image with Docker
+* Azure Tips and Tricks Part 47 - Creating a Container Image with Docker
+* Azure Tips and Tricks Part 48 - Pushing a Container Image to a Docker Repo
 
 ## Getting Started with Docker and Azure
 
@@ -64,7 +64,7 @@ REPOSITORY                   TAG                 IMAGE ID            CREATED    
 microsoft/aspnetcore-build   latest              c0c285a7a306        37 hours ago        1.85GB
 ```
 
-Now we'll proceed to work with that image in the [next post](http://www.michaelcrump.net/azure-tips-and-tricks46/). 
+Now we'll proceed to work with that image in the next post. 
 
 ## Want more Azure Tips and Tricks?
 
