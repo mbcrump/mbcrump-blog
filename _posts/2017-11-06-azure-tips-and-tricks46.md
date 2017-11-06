@@ -71,10 +71,15 @@ Linux
 Let's go ahead and create an app. Run through the following commands to create a new `dotnet core console app`. 
 
 root@40bac5113803:~# `mkdir myapp`
+
 root@40bac5113803:~# `cd myapp`
+
 root@40bac5113803:~/myapp# `dotnet new console`
+
 root@40bac5113803:~/myapp# `dotnet restore`
+
 root@40bac5113803:~/myapp# `dotnet run`
+
 Hello World!
 
 <img style="border:3px solid #021a40" src="/files/dotnetazure7.png">
