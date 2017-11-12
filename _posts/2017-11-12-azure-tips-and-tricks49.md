@@ -27,7 +27,7 @@ Once installed, go to View -> Command Palette and type `Open Bash in Cloud Shell
 
 <img style="border:3px solid #021a40" src="/files/azurevscode2.png">
 
-**Note:** You can also open PowerShell in Cloud Shell!
+**Note:** You can also open PowerShell in Cloud Shell with this extension!
 {: .notice--primary}
 
 You'll need to sign in first and VS Code makes that simple by opening the browser and copying your device authentication code. Once that is complete, you'll see: 
