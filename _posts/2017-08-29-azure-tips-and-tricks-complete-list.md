@@ -63,6 +63,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 46 - Run an app inside a Container Image with Docker](http://www.michaelcrump.net/azure-tips-and-tricks46/)
 * [Azure Tips and Tricks Part 47 - Creating a Container Image with Docker](http://www.michaelcrump.net/azure-tips-and-tricks47/)
 * [Azure Tips and Tricks Part 48 - Pushing a Container Image to a Docker Repo](http://www.michaelcrump.net/azure-tips-and-tricks48/)
+* [Azure Tips and Tricks Part 49 - Add Azure Cloud Shell to Visual Studio Code](http://www.michaelcrump.net/azure-tips-and-tricks49/)
 
 ## Got a Azure Tip or Trick?
 
