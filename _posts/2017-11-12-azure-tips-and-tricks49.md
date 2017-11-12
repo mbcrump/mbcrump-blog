@@ -17,7 +17,7 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## Add Azure Cloud Shell to Visual Studio Code
 
-I'm a big fan of [Visual Studio Code](http://twitter.com/code) and [Azure Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell/) and recently saw this [tweet](https://twitter.com/fiveisprime/status/928774771763900416) by Matt Hernandez and had to add it to this Azure Tips and Trick list. 
+I'm a big fan of [Visual Studio Code](http://twitter.com/code) and [Azure Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell/) and recently saw this [tweet](https://twitter.com/fiveisprime/status/928774771763900416) by Matt Hernandez and had to add it to this Azure Tips and Trick list. If you've been following the series, then you'd know that I covered Azure Cloud Shell and MS Docs back in [post 11](https://www.michaelcrump.net/azure-tips-and-tricks11/) and how to use PowerShell in Azure Cloud Shell in [post 17](https://www.michaelcrump.net/azure-tips-and-tricks17/). Today, we'll cover how to add Azure Cloud Shell to Visual Studio Code. 
 
 It is fairly easy as all you need to do is open VS Code, click on Extensions and search for `azure account` and install it as shown below. 
 
