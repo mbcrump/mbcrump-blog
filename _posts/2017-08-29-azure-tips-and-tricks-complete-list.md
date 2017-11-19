@@ -67,6 +67,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 50 - Create an Azure Functions project with Visual Studio Code](http://www.michaelcrump.net/azure-tips-and-tricks50/)
 * [Azure Tips and Tricks Part 51 - Debug Azure Functions with Visual Studio Code](http://www.michaelcrump.net/azure-tips-and-tricks51/)
 * [Azure Tips and Tricks Part 52 - Deploy Azure Functions with Visual Studio Code](http://www.michaelcrump.net/azure-tips-and-tricks52/)
+* [Azure Tips and Tricks Part 53 - Prebuilt Azure VMs ready for Containers](http://www.michaelcrump.net/azure-tips-and-tricks53/)
 
 ## Got a Azure Tip or Trick?
 
