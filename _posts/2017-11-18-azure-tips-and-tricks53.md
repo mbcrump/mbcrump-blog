@@ -29,17 +29,13 @@ From this screen, you can see a variety of Windows and Linux VMs. If I wanted a 
 
 <img style="border:3px solid #021a40" src="/files/vmcontainer3.png">
 
-Note the following text: `It includes Windows Server container images installed and ready to use with Docker.`
+Note the following text: It includes Windows Server container images installed and ready to use with Docker.
 
 For Linux, I might choose this one:
 
 <img style="border:3px solid #021a40" src="/files/vmcontainer4.png">
 
-Note the following text: 
-
-```text
-When we started the RancherOS project, we set out to build a minimalist Linux distribution that was perfect for running Docker containers. We wanted to run Docker directly on top of the Linux Kernel, and have all user-space Linux services be distributed as Docker containers. 
-```
+Note the following text: When we started the RancherOS project, we set out to build a minimalist Linux distribution that was perfect for running Docker containers. We wanted to run Docker directly on top of the Linux Kernel, and have all user-space Linux services be distributed as Docker containers.
 
 Of course, there are a lot of options out there, so pick what is best for you! This will just help you get up and running even faster.
 
