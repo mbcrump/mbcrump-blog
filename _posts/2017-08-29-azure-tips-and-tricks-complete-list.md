@@ -69,6 +69,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 52 - Deploy Azure Functions with Visual Studio Code](http://www.michaelcrump.net/azure-tips-and-tricks52/)
 * [Azure Tips and Tricks Part 53 - Prebuilt Azure VMs ready for Containers](http://www.michaelcrump.net/azure-tips-and-tricks53/)
 * [Azure Tips and Tricks Part 54 - Getting a .NET Core WebAPI Project Ready for Docker](http://www.michaelcrump.net/azure-tips-and-tricks54/)
+* [Azure Tips and Tricks Part 55 - Use .NET Core WebAPI and Docker Compose](http://www.michaelcrump.net/azure-tips-and-tricks55/)
+* [Azure Tips and Tricks Part 56 - Deploy a .NET Core WebAPI Project to Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks56/)
 
 ## Got a Azure Tip or Trick?
 
