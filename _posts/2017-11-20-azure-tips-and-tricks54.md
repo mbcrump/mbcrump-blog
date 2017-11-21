@@ -51,7 +51,13 @@ Running 'dotnet restore' on /Users/mbcrump/mbcwebapi/mbcwebapi.csproj...
 
 Restore succeeded.
 ```
-If you use `dotnet run` then you'll have a URL that you can paste into your browser. Ensure you add `http://localhost:5000/api/values` to see a response, otherwise the site will 404. 
+If you use `dotnet run` then you'll have a URL that you can paste into your browser. 
+
+<img style="border:3px solid #021a40" src="/files/webapiazure1.png">
+
+Add `http://localhost:5000/api/values` to see a response from the WebAPI, otherwise the site will 404. 
+
+<img style="border:3px solid #021a40" src="/files/webapiazure2.png">
 
 You should see `["value1","value2"]`. Nice! It is working properly!
 
