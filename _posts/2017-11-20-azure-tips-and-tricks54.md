@@ -30,8 +30,11 @@ In this mini-series, we'll cover each part starting with creating and publishing
 Ensure [.NET Core](https://www.microsoft.com/net/learn/get-started/windows) is installed and then follow the direction below: 
 
 Create a directory on your HDD `mkdir mbcwebapi`. Now `cd mbcwebapi` into it. 
+
 Create another directory inside your mbcwebapi folder `mkdir mbcwebapi`. Now `cd mbcwebapi` into it. 
+
 Run `dotnet new webapi` to scaffold a new ASP.NET WebAPI Project. 
+
 
 ```text
 Michaels-MacBook-Pro:mbcwebapi mbcrump$ dotnet new webapi
