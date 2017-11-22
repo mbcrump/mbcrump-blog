@@ -20,8 +20,8 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 How hard do you think it is to:
 
 * [Today - Create and Publish a .NET Core WebAPI project](http://www.michaelcrump.net/azure-tips-and-tricks54/)
-* Add it to a Docker Container using Docker Compose and push it to a Docker Hub
-* Use it in Azure with Web App for Containers
+* [Add it to a Docker Container using Docker Compose and push it to a Docker Hub](http://www.michaelcrump.net/azure-tips-and-tricks55/)
+* [Use it in Azure with Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks56/)
 
 In this mini-series, we'll cover each part starting with creating and publishing a .NET Core WebAPI project. Tomorrow, we'll use Docker Compose to create an image and push it to Docker Hub and we'll wrap up by deploying it to Azure using Web App for Containers. 
 
