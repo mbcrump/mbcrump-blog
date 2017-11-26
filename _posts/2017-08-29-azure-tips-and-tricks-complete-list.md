@@ -71,6 +71,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 54 - Getting a .NET Core WebAPI Project Ready for Docker](http://www.michaelcrump.net/azure-tips-and-tricks54/)
 * [Azure Tips and Tricks Part 55 - Use .NET Core WebAPI and Docker Compose](http://www.michaelcrump.net/azure-tips-and-tricks55/)
 * [Azure Tips and Tricks Part 56 - Deploy a .NET Core WebAPI Project to Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks56/)
+* [Azure Tips and Tricks Part 57 - Docker Registry vs. Docker Repository](http://www.michaelcrump.net/azure-tips-and-tricks57/)
+* [Azure Tips and Tricks Part 58 - Continuous Deployment with Docker and Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks58/)
 
 ## Got a Azure Tip or Trick?
 
