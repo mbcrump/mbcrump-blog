@@ -20,9 +20,10 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 I'm pleased to announce a new FREE eBook that myself and [Barry Luijbregts](https://twitter.com/AzureBarry) recently completed called, "The Developer’s Guide to Microsoft Azure 2nd edition".
 
 <img style="border:3px solid #021a40" src="/files/azurebook1.png">
+
 [Download here](https://aka.ms/azuredevebook)
 
-We book a lot of consideration and feedback when construction the book and landed on Chapters that cover the following : 
+We took a lot of consideration and feedback when construction the book and landed on Chapters that cover the following : 
 
 * Chapter 1: The Developer’s Guide to Microsoft 
 * Chapter 2: Getting started with Microsoft Azure 
@@ -45,9 +46,9 @@ I'd also welcome any feedback that you have.
 
 ## Wrap-up
 
-Sorry for the self-promotion on these two materials, but something that I think will benefit the community and hopefully you will find them useful. 
+Sorry for the self-promotion on these two materials, but it is something that I think will benefit the community and hopefully you will find them useful. 
 
-**Links:** [Azure Developer's Guide eBook](https://aka.ms/azuredevebook) and the [Cloud Service Map](https://aka.ms/awsazureguide)
+**Recap Links:** [Azure Developer's Guide eBook](https://aka.ms/azuredevebook) and the [Cloud Service Map](https://aka.ms/awsazureguide)
 {: .notice--primary}
 
 ## Want more Azure Tips and Tricks?
