@@ -40,6 +40,7 @@ The book weighs in around 57 pages and regardless if you are new to Azure or bee
 Another piece of content that I released was called the "Cloud Service Map for AWS and Azure". This guide help you quickly compare the cloud capabilities of Azure and AWS services in all categories. Whether you are planning a multi-cloud solution with Azure and AWS, or simply migrating to Azure, you will be able to use this service map to quickly orient yourself with the services required for a successful migration. 
 
 <img style="border:3px solid #021a40" src="/files/azurebook2.gif">
+
 [Download here](https://aka.ms/awsazureguide)
 
 I'd also welcome any feedback that you have. 
