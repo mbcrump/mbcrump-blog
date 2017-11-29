@@ -73,6 +73,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 56 - Deploy a .NET Core WebAPI Project to Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks56/)
 * [Azure Tips and Tricks Part 57 - Docker Registry vs. Docker Repository](http://www.michaelcrump.net/azure-tips-and-tricks57/)
 * [Azure Tips and Tricks Part 58 - Continuous Deployment with Docker and Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks58/)
+* [Azure Tips and Tricks Part 59 - FREE E-book titled The Developer’s Guide to Microsoft Azure](http://www.michaelcrump.net/azure-tips-and-tricks59/)
+* [Azure Tips and Tricks Part 60 - Use Visual Studio 2017 with Docker Compose](http://www.michaelcrump.net/azure-tips-and-tricks60/)
 
 ## Got a Azure Tip or Trick?
 
