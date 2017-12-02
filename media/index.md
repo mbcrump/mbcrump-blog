@@ -29,10 +29,13 @@ On this page, you'll find a list of media for Michael Crump. All of the content 
 
 ## Books
 
+* [The Developer’s Guide to Microsoft Azure 2nd Edition (11/2017)](https://aka.ms/azuredevebook) Author, Michael Crump and Barry Luijbregts
+* [Cloud Service Map for AWS and Azure (11/2017)](https://aka.ms/awsazureguide) Author, Michael Crump
 * [A Developer’s Guide to UI Design Principles (01/2017)](https://itunes.apple.com/us/book/a-developers-guide-to-ui-design-principles/id1197129930?mt=11) Author, Michael Crump
 * [A Guide to Windows.UI.Composition (01/2017)](https://itunes.apple.com/us/book/a-guide-to-windows-ui-composition/id1197134425?mt=11) Author, Michael Crump
 
 ## Publications
 
+* [Cloud Service Map for AWS and Azure Available Now (10/2017)](https://azure.microsoft.com/en-us/blog/cloud-service-map-for-aws-and-azure-available-now/)
 * [Announcing Windows Template Studio (05/2017)](https://blogs.windows.com/buildingapps/2017/05/16/announcing-windows-template-studio/) 
 * [Calling Windows 10 APIs From a Desktop Application (01/2017)](https://blogs.windows.com/buildingapps/2017/01/25/calling-windows-10-apis-desktop-application/)
