@@ -76,11 +76,16 @@ You can now run `mvn clean package` and `mvn azure-functions:run` from inside th
 
 ## Use the plugin for Visual Studio Code 
 
+**Remember this!**  Keep in mind that you'll need all the prerequisites covered earlier in this post before proceeding. 
+{: .notice--primary}
+
 I covered the plugin back in [post 50](https://www.michaelcrump.net/azure-tips-and-tricks50/), but basically grab the plugin and login into your Azure account and create a new Azure Function as shown below:
 
-<img style="border:3px solid #021a40" src="/files/azfuncvscode2.png">
-
 Click New and you'll see the following: 
+
+<img style="border:3px solid #021a40" src="/files/functionjava4.png">
+
+Now you'll walk through the same steps that you did before through the command line, but now right inside VS Code. 
 
 <img style="border:3px solid #021a40" src="/files/functionazure4.gif">
 
