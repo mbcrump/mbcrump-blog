@@ -75,6 +75,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 58 - Continuous Deployment with Docker and Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks58/)
 * [Azure Tips and Tricks Part 59 - FREE E-book titled The Developer’s Guide to Microsoft Azure](http://www.michaelcrump.net/azure-tips-and-tricks59/)
 * [Azure Tips and Tricks Part 60 - Use Visual Studio 2017 with Docker Compose](http://www.michaelcrump.net/azure-tips-and-tricks60/)
+* [Azure Tips and Tricks Part 61 - Java in Azure Function with VS Code](http://www.michaelcrump.net/azure-tips-and-tricks61/)
+* [Azure Tips and Tricks Part 62 - Force HTTPS in Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks62/)
 
 ## Got a Azure Tip or Trick?
 
