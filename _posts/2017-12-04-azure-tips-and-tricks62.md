@@ -25,6 +25,8 @@ This will bring you to the **Custom Domains** page and here you can switch HTTPS
 
 <img style="border:3px solid #021a40" src="/files/azhttpsblog2.png">
 
+<img style="border:3px solid #021a40" src="/files/azhttpsblog3.png">
+
 **What is users are accessing my HTTP version?** They will receive a 301 Status code and be redirected to the HTTPS site.
 {: .notice--primary}
 
