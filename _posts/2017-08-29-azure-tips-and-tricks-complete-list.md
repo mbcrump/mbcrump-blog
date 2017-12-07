@@ -78,6 +78,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 61 - Java in Azure Function with VS Code](http://www.michaelcrump.net/azure-tips-and-tricks61/)
 * [Azure Tips and Tricks Part 62 - Force HTTPS in Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks62/)
 * [Azure Tips and Tricks Part 63 - Open an existing Azure Function in Visual Studio](http://www.michaelcrump.net/azure-tips-and-tricks63/)
+* [Azure Tips and Tricks Part 64 - Using a different route prefix with Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks63/)
 
 ## Got a Azure Tip or Trick?
 
