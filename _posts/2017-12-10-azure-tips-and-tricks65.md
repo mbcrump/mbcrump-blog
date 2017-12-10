@@ -32,7 +32,7 @@ After installing it via the extension above, here is what it looks like to setup
 
 Now we'll setup our database and collection. 
 
-<img style="border:3px solid #021a40" src="/files/cosmosvscode2.gif">
+<img style="border:3px solid #021a40" src="/files/cosmosvscode4.gif">
 
 Finally, we'll create a document and add the following data to it. 
 
