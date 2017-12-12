@@ -81,6 +81,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 64 - Using a different route prefix with Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks64/)
 * [Azure Tips and Tricks Part 65 - Use Visual Studio Code to work with Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks65/)
 * [Azure Tips and Tricks Part 66 - Using the Data Migration Tool with Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks66/)
+* [Azure Tips and Tricks Part 67 - Querying documents properties with special characters in Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks67/)
 
 ## Got a Azure Tip or Trick?
 
