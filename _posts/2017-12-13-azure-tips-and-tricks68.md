@@ -65,7 +65,7 @@ private static DocumentClient client;
 
 We pass the endpoint and authentication key and then check to see if the database and collection exist (code not shown here). If everything is OK, we call the CreateDocumentQuery method and pass our database and collection to it. We then loop through each item and display whatever piece of the collection that we want. 
 
-``csharp
+```csharp
 client = new DocumentClient(new Uri(EndPointId), AuthKeyId);
 CreateDatabaseIfNotExistsAsync().Wait();
 CreateCollectionIfNotExistsAsync().Wait();
