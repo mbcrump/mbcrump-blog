@@ -15,7 +15,7 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Available Now!](https://michaelcrump.net/azure-tips-and-tricks-complete-list/){: .btn .btn--success} 
 
-## Access and embed Azure Cloud Shell Anywhere"
+## Access and embed Azure Cloud Shell Anywhere
 
 I've discussed at great lengths many aspects of Azure Cloud Shell. Some of my recent posts include : 
 
@@ -31,17 +31,18 @@ Today, I'd like to discuss the new functionality with Azure Cloud Shell, which a
 
 Keep in mind that this is the same Cloud Shell you know and love, it is just easily accessible anywhere you have a browser. 
 
+## Jump to the PowerShell or BASH instance
+
 You can also specify which instance of Cloud Shell you wish to launch (ex. PowerShell or BASH) by modifying the URL.
 
 * [shell.azure.com/powershell](https://shell.azure.com/powershell) which will launch a PowerShell instance
 * [shell.azure.com/bash](https://shell.azure.com/bash) which will launch a BASH instance
 
-This functionality is great because now you can embed Cloud Shell into your own docs, etc.
+## Embed Cloud Shell
 
 According to the [docs](https://docs.microsoft.com/en-us/azure/cloud-shell/embed-cloud-shell), you can easily embed this into Markdown or a Pop-up. 
 
-I just borrowed the Markdown code from that post to add the button below. 
-[![Launch Cloud Shell](https://shell.azure.com/images/launchcloudshell.png "Launch Cloud Shell")](https://shell.azure.com)
+For instance, this button [![Launch Cloud Shell](https://shell.azure.com/images/launchcloudshell.png "Launch Cloud Shell")](https://shell.azure.com) was created using the Markdown the docs team provided. They also have a sample for a pop-up. 
 
 Very cool!
 
