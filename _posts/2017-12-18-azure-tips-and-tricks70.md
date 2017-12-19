@@ -37,7 +37,12 @@ https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases
 https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/languages
 ```
 
-We'll use **keyPhrases**, so copy the `https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases` url into Postman and set the following three header properties:
+We'll use the  **keyPhrases** endpoint for learning purposes. 
+
+**What are Key Phrases?** They automatically extract key phrases to quickly identify the main points. 
+{: .notice--primary}
+
+Copy the `https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases` url into Postman and set the following three header properties:
 
 * Ocp-Apim-Subscription-Key = should be your Key 1 (from our discussion earlier). 
 * Content-Type = Set it to application/json.
