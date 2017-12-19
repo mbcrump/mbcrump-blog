@@ -84,6 +84,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 67 - Querying documents properties with special characters in Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks67/)
 * [Azure Tips and Tricks Part 68 - Access Cosmos DB through a .NET Application](http://www.michaelcrump.net/azure-tips-and-tricks68/)
 * [Azure Tips and Tricks Part 69 - Access and embed Azure Cloud Shell Anywhere](http://www.michaelcrump.net/azure-tips-and-tricks69/)
+* [Azure Tips and Tricks Part 70 - Text Analysis with Cognitive Service and Azure](http://www.michaelcrump.net/azure-tips-and-tricks70/)
 
 ## Got a Azure Tip or Trick?
 
