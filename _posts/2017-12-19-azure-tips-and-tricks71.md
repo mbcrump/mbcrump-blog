@@ -91,38 +91,30 @@ Now press **Send** and it will return the languages detected.
 
 ```json
 {
-    "documents": [
-        {
-            "id": "1",
-            "detectedLanguages": [
-                {
-                    "name": "English",
-                    "iso6391Name": "en",
-                    "score": 1
-                }
-            ]
-        },
-        {
-            "id": "2",
-            "detectedLanguages": [
-                {
-                    "name": "Spanish",
-                    "iso6391Name": "es",
-                    "score": 1
-                }
-            ]
-        },
-        {
-            "id": "3",
-            "detectedLanguages": [
-                {
-                    "name": "Korean",
-                    "iso6391Name": "kr",
-                    "score": 1
-                }
-            ]
-        }
-    ],
+  "documents": [{
+    "id": "1",
+    "detectedLanguages": [{
+      "name": "English",
+      "iso6391Name": "en",
+      "score": 1.0
+    }]
+  }, {
+    "id": "2",
+    "detectedLanguages": [{
+      "name": "Spanish",
+      "iso6391Name": "es",
+      "score": 1.0
+    }]
+  }, {
+    "id": "3",
+    "detectedLanguages": [{
+      "name": "Korean",
+      "iso6391Name": "ko",
+      "score": 1.0
+    }]
+  }],
+  "errors": []
+}
 ```
 
 I hope you find this helpful! 
