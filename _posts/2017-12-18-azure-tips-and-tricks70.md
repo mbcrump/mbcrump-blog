@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 70 - Text Analysis with Cognitive Service and Azure"
+title: "Azure Tips and Tricks Part 70 - Key Phrase Extraction with Cognitive Service and Azure"
 excerpt: "Learn how to access text analysis with Cognitive Service and Azure"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
@@ -15,7 +15,7 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Available Now!](https://michaelcrump.net/azure-tips-and-tricks-complete-list/){: .btn .btn--success} 
 
-## Text Analysis with Cognitive Service and Azure
+## Key Phrase Extraction with Cognitive Service and Azure
 
 I recently took a look at Text Analysis that was introduced with Cognitive Services and is now inside the Azure portal. If you open the Azure portal and look for **AI and Cognitive Services** then you'll see the following:
 
