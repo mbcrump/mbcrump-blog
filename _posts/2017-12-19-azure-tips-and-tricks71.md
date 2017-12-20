@@ -19,7 +19,7 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 After reviewing the [Text Analysis API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/overview), I noticed three capabilities that I wanted to take a further look at: 
 
-* Sentiment Analysis - Find out what customers think of your brand or topic by analyzing raw text for clues about positive or negative sentiment. 
+* [Sentiment Analysis](https://www.michaelcrump.net/azure-tips-and-tricks72/) - Find out what customers think of your brand or topic by analyzing raw text for clues about positive or negative sentiment. 
 * [Key Phrase Detection](https://www.michaelcrump.net/azure-tips-and-tricks70/) - Automatically extract key phrases to quickly identify the main points. 
 * [This post - Language Detection](https://www.michaelcrump.net/azure-tips-and-tricks71/) - For up to 120 languages, detect which language the input text is written in and report a single language code for every document submitted on the request. 
 

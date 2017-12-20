@@ -90,7 +90,7 @@ This is a couple of recent tweets from my timeline.
 
 <img style="border:3px solid #021a40" src="/files/aicog10.png">
 
-Now press **Send** and it will return the languages detected.
+Now press **Send** and it will return the sentiment of the text.
 
 ```json
 {
