@@ -108,7 +108,9 @@ Now press **Send** and it will return the sentiment of the text.
 }
 ```
 
-Notice this API returns a sentiment score between 0 and 1 for each document, where 1 is the most positive. Keep in mind that I used some technology tweets for this tutorial, but think of using this API for customer tweets such as `I *LOVE* this hotel` or `I am not impressed with this hotel`. There are many use cases for this. 
+Notice this API returns a sentiment score between 0 and 1 for each document, where 1 is the most positive. Keep in mind that I used some technology tweets for this tutorial, but think of using this API for customer tweets such as `I *LOVE* this hotel` or `I am not impressed with this hotel`. There are many use cases for this. Here is an example of a fictitious airlines that has a strong dislike and like. 
+
+<img style="border:3px solid #021a40" src="/files/aicog11.png">
 
 ## Want more Azure Tips and Tricks?
 
