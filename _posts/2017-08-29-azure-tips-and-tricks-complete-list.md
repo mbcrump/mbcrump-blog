@@ -87,6 +87,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 70 - Key Phrase Extraction with Cognitive Service and Azure](http://www.michaelcrump.net/azure-tips-and-tricks70/)
 * [Azure Tips and Tricks Part 71 - Language Detection with Cognitive Service and Azure](http://www.michaelcrump.net/azure-tips-and-tricks71/)
 * [Azure Tips and Tricks Part 72 - Sentiment Analysis with Cognitive Service and Azure](http://www.michaelcrump.net/azure-tips-and-tricks72/)
+* [Azure Tips and Tricks Part 73 - Send Emails through Azure with C# and SendGrid](http://www.michaelcrump.net/azure-tips-and-tricks73/)
 
 ## Got a Azure Tip or Trick?
 
