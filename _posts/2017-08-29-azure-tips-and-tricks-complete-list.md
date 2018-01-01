@@ -89,7 +89,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 72 - Sentiment Analysis with Cognitive Service and Azure](http://www.michaelcrump.net/azure-tips-and-tricks72/)
 * [Azure Tips and Tricks Part 73 - Send Emails through Azure with C# and SendGrid](http://www.michaelcrump.net/azure-tips-and-tricks73/)
 * [Azure Tips and Tricks Part 74 - Working with Azure Storage Blobs and Files through the Portal](http://www.michaelcrump.net/azure-tips-and-tricks74/)
-* [Azure Tips and Tricks Part 75 - Create a Azure Storage Blob Container through C#](http://www.michaelcrump.net/azure-tips-and-tricks75/)
+* [Azure Tips and Tricks Part 75 - Create an Azure Storage Blob Container through C#](http://www.michaelcrump.net/azure-tips-and-tricks75/)
+* [Azure Tips and Tricks Part 76 - Uploading and Downloading a Stream into an Azure Storage Blob](http://www.michaelcrump.net/azure-tips-and-tricks76/)
 
 ## Got a Azure Tip or Trick?
 
