@@ -10,7 +10,7 @@ comments: true
 **Want to contribute?** I'm currently looking for folks who want to contribute to Azure Tips and Tricks. If you are interested, then read [more here](https://github.com/mbcrump/mbcrump-blog/blob/master/contributing/index.md).
 {: .notice--info}
 
-**Upcoming Schedule** Azure Tips and Tricks resumes with our normal posting schedule starting next Sunday (1/7).
+**Upcoming schedule:** Azure Tips and Tricks resumes with our normal posting schedule starting next Sunday (1/7).
 {: .notice--danger}
 
 ## Intro
