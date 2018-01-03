@@ -7,7 +7,7 @@ share: true
 comments: true
 ---
 
-**Want to Contribute?** I'm currently looking for folks who want to contribute to Azure Tips and Tricks. If you are interested, then read [more here](https://github.com/mbcrump/mbcrump-blog/blob/master/contributing/index.md).
+**Want to contribute?** I'm currently looking for folks who want to contribute to Azure Tips and Tricks. If you are interested, then read [more here](https://github.com/mbcrump/mbcrump-blog/blob/master/contributing/index.md).
 {: .notice--info}
 
 **Upcoming Schedule** Azure Tips and Tricks resumes with our normal posting schedule starting next Sunday (1/7).
@@ -23,32 +23,32 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## Send Emails through Azure with C# and SendGrid
 
-I needed to send an email through Azure and I used C# and SendGrid. In this post, I'll walk through the process. 
+In this post, I'll walk through the process that I completed to create an account with SendGrid and send an email with C#.
 
-Go to the **Azure Portal** and search services for **SendGrid** and create an account as shown below. You'll notice that I used the **Free** account as it is good enough for our test. 
+Go to the **Azure Portal** and search services for **SendGrid** and create an account as shown below. You'll notice that I used the **Free** account as it is good enough for what I was trying to accomplish. 
 
 <img style="border:3px solid #021a40" src="/files/sendgrid1.png">
 
-Go to your SendGrid account once provisioned and clicked on **Manage** and it will bring you to https://app.sendgrid.com/. 
+Go to your SendGrid account once provisioned and click on **Manage** and it will bring you to [https://app.sendgrid.com/](https://app.sendgrid.com/) as shown below. 
 
 <img style="border:3px solid #021a40" src="/files/sendgrid2.png">
 
-You are going to want to grab your API key from your SendGrid dashboard. You can find it under **Settings**, then **API Keys**
+From the SendGrid portal, you are going to want to grab your API key. You can find it under **Settings**, then **API Keys**
 
 <img style="border:3px solid #021a40" src="/files/sendgrid3.png">
 
-Give your API Key a name and then give it **Full Access**. 
+Give your API Key a name and then give it **Full Access** and click **Create and View**. 
 
 <img style="border:3px solid #021a40" src="/files/sendgrid4.png">
 
 **Remember this!** Copy this key somewhere safe as we'll be using it again shortly!
 {: .notice--primary}
 
-Now that you have your API Key, open Visual Studio and create a new Console Application. You'll need to add in the **SendGrid NuGet package**. You can do this just by searching for **SendGrid** as shown below:
+Now that you have your API Key, open Visual Studio and create a new Console Application. (Keep in mind this could be an Azure Function for example). You'll need to add in the **Sendgrid** NuGet package (which you can do from Manage NuGet packages). 
 
 <img style="border:3px solid #021a40" src="/files/sendgrid5.png">
 
-Now, copy and paste the following C# code into your Console application, simply replacing your API key.
+Insall the NuGet package and copy and paste the following C# code into your Console application, simply replacing your API key.
 
 ```csharp
     class Program
@@ -63,7 +63,7 @@ Now, copy and paste the following C# code into your Console application, simply 
             var client = new SendGridClient("ENTER-YOUR-API-KEY-HERE");
             var msg = new SendGridMessage();
 
-            msg.SetFrom(new EmailAddress("michael@michaelcrump.net", "Azure Tips and Tricks"));
+            msg.SetFrom(new EmailAddress("a@gmail.com", "Azure Tips and Tricks"));
 
             var recipients = new List<EmailAddress>
                 {
@@ -83,7 +83,7 @@ Now, copy and paste the following C# code into your Console application, simply 
     }
 ```
 
-Run the application and success!
+Run the application and check whatever email that you sent it to!
 
 <img style="border:3px solid #021a40" src="/files/sendgrid6.png">
 
