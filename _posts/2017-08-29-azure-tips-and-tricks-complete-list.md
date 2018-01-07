@@ -91,6 +91,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 74 - Working with Azure Storage Blobs and Files through the Portal](http://www.michaelcrump.net/azure-tips-and-tricks74/)
 * [Azure Tips and Tricks Part 75 - Create an Azure Storage Blob Container through C#](http://www.michaelcrump.net/azure-tips-and-tricks75/)
 * [Azure Tips and Tricks Part 76 - Uploading and Downloading a Stream into an Azure Storage Blob](http://www.michaelcrump.net/azure-tips-and-tricks76/)
+* [Azure Tips and Tricks Part 77 - Working with Azure Storage Explorer](http://www.michaelcrump.net/azure-tips-and-tricks77/)
 
 ## Got a Azure Tip or Trick?
 
