@@ -7,7 +7,7 @@ share: true
 comments: true
 ---
 
-**Want to Contribute?** I'm currently looking for folks who want to contribute to Azure Tips and Tricks. If you are interested, then read [more here](https://github.com/mbcrump/mbcrump-blog/blob/master/contributing/index.md).
+**Want to Contribute?** I'm currently looking for folks who want to contribute to Azure Tips and Tricks. If you are interested, then [fill out the form here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR0m_7PjUWSdOsfLRTa0HuzZUQU9JMzJKVEVFVzdHRDNBWU9QVjROTUlKVS4u).
 {: .notice--info}
 
 ## Intro
@@ -78,7 +78,7 @@ static void Main(string[] args)
 
 Note that are now using the **OpenWrite** method and specifying a new name. We are also taking advantage of the **DownloadToStream** method. If we run the application, our new file should be in the downloads folder.
 
-<img style="border:3px solid #021a40" src="/files/writetoblob1.png">
+<img style="border:3px solid #021a40" src="/files/writetoblob2.png">
 
 Nice! You are on your way to becoming an Azure Storage Expert!
 
