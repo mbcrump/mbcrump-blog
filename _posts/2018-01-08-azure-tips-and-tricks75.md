@@ -7,7 +7,7 @@ share: true
 comments: true
 ---
 
-**Want to Contribute?** I'm currently looking for folks who want to contribute to Azure Tips and Tricks. If you are interested, then read [more here](https://github.com/mbcrump/mbcrump-blog/blob/master/contributing/index.md).
+**Want to Contribute?** I'm currently looking for folks who want to contribute to Azure Tips and Tricks. If you are interested, then [fill out the form here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR0m_7PjUWSdOsfLRTa0HuzZUQU9JMzJKVEVFVzdHRDNBWU9QVjROTUlKVS4u).
 {: .notice--info}
 
 ## Intro
