@@ -7,7 +7,7 @@ share: true
 comments: true
 ---
 
-**Azure Developer Guide Book *2nd Edition available now!** This free eBook is available now at [aka.ms/azuredevebook](https://aka.ms/azuredevebook).
+**Azure Developer Guide Book 2nd Edition available now!** This free eBook is available now at [aka.ms/azuredevebook](https://aka.ms/azuredevebook).
 {: .notice--info}
 
 ## Intro
