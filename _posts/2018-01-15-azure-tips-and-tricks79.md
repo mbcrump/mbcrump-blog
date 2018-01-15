@@ -61,7 +61,7 @@ static void Main(string[] args)
 
 If we run the application and switch over to our Storage Account and navigate inside the container, we'll see our container now has a folder:
 
-<img style="border:3px solid #021a40" src="/files/blobfolder1.png">
+<img style="border:3px solid #021a40" src="/files/blobfolder2.png">
 
 Success! Again, the source code is located [here](https://github.com/mbcrump/azurestorage).
 
