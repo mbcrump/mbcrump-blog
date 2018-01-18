@@ -98,6 +98,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 78 - Copy Azure Storage Blobs and Files via C#](http://www.michaelcrump.net/azure-tips-and-tricks78/)
 * [Azure Tips and Tricks Part 79 - Creating an Azure Blob Hierarchy](http://www.michaelcrump.net/azure-tips-and-tricks79/)
 * [Azure Tips and Tricks Part 80 - Adding Metadata to a file inside Azure Storage Blob Container](http://www.michaelcrump.net/azure-tips-and-tricks80/)
+* [Azure Tips and Tricks Part 81 - Working with AzCopy and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks81/)
 
 ## Got a Azure Tip or Trick?
 
