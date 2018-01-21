@@ -99,6 +99,11 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 79 - Creating an Azure Blob Hierarchy](http://www.michaelcrump.net/azure-tips-and-tricks79/)
 * [Azure Tips and Tricks Part 80 - Adding Metadata to a file inside Azure Storage Blob Container](http://www.michaelcrump.net/azure-tips-and-tricks80/)
 * [Azure Tips and Tricks Part 81 - Working with AzCopy and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks81/)
+* [Azure Tips and Tricks Part 82 - Creating your first Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks82/)
+* [Azure Tips and Tricks Part 83 - Adding an item to a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks83/)
+* [Azure Tips and Tricks Part 84 - Reading an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks84/)
+* [Azure Tips and Tricks Part 85 - Updating an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks85/)
+* [Azure Tips and Tricks Part 86 - Deleting an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks85/)
 
 ## Got a Azure Tip or Trick?
 
