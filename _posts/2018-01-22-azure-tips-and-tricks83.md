@@ -101,12 +101,10 @@ static void Main(string[] args)
 }
 ```
 
+If we run the program now, then it will add our message along with the current DateTime to our Azure Storage Table called **thankfulfor**. If we want to test it now, then we can use [Azure Storage Explorer](http://www.michaelcrump.net/azure-tips-and-tricks77/). If you come back tomorrow, then I'll show you how to do this through code. 
+
 <img style="border:3px solid #021a40" src="/files/aztablesblog4.png">
 
-Success!
-
-
-If you want to test it without writing code then try [Azure Storage Explorer](http://www.michaelcrump.net/azure-tips-and-tricks77/) as I just  did. 
 
 ## Want more Azure Tips and Tricks?
 
