@@ -37,25 +37,37 @@ Open the C# Console application that we were working with [yesterday](http://www
 
 ## Update an item
 
-In our `Program.cs` file, we'll now add in a helper method that passes in a table, RowKey and PartitionKey.
+In our `Program.cs` file, we'll now add in a helper method that passes in a table, RowKey and PartitionKey and the new message that we want to use.
+
+***Special thanks to Niko12 for his comment below which caused me to rewrite this method.***
 
 ```csharp
-    static Thanks UpdateMessage(CloudTable table, string partitionKey, string rowKey)
+static void UpdateMessage(CloudTable table, string partitionKey, string rowKey, string newMessage)
+{
+    TableOperation retrieve = TableOperation.Retrieve<Thanks>(partitionKey, rowKey);
+
+    TableResult result = table.Execute(retrieve);
+
+    Thanks thanks = (Thanks)result.Result;
+
+    thanks.ETag = "*";
+    thanks.Name = newMessage;
+
+    if (result != null)
     {
-        TableOperation retrieve = TableOperation.Retrieve<Thanks>(partitionKey, rowKey);
+        TableOperation update = TableOperation.Replace(thanks);
 
-        TableResult result = table.Execute(retrieve);
-
-        return (Thanks)result.Result;
+        table.Execute(update);
     }
+
+}
 ```
 
-In this example, we're passing in the table name, a partition key and a row key to return a message that we'll update shortly. Make a note that this uses the **Retrieve** method that we haven't worked with before. Now we'll have an instance of the record that we want to update. 
+In this example, once it performs the lookup, if it is not null, then we want to update the message with the one that we specify. 
 
+## Putting it all together.
 
-## Putting it all together
-
-The **Main** method inside of the `Program.cs` file needs to specify which table, RowKey and PartitionKey that we want to update and then if it is not null, then we want to update the message with the one that we specify. We finally call the **TableOperation** method to update the message. 
+The **Main** method inside of the `Program.cs` file, we'll call our helper method. 
 
 ```csharp
 static void Main(string[] args)
@@ -70,16 +82,7 @@ static void Main(string[] args)
     table.CreateIfNotExists();
 
     //added these lines
-
-    var message = UpdateMessage(table, "ThanksApp", "I'm thankful for the time with my family");
-
-    if (message != null)
-    {
-        message.Name = "I'm thankful for the time with my family AND friends!";
-    }
-
-    TableOperation update = TableOperation.Replace(message);
-
+    UpdateMessage(table, "ThanksApp", "I'm thankful for the time with my family", "I'm thankful for the time with my family and friends");
     //added these lines
 
     table.Execute(update);
