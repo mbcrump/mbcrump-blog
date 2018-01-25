@@ -23,7 +23,9 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 In case you are new to the Azure Storage Tables, we've reviewed the following items this week:
 
 * [Creating your first Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks82/)
-* [Today - Adding an item to a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks83/)]
+* [Today - Adding an item to a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks83/)
+* [Reading an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks84/)
+* [Updating an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks85/)
 
 Today, we'll be taking a look at adding an item to the Azure Storage Table that we were working with yesterday. 
 

@@ -30,6 +30,10 @@ In case you are new to the Azure Storage, we've reviewed the following options s
 * [Creating an Azure Blob Hierarchy](http://www.michaelcrump.net/azure-tips-and-tricks79/)
 * [Adding Metadata to a file inside Azure Storage Blob Container](http://www.michaelcrump.net/azure-tips-and-tricks80/)
 * [Working with AzCopy and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks81/)
+* [Today - Creating your first Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks82/)
+* [Adding an item to a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks83/)
+* [Reading an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks84/)
+* [Updating an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks85/)
 
 While we've been working with Azure Storage Blobs and Files, we'll switch this week to taking a look at Azure Storage Tables. 
 

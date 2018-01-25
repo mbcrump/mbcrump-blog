@@ -25,6 +25,7 @@ In case you are new to the Azure Storage Tables, we've reviewed the following it
 * [Creating your first Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks82/)
 * [Adding an item to a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks83/)
 * [Today - Reading an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks84/)
+* [Updating an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks85/)
 
 Today, we'll be taking a look at reading an item through code that we previously placed into an Azure Storage Table. 
 
