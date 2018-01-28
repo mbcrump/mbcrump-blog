@@ -7,8 +7,7 @@ share: true
 comments: true
 ---
 
-**Azure Community Spotlight** I'd like to call out folks in this section that contribute to the Azure platform. Whether it be IT Pro or Developer, you should give this person a follow to stay up to date with their corner of Azure. 
-  
+**Azure Community Spotlight** I'd like to call out folks in this section that contribute to the Azure platform. Whether it be IT Pro or Developer, you should give this person a follow to stay up to date with their corner of Azure. <br/><br/>
 [Scott Cate](https://twitter.com/ScottCate) works at Microsoft and is part of the Azure Cloud Developer Advocates team that focuses on .NET and Xamarin. Learn more about Scott [here](https://developer.microsoft.com/en-us/advocates/scott-cate) or follow him on [Twitter](https://twitter.com/ScottCate) .
 {: .notice--info}
 
