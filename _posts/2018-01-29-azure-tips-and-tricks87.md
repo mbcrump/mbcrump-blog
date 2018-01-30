@@ -49,7 +49,7 @@ If you've ever been working with Azure Table Storage and tried to insert data an
 
 ## The Solution
 
-There is many ways that you can handle this, but my favorite is this extension method that strips away those characters and appends a 'c', because why not? 
+There is many ways that you can handle this, but my favorite is this extension method that simply strips away those characters as shown below.  
 
 ```csharp
 public static string ToAzureKeyString(this string str)
