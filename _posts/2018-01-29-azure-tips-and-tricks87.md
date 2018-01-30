@@ -44,6 +44,9 @@ If you've ever been working with Azure Table Storage and tried to insert data an
 * The carriage return (\r) character
 * Control characters from U+007F to U+009F
 
+**Debugging in Visual Studio** If you are debugging in Visual Studio, then you can also check the *StorageException.RequestInformation.ExtendedInformation* to gain additional information about the error. 
+{: .notice--info}
+
 ## The Solution
 
 There is many ways that you can handle this, but my favorite is this extension method that strips away those characters and appends a 'c', because why not? 
