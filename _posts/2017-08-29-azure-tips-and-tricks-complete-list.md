@@ -104,6 +104,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 84 - Reading an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks84/)
 * [Azure Tips and Tricks Part 85 - Updating an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks85/)
 * [Azure Tips and Tricks Part 86 - Deleting an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks86/)
+* [Azure Tips and Tricks Part 87 - Ensure a clean RowKey in Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks86/)
 
 ## Got a Azure Tip or Trick?
 
