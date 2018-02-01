@@ -88,7 +88,9 @@ foreach (var blob in container.ListBlobs())
 
 ```
 
-As stated in the code, we now have access to the token from our **imageSAP** policy that we created in the Azure Portal. I hope this helps!
+As stated in the code, we now have access to the token from our **imageSAP** policy that will generate our signature that gives us access to the image for the specified time. We could then see the image once we go to the site. 
+
+I hope this helps!
 
 ## Want more Azure Tips and Tricks?
 
