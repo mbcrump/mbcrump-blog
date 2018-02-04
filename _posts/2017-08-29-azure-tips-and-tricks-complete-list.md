@@ -107,6 +107,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 87 - Ensure a clean RowKey in Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks87/)
 * [Azure Tips and Tricks Part 88 - What's the purpose of ETag in Azure Storage Table?](http://www.michaelcrump.net/azure-tips-and-tricks88/)
 * [Azure Tips and Tricks Part 89 - Shared Access Tokens with Azure Storage Blob Containers](http://www.michaelcrump.net/azure-tips-and-tricks89/)
+* [Azure Tips and Tricks Part 90 - Implementing Azure Search with SQL Server and ASP.NET MVC](http://www.michaelcrump.net/azure-tips-and-tricks90/)
 
 ## Got a Azure Tip or Trick?
 
