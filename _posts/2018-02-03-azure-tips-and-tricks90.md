@@ -19,8 +19,8 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 Welcome to a new series, in this series I'll cover Azure Search, SQL Server and putting it all together in a ASP.NET MVC web app. I'll be adding the post to this series below as I go:
 
-* [Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC](http://www.michaelcrump.net/azure-tips-and-tricks90/)
-
+* [Part 1](http://www.michaelcrump.net/azure-tips-and-tricks90/)
+* [This post - Part 2](http://www.michaelcrump.net/azure-tips-and-tricks91/)
 
 ## What is it? 
 
