@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 91 - Part 2 - Implementing Azure Search with SQL Server"
+title: "Azure Tips and Tricks Part 92 - Part 3 - Querying an Azure Search Index"
 excerpt: "Learn how to query an Azure Search Index through the Azure Portal"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
