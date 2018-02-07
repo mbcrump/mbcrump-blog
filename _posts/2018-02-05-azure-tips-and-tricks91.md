@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 92 - Part 3 - Querying an Azure Search Index"
-excerpt: "Learn how to query an Azure Search Index through the Azure Portal"
+title: "Azure Tips and Tricks Part 91 - Part 2 - Implementing Azure Search with SQL Server"
+excerpt: "Learn how to implement Azure Search with SQL Server"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
 comments: true
@@ -19,38 +19,47 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 In this series I'll cover Azure Search, SQL Server and putting it all together in a ASP.NET MVC web app. The complete list can be found below:
 
-* [Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC](http://www.michaelcrump.net/azure-tips-and-tricks90/)
-* [Part 2 - Implementing Azure Search with SQL Server](http://www.michaelcrump.net/azure-tips-and-tricks91/)
-* [Part 3 - Querying an Azure Search Index](http://www.michaelcrump.net/azure-tips-and-tricks92/)
+* [Part 1](http://www.michaelcrump.net/azure-tips-and-tricks90/)
+* [This post - Part 2](http://www.michaelcrump.net/azure-tips-and-tricks91/)
 
 
 ## Implementing Azure Search
 
-This week we've learned that Azure Search is a search-as-a-service that connects to a variety of data sources such as SQL Server. We've created our SQL Server DB, and stood up Azure Search and now it is time to query the indexes. In this section, I'll give you some basic commands that should help get you started. 
+Yesterday, we learned that Azure Search is a search-as-a-service that allows you to search over your content using web, desktop or mobile apps. There is variety of services that you can attach Azure Search to, including SQL Server - which we covered yesterday. Today we'll walk through adding Azure Search to our existing SQL Server instance. 
 
-Open the Azure Portal, and search for **Search Services** and click on the **Search Services** tab as shown below. 
+Open the Azure Portal, and navigate to your SQL Server instance and begin by looking at the  **Settings** pane:
 
-<img style="border:3px solid #021a40" src="/files/azsearchfilter1.png">
+<img style="border:3px solid #021a40" src="/files/azuresearchsql1.png">
 
-Basic Search - I can type `search=john` and pressing **Search** to search the entire index for the word john. 
+Select a **Add Azure Search** and fill out the fields specified below and make sure to select the price as free. 
 
-<img style="border:3px solid #021a40" src="/files/azsearchfilter2.gif">
+<img style="border:3px solid #021a40" src="/files/azuresearchsql2.png">
 
-Append strings - I can append onto the string with the **&** to pass additional search parameters, which can be specified in any order. For example, the  $count=true parameter returns a sum of all the documents that match the query. Make note that this is using OData.
+Under **Data Source**, we can easily connect to our Azure SQL Database, we'll need to give it a name, provide the userid and password (that we specified when setting up the SQL db) and press **Test Connection**. If everything goes well, then you'll be able to select the **Customer** table.
 
-<img style="border:3px solid #021a40" src="/files/azsearchfilter3.png">
+<img style="border:3px solid #021a40" src="/files/azuresearchsql3.png">
 
-Return top # - You can even pass **$top=2** to return the highest ranked 2 documents. 
+We'll need to set an index. So give it a name and select **CustomerID** as our Key. We'll now clean up our fields, by deleting ones that we don't want and making sure the fields can be retrieved, sorted, filtered and are searchable by adding a check. 
 
-<img style="border:3px solid #021a40" src="/files/azsearchfilter4.png">
+<img style="border:3px solid #021a40" src="/files/azuresearchsql4.png">
 
-Filtering - You can use the **$filter** parameter to return results matching the criteria you provided. For example, `$filter FirstName eq 'Robert'` would return any person in the index that has a FirstName that equals Robert. There are many other comparison expressions (such as eq, ne, gt, lt, ge, le). 
+We need to create an indexer to run. I'm going to select the **Daily** schedule and set my watermark column to the **ModifiedDate** as I assume data is unique in that column. 
 
-Order-by syntax - You can use the **$orderby** parameter to order the results by. You can use either asc or desc to explicitly specify the sort order. By default, it will use the sort order as ascending.
+<img style="border:3px solid #021a40" src="/files/azuresearchsql5.png">
 
-I'd encourage you to view the [OData Expression Syntax for Azure Search](https://docs.microsoft.com/en-us/rest/api/searchservice/odata-expression-syntax-for-azure-search) for a full list and other samples that you can use. 
+Once you kick that off, you'll see the following notification. It states you can check the monitor progress and once complete you can start searching. 
 
-Come back tomorrow and we'll start using ASP.NET MVC to tie it all together. 
+<img style="border:3px solid #021a40" src="/files/azuresearchsql6.png">
+
+If you go ahead and click on the link on the notification window, then you'll see the following screen.
+
+<img style="border:3px solid #021a40" src="/files/azuresearchsql7.png">
+
+Go ahead and press the Run button and it will start immediately and eventually you'll see it has completed. 
+
+<img style="border:3px solid #021a40" src="/files/azuresearchsql8.png">
+
+Excellent! Our SQL database and Azure Search indexer is in place. Come back tomorrow and we'll kick the tires with a couple of queries against our new index. 
 
 ## Want more Azure Tips and Tricks?
 
