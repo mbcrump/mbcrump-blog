@@ -22,6 +22,7 @@ In this series I'll cover Azure Search, SQL Server and putting it all together i
 * [Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC](http://www.michaelcrump.net/azure-tips-and-tricks90/)
 * [Part 2 - Implementing Azure Search with SQL Server](http://www.michaelcrump.net/azure-tips-and-tricks91/)
 * [Part 3 - Querying an Azure Search Index](http://www.michaelcrump.net/azure-tips-and-tricks92/)
+* [Part 4 - Searching an index with Azure Search with C#](http://www.michaelcrump.net/azure-tips-and-tricks93/)
 
 
 ## Implementing Azure Search
@@ -50,7 +51,7 @@ Order-by syntax - You can use the **$orderby** parameter to order the results by
 
 I'd encourage you to view the [OData Expression Syntax for Azure Search](https://docs.microsoft.com/en-us/rest/api/searchservice/odata-expression-syntax-for-azure-search) for a full list and other samples that you can use. 
 
-Come back tomorrow and we'll start using ASP.NET MVC to tie it all together. 
+Come back tomorrow and we'll start using a Console App to tie it all together. 
 
 ## Want more Azure Tips and Tricks?
 
