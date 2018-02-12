@@ -80,8 +80,7 @@ Create a class named **MySQLDB** and add the following:
 class MySQLDB
 {
     [IsFilterable, IsSortable, IsFacetable]
-    public string CustomerID { get
-            ; set; }
+    public string CustomerID { get; set; }
     [IsFilterable, IsSortable, IsFacetable]
     public string FirstName { get; set; }
     [IsFilterable, IsSortable, IsFacetable]
@@ -95,6 +94,30 @@ class MySQLDB
 ```
 
 When you run the app, it will search the entire index for the term 'Michael' and display the results in your Console window. If you've followed the tutorial so far, then you should get around 17 results. 
+
+```text
+Search the entire index for the term 'Michael'
+
+Michael Blythe
+Michael Blythe
+Michael Bohling
+Michael Vanderhyde
+Michael Vanderhyde
+Michael Galos
+Michael Galos
+Michael Brundage
+Michael Brundage
+Michael Graff
+Michael Graff
+Michael Sullivan
+Michael Sullivan
+Michael Lee
+Michael Lee
+Michael John Troyer
+Michael John Troyer
+```
+
+Until next time, happy coding!
 
 ## Want more Azure Tips and Tricks?
 
