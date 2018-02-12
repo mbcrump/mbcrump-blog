@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 92 - Part 4 - Searching an index with Azure Search with C#"
+title: "Azure Tips and Tricks Part 93 - Part 4 - Searching an index with Azure Search with C#"
 excerpt: "Learn how to query an Azure Search Index using C#"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
