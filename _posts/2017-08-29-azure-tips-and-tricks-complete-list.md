@@ -110,7 +110,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 90 - Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC](http://www.michaelcrump.net/azure-tips-and-tricks90/)
 * [Azure Tips and Tricks Part 91 - Part 2 - Implementing Azure Search with SQL Server](http://www.michaelcrump.net/azure-tips-and-tricks91/)
 * [Azure Tips and Tricks Part 92 - Part 3 - Querying an Azure Search Index](http://www.michaelcrump.net/azure-tips-and-tricks92/)
-* [Azure Tips and Tricks Part 93 - Part 4 - Searching an index with Azure Search with C#](http://www.michaelcrump.net/azure-tips-and-tricks92/)
+* [Azure Tips and Tricks Part 93 - Part 4 - Searching an index with Azure Search with C#](http://www.michaelcrump.net/azure-tips-and-tricks93/)
+* [Azure Tips and Tricks Part 94 - Customize the Azure Functions endpoint in no time](http://www.michaelcrump.net/azure-tips-and-tricks94/)
 
 
 ## Got a Azure Tip or Trick?
