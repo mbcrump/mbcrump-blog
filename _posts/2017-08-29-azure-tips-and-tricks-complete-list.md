@@ -112,7 +112,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 92 - Part 3 - Querying an Azure Search Index](http://www.michaelcrump.net/azure-tips-and-tricks92/)
 * [Azure Tips and Tricks Part 93 - Part 4 - Searching an index with Azure Search with C#](http://www.michaelcrump.net/azure-tips-and-tricks93/)
 * [Azure Tips and Tricks Part 94 - Customize the Azure Functions endpoint in no time](http://www.michaelcrump.net/azure-tips-and-tricks94/)
-* [Azure Tips and Tricks Part 95 - Access all files from an Azure Storage Blob Container"](http://www.michaelcrump.net/azure-tips-and-tricks95/)
+* [Azure Tips and Tricks Part 95 - Access all files from an Azure Storage Blob Container](http://www.michaelcrump.net/azure-tips-and-tricks95/)
+* [Azure Tips and Tricks Part 96 - Getting up and running with Azure IoT MXChip](http://www.michaelcrump.net/azure-tips-and-tricks96/)
 
 
 ## Got a Azure Tip or Trick?
