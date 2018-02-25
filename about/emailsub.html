@@ -8,7 +8,7 @@
  </div>
 </form>
 
-<div id="contactFormError">
+<div id="contactFormStatus">
    
 </div>
   
@@ -22,7 +22,7 @@
          var data = $(this).serialize();
   
          // hide prior errors, disable inputs while we're submitting
-         $("#contactFormError").hide();
+         $("#contactFormStatus").hide();
          $("#target :input").prop("disabled", true);
   
          // back in my day, we had to AJAX uphill both ways, in the snow, through cross-iframe scripts
@@ -34,12 +34,12 @@
              headers: {'Content-Type': 'application/x-www-form-urlencoded'},
              success: function (respData) {
                  // Yay, success!!
-                 $("#contactForm").html("<div style='padding: 5em 1em; text-align: center; color: #008800'>" + respData + "</div>");
+                 $("#contactFormStatus").html("<div style='padding: 5em 1em; text-align: center; color: #008800'>" + respData + "</div>");
              },
              error: function (jqXHR) {
                  // Boo, error...
-                 $("#contactFormError").html("<div style='padding: 1em; text-align: center; color: #660000'>Sorry, an error occurred: " + jqXHR.responseText + "</div>");
-                 $("#contactFormError").show();
+                 $("#contactFormStatus").html("<div style='padding: 1em; text-align: center; color: #660000'>Sorry, an error occurred: " + jqXHR.responseText + "</div>");
+                 $("#contactFormStatus").show();
                  $("#target :input").prop("disabled", true);
              }
          });
