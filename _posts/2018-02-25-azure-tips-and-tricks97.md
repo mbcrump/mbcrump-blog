@@ -26,13 +26,13 @@ While reading a blog post, one of these popped up:
 
 We've all seen then before, and I must admit that I've never really looked into it before I started writing [this Azure Tips and Tricks series](https://michaelcrump.net/azure-tips-and-tricks-complete-list/). 
 
-It seems to be a good idea, for someone to give you an email address and be notified of new posts. OK, so I wanted to do it, and started looking into sites that offer this. After looking around, I kept finding this:
+We're all crazy busy, so it seems to be a good idea, for someone to give you an email address and be notified of new posts. OK, so I wanted to do it, and started looking into sites that offer this. After looking around, I kept finding this:
 
 <img style="border:3px solid #021a40" src="/files/emailsub2.png">
 
 Most companies offer you a certain number of subscribers for free, then you'll quickly get to a paid version once you go over that number. 
 
-Since I like to save a penny now and again and am aware that I have more subscribers that the free account offers, I decided to roll my own. But what would I need? 
+Since I like to save a penny now and again and am aware that I have more subscribers that the free account offers (200), I decided to roll my own. But what would I need? 
 
 ## My Requirements to roll my own
 
@@ -49,12 +49,12 @@ My requirements for my version of creating an email subscription is the followin
 After poking around for a bit, I landed on the following:
 
 * SendGrid will handle email (25K emails free monthly)
-* Azure Storage Tables to save the email address and subscription status. 
-* Timer Trigger with Azure Functions to run on a schedule to send emails. (Once Weekly that retrieves my last 7 days worth of blog posts)
-* HTTP Trigger with Azure Functions to collect POST data coming from my website that contains the email address and subscription status. 
-* Azure Functions supports Visual Studio tooling and the full .NET Framework.
+* Azure Storage Tables to save the email address and subscription status (this gives me an unlimited number of subscribers). 
+* Timer Trigger with Azure Functions to run on a schedule to send emails. (Runs weekly and retrieves my last 7 days worth of blog posts)
+* HTTP Trigger with Azure Functions to collect POST data coming from my website that contains the email address and subscription status that someone types in. 
+* Azure Functions supports Visual Studio tooling and the full .NET Framework. (in case, I want to use something outside of .NET Core)
 
-## Getting Started by creating a SendGrid account
+## Creating a SendGrid account
 
 Go to the **Azure Portal** and search services for **SendGrid** and create an account as shown below. You'll notice that I used the **Free** account as it is good enough for what I was trying to accomplish. 
 
@@ -62,7 +62,7 @@ Go to the **Azure Portal** and search services for **SendGrid** and create an ac
 
 Go to your SendGrid account once provisioned and click on **Manage** and it will bring you to [https://app.sendgrid.com/](https://app.sendgrid.com/). From the SendGrid portal, you are going to want to grab your API key. You can find it under **Settings**, then **API Keys**. Give your API Key a name and then give it **Full Access** and click **Create and View**. Now that you have your API Key, save it somewhere safe.
 
-## Getting Started by creating an Azure Storage Table
+## Creating an Azure Storage Table
 
 Go back to the Azure Portal and click **Create a Resource** and select **Azure Storage**. We'll keep it simple as shown below to get started. 
 
@@ -84,11 +84,11 @@ Now that we have our **SendGrid** account and our **Azure Storage Table** create
 
 ## Open Visual Studio
 
-Create a C# Azure Function application by opening Visual Studio and selecting the template:
+Create a C# Azure Function application by opening Visual Studio and selecting the template under the **Cloud** node as shown below:
 
 <img style="border:3px solid #021a40" src="/files/emailsub3.png">
 
-I'm going to use the **Azure Storage Account** that we created earlier:
+Under Storage, change the default emulator to the **Azure Storage Account** that we created earlier:
 
 <img style="border:3px solid #021a40" src="/files/emailsub4.png">
 
@@ -98,10 +98,10 @@ We'll begin by using the **Timer Trigger** and leaving everything as the default
 
 Once the project spins up, we'll use NuGet to pull in references to :
 
-* WindowsAzure.Storage // Allows us to access our Table Storage.
-* Microsoft.WindowsAzure.ConfigurationManager // Allows us to hide our API keys in Azure Functions, etc. 
-* Sendgrid // Allows us to use the sendgrid helper classes to quickly send emails.
-* System.ServiceModel.Syndication // Allows us to work with RSS feeds easily. 
+* WindowsAzure.Storage `To work with Azure Table Storage.`
+* Microsoft.WindowsAzure.ConfigurationManager `To hide our API keys`
+* Sendgrid `To send our emails`
+* System.ServiceModel.Syndication `To work with RSS feeds - use prerelease packages to find it`
 
 Looking good so far and a good stopping point for today. Come back soon for the next post in the series where we'll begin putting this all together. 
 
