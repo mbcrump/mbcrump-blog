@@ -23,7 +23,7 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 This blog post is part of a series on how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage. 
 
 * [Part 1 - What we're going to build and how to build it](http://www.michaelcrump.net/azure-tips-and-tricks97/)
-* [This Post - Part 2 - Storing Emails using Azure Table Storage](http://www.michaelcrump.net/azure-tips-and-tricks98/)
+* [This post - Storing Emails using Azure Table Storage](http://www.michaelcrump.net/azure-tips-and-tricks98/)
 * [Coming soon - Writing the Frontend with HTML5 and jQuery](http://www.michaelcrump.net/azure-tips-and-tricks99/)
 * [Coming soon - Sending Emails with Sendgrid and Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks100/)
 
@@ -40,7 +40,7 @@ We recently created a Visual Studio project that used the Azure Functions templa
 * Sendgrid `To send our emails`
 * System.ServiceModel.Syndication `To work with RSS feeds - use prerelease packages to find it`
 
-Right click the project and select **Add Item** and select **Azure Functions**. Now give it a name such as **StoreEmail** and select **Http Trigger** along with the defaults as shown below.
+Return to the project we created yesterday and right-click the project and select **Add Item** and select **Azure Functions**. Now give it a name such as **StoreEmail** and select **Http Trigger** along with the defaults as shown below.
 
 <img style="border:3px solid #021a40" src="/files/emailsub6.png">
 
@@ -132,17 +132,23 @@ public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLeve
 //(End Block #2)
 }
 ```
-**Keep in mind, you'll need to pull in your using references!**{: .btn .btn--success} 
 
-Block #1 is all about pulling in the POST data and checking to see if an email address is being sent. If it is, then it will send a summary of what fields are missing. 
+Keep in mind, you'll need to pull in your using references for the namespaces we added earlier.
+{: .notice--info} 
 
-Block #2 tries to save the input via the Azure Table Storage account that we created and if it saves successfully, then returns to the client everything went fine. Otherwise, output to the client what the problem was. Keep in mind, that we'll be using **ConfigurationManager** later, once we deploy the site. 
+**Block #1** is all about pulling in the POST data and checking to see if an email address is being sent. If it is, then it will send a summary of what fields are missing. 
+
+**Block #2** tries to save the input via the Azure Table Storage account that we created and if it saves successfully, then returns to the client everything went fine. Otherwise, output to the client what the problem was. Keep in mind, that we'll be using **ConfigurationManager** later, once we deploy the site. 
 
 Hit the Run button in Visual Studio and you'll see the following: 
 
 <img style="border:3px solid #021a40" src="/files/emailsub7.png">
 
-Make note of the localhost where it is running and use something like **POSTMAN** to test your POST call. Below, I've configured Postman to my localhost URL and supplied an email address. You'll see at first, I don't supply anything and it returns an error. I then try it again and it returns that it was successful. 
+Make note of the localhost where it is running and use something like **Postman** to test your POST call. 
+
+In the gif below, I've configured Postman to my localhost URL and supplied an email address. 
+
+I can test the Azure Function by 1) Not supplying anything and 2) Supplying an email address. You'll see the error handling and success messages return to Postman. 
 
 <img style="border:3px solid #021a40" src="/files/emailsub7.gif">
 
