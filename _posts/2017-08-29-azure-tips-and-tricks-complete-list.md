@@ -115,6 +115,10 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 95 - Access all files from an Azure Storage Blob Container](http://www.michaelcrump.net/azure-tips-and-tricks95/)
 * [Azure Tips and Tricks Part 96 - Getting up and running with Azure IoT MXChip](http://www.michaelcrump.net/azure-tips-and-tricks96/)
 * [Azure Tips and Tricks Part 97 - Creating an Email Subscription based off an RSS Feed with Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks97/)
+* [Azure Tips and Tricks Part 98 - Creating an Email Subscription with Azure Functions - Storing Emails](http://www.michaelcrump.net/azure-tips-and-tricks98/)
+* [Azure Tips and Tricks Part 99 - Creating an Email Subscription with Azure Functions - Writing the Frontend](http://www.michaelcrump.net/azure-tips-and-tricks99/)
+* [Azure Tips and Tricks Part 100 - Creating an Email Subscription with Azure Functions - Sending Emails](http://www.michaelcrump.net/azure-tips-and-tricks100/)
+
 
 
 ## Got a Azure Tip or Trick?
