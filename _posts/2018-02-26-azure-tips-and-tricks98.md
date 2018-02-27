@@ -122,7 +122,7 @@ public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLeve
         table.CreateIfNotExists();
 
         CreateMessage(table, new Email(postData["fromEmail"], false));
-        return req.CreateResponse(HttpStatusCode.OK, "Thanks! I've successfully recieved your request. ");
+        return req.CreateResponse(HttpStatusCode.OK, "Thanks! I've successfully received your request. ");
     }
     catch (Exception ex)
     {
