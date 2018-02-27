@@ -48,7 +48,10 @@ We only need this to be a **post** request, so modify the **Run** method's signa
 
 `[HttpTrigger(AuthorizationLevel.Function, "post", Route = null)]`
 
-Since we'll be working with Azure Table Storage, we need to setup a class that has two fields: 
+**Keep in mind:** You can use [output bindings](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings) to provide a declarative way to connect to data from within your code vs using the code below. Thanks to Matt Honeycutt in the comments. 
+{: .notice--info} 
+
+Since we'll be working with Azure Table Storage and I prefer to show you code that you can reuse anywhere, we need to setup a class that has two fields: 
 
 * EmailAddress - to store the email that the user typed in
 * Unsubscribe - to keep track if they want to unsubscribe from the newsletter (by default it will be set to no, and they'll have a chance to opt-out in the email)
