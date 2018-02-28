@@ -23,8 +23,8 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 This blog post is part of a series on how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage. 
 
 * [Part 1 - What we're going to build and how to build it](http://www.michaelcrump.net/azure-tips-and-tricks97/)
-* [This post - Storing Emails using Azure Table Storage](http://www.michaelcrump.net/azure-tips-and-tricks98/)
-* [Coming soon - Writing the Frontend with HTML5 and jQuery](http://www.michaelcrump.net/azure-tips-and-tricks99/)
+* [Part 2 - This post - Storing Emails using Azure Table Storage](http://www.michaelcrump.net/azure-tips-and-tricks98/)
+* [Part 3 - Writing the Frontend with HTML5 and jQuery](http://www.michaelcrump.net/azure-tips-and-tricks99/)
 * [Coming soon - Sending Emails with Sendgrid and Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks100/)
 
 We're trying to build a Email Subscription similar to the following. If you want to catch up, then read the previous post. 
@@ -155,7 +155,7 @@ I can test the Azure Function by 1) Not supplying anything and 2) Supplying an e
 
 <img style="border:3px solid #021a40" src="/files/emailsub7.gif">
 
-Come back tomorrow where we'll write a frontend that uses HTML and jQuery to send the POST data. 
+Come back later and we'll write a frontend that uses HTML and jQuery to send the POST data. 
 
 
 ## Want more Azure Tips and Tricks?
