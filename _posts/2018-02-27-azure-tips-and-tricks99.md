@@ -114,6 +114,8 @@ Now we'll use jQuery and a Ajax call to POST the email address to our Azure Func
 
 If you try to run the code on your server then you'll see it works as designed. You can also use something like Azure Storage Explorer to see the data in the table. 
 
+<img style="border:3px solid #021a40" src="/files/emailsub11.gif">
+
 Come back next week and we'll wire up the Email functionality with Sendgrid. Happy Coding!
 
 
