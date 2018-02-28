@@ -9,6 +9,7 @@
 </form>
 
 <div id="contactFormStatus">
+    
    
 </div>
   
@@ -19,8 +20,7 @@
          event.preventDefault();
   
          var data = $(this).serialize();
-
-         $("#contactFormStatus").hide();
+         
          $("#target :input").prop("disabled", true);
 
          $.ajax({
@@ -34,7 +34,6 @@
              },
              error: function (jqXHR) {
                  $("#contactFormStatus").html("<div style='padding: 1em; text-align: center; color: #d20808'>An error occurred: " + jqXHR.responseText + "</div>");
-                 $("#contactFormStatus").show();
                  $("#target :input").prop("disabled", true);
              }
          });
