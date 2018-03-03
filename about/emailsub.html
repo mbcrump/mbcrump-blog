@@ -120,7 +120,7 @@ select {
         </ul>
       </form>
       
-      <div id="contactFormStatus"></div>
+      <div id="contactFormStatus" class="style-1">
       
       
   
@@ -135,7 +135,7 @@ select {
          var address = $('input:text').val();
             if(reg.test(address) == false) {
                 // Validation Failed
-                $("#contactFormStatus").html("<div style='padding: 1em; text-align: center; color: #d20808'>Enter a valid email address</div>");
+                $("#contactFormStatus").html("Enter a valid email address");
             }
             else {
             $.ajax({
@@ -145,11 +145,11 @@ select {
                 dataType: "text",
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'},
                 success: function (respData) {
-                    $("#contactFormStatus").html("<div style='padding: 5em 1em; text-align: center; color: #001088'>" + respData + "</div>");
+                    $("#contactFormStatus").html(respData);
                     $("#target :input").prop("disabled", true);
                 },
                 error: function (jqXHR) {
-                    $("#contactFormStatus").html("<div style='padding: 1em; text-align: center; color: #d20808'>An error occurred: " + jqXHR.responseText + "</div>");
+                    $("#contactFormStatus").html("An error occurred: " + jqXHR.responseText);
                 }
             });
             }
