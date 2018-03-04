@@ -51,27 +51,25 @@ We only need this to be a **post** request, so modify the **Run** method's signa
 **Keep in mind:** You can use [output bindings](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings) to provide a declarative way to connect to data from within your code vs using the code below. Thanks to Matt Honeycutt in the comments. 
 {: .notice--info} 
 
-Since we'll be working with Azure Table Storage and I prefer to show you code that you can reuse anywhere, we need to setup a class that has two fields: 
+Since we'll be working with Azure Table Storage and I prefer to show you code that you can reuse anywhere, we need to setup a class that has a single field: 
 
 * EmailAddress - to store the email that the user typed in
-* Unsubscribe - to keep track if they want to unsubscribe from the newsletter (by default it will be set to no, and they'll have a chance to opt-out in the email)
+
+We'll also supply the PartitionKey to be the same every time and use a Guid for our RowKey. 
 
 ```csharp
 class Email : TableEntity
 {
-
     public string EmailAddress { get; set; }
-    public bool Unsubscribe { get; set; }
 
-    public Email(string email, bool unsub)
+    public EmailEntity(string email)
     {
         EmailAddress = email;
-        Unsubscribe = unsub;
         PartitionKey = "SendEmailToReaders";
         RowKey = Guid.NewGuid().ToString();
     }
 
-    public Email()
+    public EmailEntity()
     {
 
     }
@@ -97,8 +95,8 @@ public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLeve
 {
 
 //(Block #1)
-    var postData = await req.Content.ReadAsFormDataAsync();  
-    var missingFields = new List<string>(); 
+    var postData = await req.Content.ReadAsFormDataAsync();
+    var missingFields = new List<string>();
     if (postData["fromEmail"] == null)
     {
         missingFields.Add("fromEmail");
@@ -114,15 +112,18 @@ public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLeve
 //(Block #2)
     try
     {
+        // the line below can be hardcoded if you aren't using AppSettings
+        CloudStorageAccount storageAccount = CloudStorageAccount.Parse(ConfigurationManager.AppSettings["TableStorageConnString"]);
 
-        //CloudStorageAccount storageAccount = CloudStorageAccount.Parse(ConfigurationManager.AppSettings["TableStorageConnString"]); to be used later on
-        CloudStorageAccount storageAccount = CloudStorageAccount.Parse("AzureStorageAPIKey");
         CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
+
         CloudTable table = tableClient.GetTableReference("MCBlogSubscribers");
+
         table.CreateIfNotExists();
 
-        CreateMessage(table, new Email(postData["fromEmail"], false));
-        return req.CreateResponse(HttpStatusCode.OK, "Thanks! I've successfully received your request. ");
+        CreateMessage(table, new EmailEntity(postData["fromEmail"]));
+
+        return req.CreateResponse(HttpStatusCode.OK, "Thanks! I've successfully received your request. "); //
     }
     catch (Exception ex)
     {
@@ -141,7 +142,7 @@ Keep in mind, you'll need to pull in your using references for the namespaces we
 
 **Block #1** is all about pulling in the POST data and checking to see if an email address is being sent. If it is, then it will send a summary of what fields are missing. 
 
-**Block #2** tries to save the input via the Azure Table Storage account that we created and if it saves successfully, then returns to the client everything went fine. Otherwise, output to the client what the problem was. Keep in mind, that we'll be using **ConfigurationManager** later, once we deploy the site. 
+**Block #2** tries to save the input via the Azure Table Storage account that we created and if it saves successfully, then returns to the client everything went fine. Otherwise, output to the client what the problem was. Keep in mind, that I'm using **ConfigurationManager** and you can hardcode this value if you please.  
 
 Hit the Run button in Visual Studio and you'll see the following: 
 
