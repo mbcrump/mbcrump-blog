@@ -20,12 +20,15 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## Where are we?
 
+**Full Source Code** The source code for the app can be found on [GitHub](https://github.com/mbcrump/EmailSubscription)
+{: .notice--info}
+
 This blog post is part of a series on how to generate a weekly digest email for a blog using Azure Functions, SendGrid and Azure Storage. 
 
-* [This Post - Part 1 - What we're going to build and how to build it](http://www.michaelcrump.net/azure-tips-and-tricks97/)
+* [Part 1 - What we're going to build and how to build it](http://www.michaelcrump.net/azure-tips-and-tricks97/)
 * [Part 2 - Storing Emails using Azure Table Storage](http://www.michaelcrump.net/azure-tips-and-tricks98/)
 * [Part 3 - Writing the Frontend with HTML5 and jQuery](http://www.michaelcrump.net/azure-tips-and-tricks99/)
-* [Coming soon - Sending Emails with Sendgrid and Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks100/)
+* [Part 4 - Sending Emails with Sendgrid and Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks100/)
 
 ## The Problem
 
