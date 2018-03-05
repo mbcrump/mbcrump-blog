@@ -7,7 +7,7 @@ share: true
 comments: true
 ---
 
-**We made it to 100!** This series has been dedicated to YOU! Thank you for reading these and providing words of encouragement along the way. I couldn't have done it without you. 
+**We made it to 100!** This series has been dedicated to YOU! Thank you for reading these and providing words of encouragement along the way. I couldn't have done it without you. If you want to subscribe to my Weekly Digest then you can do so [here](https://www.michaelcrump.net/about/emailsub.html).
 {: .notice--info}
 
 ## Intro
@@ -149,6 +149,8 @@ It should say that it compeleted successfully, and now go check your email and i
 <img style="border:3px solid #021a40" src="/files/emailcompletedsuccessfully.png">
 
 And we're done! If something isn't working then check the source code for the app on [GitHub](https://github.com/mbcrump/EmailSubscription) and if you have any questions then ping me on [twitter](http://twitter.com/mbcrump). You should follow me btw, I might have another tip and trick to share! 
+
+If you want to subscribe to my Weekly Digest and use the form, then you can do so [here](https://www.michaelcrump.net/about/emailsub.html).
 
 ## Want more Azure Tips and Tricks?
 
