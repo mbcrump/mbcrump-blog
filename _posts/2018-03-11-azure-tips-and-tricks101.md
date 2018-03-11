@@ -53,51 +53,51 @@ The tutorial can be completed for free, but will require a Azure account. Note: 
 
 The local setup will start with setting up your database.  You will then open the solution in Visual Studio.  You need to connect the API project to your SQL Server.  Then connect your front end Angular project to the API project. 
 
-1. We'll be working with an existing app. So download [it here](https://github.com/catenn/ToDoList/archive/master.zip) and extract it to a folder on your hard drive.
+1.) We'll be working with an existing app. So download [it here](https://github.com/catenn/ToDoList/archive/master.zip) and extract it to a folder on your hard drive.
 
-2. Open SQL Server Management Studio (SSMS) and click the dropdown on Server Name and choose **Browse for more**.
+2.) Open SQL Server Management Studio (SSMS) and click the dropdown on Server Name and choose **Browse for more**.
 
 <img src="/files/e2e-browseformore.jpg">
 
-3. Choose the Server name of your instance. This name most likely will be in the format **ComputerName\ServerName**.
+3.) Choose the Server name of your instance. This name most likely will be in the format **ComputerName\ServerName**.
 
 <img style="border:3px solid #021a40" src="/files/e2e-servers.jpg">
 
-4. Choose Windows Authentication. Save your **ComputerName\ServerName** in a Notepad, we will need this again later. Hit Connect. 
+4.) Choose Windows Authentication. Save your **ComputerName\ServerName** in a Notepad, we will need this again later. Hit Connect. 
 
 <img style="border:3px solid #021a40" src="/files/e2e-sqllogin.jpg">
 
-5. Open the folder that we downloaded earlier by double clicking **ToDoList.sln**. It should open in Visual Studio 2017. 
+5.) Open the folder that we downloaded earlier by double clicking **ToDoList.sln**. It should open in Visual Studio 2017. 
 
-6. Right click on the ToDoListDb project and choose **Publish**. 
+6.) Right click on the ToDoListDb project and choose **Publish**. 
 
 <img style="border:3px solid #021a40" src="/files/e2e-slnexplorerpublish.jpg">
 
-7. On the modal, click Edit:
+7.) On the modal, click Edit:
 
 <img style="border:3px solid #021a40" src="/files/e2e-editdbconnection.jpg">
 
-8. For Server name, take the Notepad value you saved for **ComputerName\ServerName** and enter it here.  Make sure the Database Name is ToDoListDb, but that should be filled in for you. Click OK. 
+8.) For Server name, take the Notepad value you saved for **ComputerName\ServerName** and enter it here.  Make sure the Database Name is ToDoListDb, but that should be filled in for you. Click OK. 
 
 <img style="border:3px solid #021a40" src="/files/e2e-connection.jpg">
 
-9. Don't edit any other values on this modal and just hit **Publish**. Note: Test Connection will not work.
+9.) Don't edit any other values on this modal and just hit **Publish**. Note: Test Connection will not work.
 
 <img style="border:3px solid #021a40" src="/files/e2e-publishdb.jpg">
 
-10. You will see the publish begin.
+10.) You will see the publish begin.
 
 <img style="border:3px solid #021a40" src="/files/e2e-publish1.jpg">
 
-11. It is done when you see this:
+11.) It is done when you see this:
 
 <img style="border:3px solid #021a40" src="/files/e2e-publish2.jpg">
 
-12. Go back to **SQL Server Management Studio** and hit refresh:
+12.) Go back to **SQL Server Management Studio** and hit refresh:
 
 <img style="border:3px solid #021a40" src="/files/e2e-refresh.jpg">
 
-13. Your SQL database should look something like this now. 
+13.) Your SQL database should look something like this now. 
 
 <img style="border:3px solid #021a40" src="/files/e2e-sqlverify.jpg">
 
