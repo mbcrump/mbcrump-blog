@@ -35,7 +35,7 @@ The process for the app is described below. In Visual Studio, you will start out
 
 Keep in mind : While we won't be going into the deep specifics of how to code, you should be able to use this guide to look at several parts of the Azure technology stack and how you can best implement them in your organization. 
 
-<img style="border:3px solid #021a40" src="/files/todolist-diagram.png">
+<img src="/files/todolist-diagram.png">
 
 ## Prerequisites
 
@@ -57,7 +57,7 @@ The local setup will start with setting up your database.  You will then open th
 
 2.) Open SQL Server Management Studio (SSMS) and click the dropdown on Server Name and choose **Browse for more**.
 
-<img src="/files/e2e-browseformore.jpg">
+<img style="border:3px solid #021a40" src="/files/e2e-browseformore.jpg">
 
 3.) Choose the Server name of your instance. This name most likely will be in the format **ComputerName\ServerName**.
 
