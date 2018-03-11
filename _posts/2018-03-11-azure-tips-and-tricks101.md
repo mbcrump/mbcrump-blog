@@ -57,7 +57,7 @@ The local setup will start with setting up your database.  You will then open th
 
 2. Open SQL Server Management Studio (SSMS) and click the dropdown on Server Name and choose **Browse for more**.
 
-<img style="border:3px solid #021a40" src="/files/e2e-browseformore.jpg">
+<img src="/files/e2e-browseformore.jpg">
 
 3. Choose the Server name of your instance. This name most likely will be in the format **ComputerName\ServerName**.
 
@@ -71,7 +71,7 @@ The local setup will start with setting up your database.  You will then open th
 
 6. Right click on the ToDoListDb project and choose **Publish**. 
 
-<img style="border:3px solid #021a40" src="/files/e2es-lnexplorerpublish.jpg">
+<img style="border:3px solid #021a40" src="/files/e2e-slnexplorerpublish.jpg">
 
 7. On the modal, click Edit:
 
