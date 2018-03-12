@@ -24,7 +24,7 @@ The process for the app is described below. In Visual Studio, you will start out
 [TOC subject to change]
 
 * [01 Local Setup - SQL Server](http://www.michaelcrump.net/azure-tips-and-tricks101/) - Locally connect a front-end website to an API, and connect the API to a SQL Server. 
-* [02 Local Setup - Visual Studio and Swagger](http://www.michaelcrump.net/azure-tips-and-tricks102/) - Continue Part 1 and use a local instance of Visual Studio and Swagger to communicate to our db.
+* [This Post - 02 Local Setup - Visual Studio and Swagger](http://www.michaelcrump.net/azure-tips-and-tricks102/) - Continue Part 1 and use a local instance of Visual Studio and Swagger to communicate to our db.
 * 03 Swagger - Learn how to use Swagger for API management
 * 04 Dapper - Learn how to use Dapper micro-ORM to access to database
 * 05a Azure Deployment - Deploy the SQL database to Azure manually
@@ -103,7 +103,7 @@ Note: If you get **The Web server is configured to not list the contents of this
 
 <img style="border:3px solid #021a40" src="/files/e2e-todolist.gif">
 
-<img style="border:3px solid #021a40" src="/files/e2e-sql1">
+<img style="border:3px solid #021a40" src="/files/e2e-sql1.jpg">
 
 Congrats, we now have our SQL database and web front/backend setup locally. Come back and we'll look deeper into Swagger. 
 
