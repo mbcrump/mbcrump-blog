@@ -120,7 +120,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 100 - Creating an Email Subscription with Azure Functions - Sending Emails](http://www.michaelcrump.net/azure-tips-and-tricks100/)
 * [Azure Tips and Tricks Part 101 - Day 1 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks101/)
 * [Azure Tips and Tricks Part 102 - Day 2 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks102/)
-* [Azure Tips and Tricks Part 103 - Day 3 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks102/)
+* [Azure Tips and Tricks Part 103 - Day 3 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks103/)
 
 ## Got a Azure Tip or Trick?
 

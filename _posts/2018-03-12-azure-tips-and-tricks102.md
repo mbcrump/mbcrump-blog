@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 102 - Day 2 - An end to end scenario with Azure App Server, API Apps, SQL, VSTS and CI/CD"
-excerpt: "A tutorial on creating a To-Do list app with .NET and using Azure App Server, API Apps, SQL, VSTS and CI/CD"
+title: "Azure Tips and Tricks Part 102 - Day 2 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD"
+excerpt: "A tutorial on creating a To-Do list app with .NET and using Azure App Service, API Apps, SQL, VSTS and CI/CD"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
 comments: true
