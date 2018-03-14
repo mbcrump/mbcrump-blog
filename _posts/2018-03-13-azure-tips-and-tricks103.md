@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 103 - Day 3 - An end to end scenario with Azure App Server, API Apps, SQL, VSTS and CI/CD"
-excerpt: "A tutorial on creating a To-Do list app with .NET and using Azure App Server, API Apps, SQL, VSTS and CI/CD"
+title: "Azure Tips and Tricks Part 103 - Day 3 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD"
+excerpt: "A tutorial on creating a To-Do list app with .NET and using Azure App Service, API Apps, SQL, VSTS and CI/CD"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
 comments: true
@@ -65,6 +65,8 @@ Learn more about Swagger [here](https://github.com/swagger-api/swagger-ui).
 
 <img style="border:3px solid #021a40" src="/files/e2e-swagger.jpg">
 
+Click on the **Show/Hide** button.
+
 4.) Run a **GET** which is the first API on the page /api/ToDoList, you should see:
 
 <img style="border:3px solid #021a40" src="/files/e2e-02.png">
@@ -85,13 +87,15 @@ Learn more about Swagger [here](https://github.com/swagger-api/swagger-ui).
 
 <img style="border:3px solid #021a40" src="/files/e2e-06.png">
 
-9.) Right click on your table in SQL Server Management Studio and choose **Select Top 1000 Rows** to see the data.
+9.) Switch back to SQL Server Management Studio (and log in if you need to) and choose **Select Top 1000 Rows** on the **ToDoListDb** db to see the data.
 
 <img style="border:3px solid #021a40" src="/files/e2e-sqlselect.jpg">
 
 10.) Your SQL Server Management Studio table should look like this now:
 
 <img style="border:3px solid #021a40" src="/files/e2e-sqlserver.jpg">
+
+Come back next week and we'll take a look at [Dapper](https://github.com/StackExchange/Dapper) which is a object mapper for .NET that we used to make our code easy to read and work with the database.
 
 
 ## Want more Azure Tips and Tricks?
