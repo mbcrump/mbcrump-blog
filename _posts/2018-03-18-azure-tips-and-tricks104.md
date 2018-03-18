@@ -26,7 +26,7 @@ The process for the app is described below. In Visual Studio, you will start out
 * [01 Local Setup - SQL Server](http://www.michaelcrump.net/azure-tips-and-tricks101/) - Locally connect a front-end website to an API, and connect the API to a SQL Server. 
 * [02 Local Setup - Visual Studio and Swagger](http://www.michaelcrump.net/azure-tips-and-tricks102/) - Continue Part 1 and use a local instance of Visual Studio and Swagger to communicate to our db.
 * [03 Swagger - Learn how to use Swagger for API management](http://www.michaelcrump.net/azure-tips-and-tricks103/)
-* [04a Azure Deployment - Deploy the SQL database to Azure manually](http://www.michaelcrump.net/azure-tips-and-tricks103/)
+* [04a Azure Deployment - Deploy the SQL database to Azure manually](http://www.michaelcrump.net/azure-tips-and-tricks104/)
 * 04b Azure Deployment - Deploy the front-end Web App and API App to Azure manually
 * 05 Adding project to VSTS with Git - I will show you how create a free VSTS account and how to use Git to add your project to VSTS
 * 06 VSTS Continuous Integration - Setup a CI Process in VSTS
@@ -37,64 +37,51 @@ Keep in mind : While we won't be going into the deep specifics of how to code, y
 
 <img src="/files/todolist-diagram.png">
 
-## Local Setup - Working with Swagger
 
-If you noticed in the last post, we started working with Swagger. 
+# Deploy SQL Database to Azure SQL
 
-**What is Swagger UI?** is a collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API. 
+1.) Log into the Azure Portal at [portal.azure.com](https://portal.azure.com) if you aren't already logged in.
+
+2.) Create a new SQL Database. Click **New**, select **Databases**, choose **SQL Database**, then lastly hit **Create**.
+
+<img style="border:3px solid #021a40" src="/files/e2e-01SelectSQLDBPortal.png">
+
+3.) Click on **Server and Pricing Tier** to get a slideout options. In the **Server slideout**, make sure you create a username and password and keep it somewhere safe as you will need this to login using SQL Server Management Studio (SSMS).  In the **Pricing Tier**, change to **Basic** so it only costs about $5 per month. Your screen will look approximately like this:
+
+<img style="border:3px solid #021a40" src="/files/e2e-02DBOptions.png">
+
+4.) Click on **All Resources** on the left menu. You should see your new SQL Server and SQL Database. Click on the **SQL Database**. 
+
+<img style="border:3px solid #021a40" src="/files/e2e-03AllResources.png">
+
+5.) On the **Overview** tab. Copy the Server name to seomewhere safe. Click on the **Show Connection Strings**  and copy it somewhere safe.
+
+<img style="border:3px solid #021a40" src="/files/e2e-05DatabaseOverview.png">
+
+The **connection string** will look like this (save this in a Notepad for the web.config in the solution later):
+
+<img style="border:3px solid #021a40" src="/files/e2e-06ConnectionString.png">
+
+6.) Open **SSMS** and enter the **Server name, username, and password** as shown below. 
+
+<img style="border:3px solid #021a40" src="/files/e2e-07SSMS.png">
+      
+**Note** if you cannot login, please go to the Portal and add your **IP address** by clicking on the **SQL Server** you created, then going to **Firewall**.
 {: .notice--info}
 
-The nice thing about Swagger is that you can create an existing **Web API** app using the VS Templates and add **Swagger** via Nuget. 
+<img style="border:3px solid #021a40" src="/files/e2e-10.PNG">
 
-<img style="border:3px solid #021a40" src="/files/e2e-swagger1.jpg">
+7.) Go back to [Day 1](https://www.michaelcrump.net/azure-tips-and-tricks101/) and repeat steps 6-13, except use the **Azure SQL Server name** that we created earlier instead of your local DB. 
 
-Then if you spin up a project, you simply add **/swagger** to see the UI. In the example below, we've already added it and supplied the comments in the app to where it recognizes it. This makes testing APIs very simply and it works in real-time, meaning if you run a **POST**, then you can immediately check your database for the new record. 
+8.) Once the DB has been saved to Azure, go into the **connection strings** of your API project that can be found in the **web.config** as shown below.
 
-Learn more about Swagger [here](https://github.com/swagger-api/swagger-ui).
+<img style="border:3px solid #021a40" src="/files/e2e-webconfig.jpg">
 
-## Continuing where we left off
+9.) In the **web.config**, change your **connection string** so that it points to your **Azure SQL Server connection string** (that you should have saved into Notepad earlier). Make sure you add your username and password for your Azure SQL Server into the connection string. 
 
-1.) Open the project in Visual Studio by double clicking **ToDoList.sln**, if it is not already open from the previous parts. Navigate to the **ToDoListDataAPI** project. 
+<img style="border:3px solid #021a40" src="/files/e2e-webconfig3.jpg">
 
-2.) Set the ToDoListDataAPI project to Set as Startup project by right clicking on the project and choosing that option and run the application.
-
-<img style="border:3px solid #021a40" src="/files/e2e-setstartup.jpg">
-
-3.) Add "/swagger" to the end of your URL if it is not already there, you should see a page like this: 
-
-<img style="border:3px solid #021a40" src="/files/e2e-swagger.jpg">
-
-Click on the **Show/Hide** button.
-
-4.) Run a **GET** which is the first API on the page /api/ToDoList, you should see:
-
-<img style="border:3px solid #021a40" src="/files/e2e-02.png">
-
-5.) Run a **POST**, click where the screen-shot shows, and fill in an ID with a random number and any description you want and then click **Try it out**.
-
-<img style="border:3px solid #021a40" src="/files/e2e-03.png">
-
-6.) Run a **GET** again, you should see your added value:
-
-<img style="border:3px solid #021a40" src="/files/e2e-04.png">
-
-7.) Run a **PUT**, again click to get the format from where it's shown in the screen-shot and modify an existing record's description.
-
-<img style="border:3px solid #021a40" src="/files/e2e-05.png">
-
-8.) Try to run a **GET** by ID, use 1 for example:
-
-<img style="border:3px solid #021a40" src="/files/e2e-06.png">
-
-9.) Switch back to SQL Server Management Studio (and log in if you need to) and choose **Select Top 1000 Rows** on the **ToDoListDb** db to see the data.
-
-<img style="border:3px solid #021a40" src="/files/e2e-sqlselect.jpg">
-
-10.) Your SQL Server Management Studio table should look like this now:
-
-<img style="border:3px solid #021a40" src="/files/e2e-sqlserver.jpg">
-
-Come back next week and we'll take a look at [Dapper](https://github.com/StackExchange/Dapper) which is a object mapper for .NET that we used to make our code easy to read and work with the database as well as getting the database into Azure.
+Great, so now you've moved your local instance of SQL db to one hosted in the cloud with Azure! Come back tomorrow and we'll keep moving forward by moving using Azure Deployment to move our Web App & API App to the cloud. 
 
 
 ## Want more Azure Tips and Tricks?
