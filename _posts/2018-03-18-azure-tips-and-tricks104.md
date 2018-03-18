@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 103 - Day 3 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD"
+title: "Azure Tips and Tricks Part 104 - Day 4 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD"
 excerpt: "A tutorial on creating a To-Do list app with .NET and using Azure App Service, API Apps, SQL, VSTS and CI/CD"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
@@ -25,8 +25,8 @@ The process for the app is described below. In Visual Studio, you will start out
 
 * [01 Local Setup - SQL Server](http://www.michaelcrump.net/azure-tips-and-tricks101/) - Locally connect a front-end website to an API, and connect the API to a SQL Server. 
 * [02 Local Setup - Visual Studio and Swagger](http://www.michaelcrump.net/azure-tips-and-tricks102/) - Continue Part 1 and use a local instance of Visual Studio and Swagger to communicate to our db.
-* [This Post - 03 Swagger - Learn how to use Swagger for API management](http://www.michaelcrump.net/azure-tips-and-tricks103/)
-* 04a Azure Deployment - Deploy the SQL database to Azure manually
+* [03 Swagger - Learn how to use Swagger for API management](http://www.michaelcrump.net/azure-tips-and-tricks103/)
+* [04a Azure Deployment - Deploy the SQL database to Azure manually](http://www.michaelcrump.net/azure-tips-and-tricks103/)
 * 04b Azure Deployment - Deploy the front-end Web App and API App to Azure manually
 * 05 Adding project to VSTS with Git - I will show you how create a free VSTS account and how to use Git to add your project to VSTS
 * 06 VSTS Continuous Integration - Setup a CI Process in VSTS
