@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 104 - Day 4 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD"
+title: "Azure Tips and Tricks Part 105 - Day 5 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD"
 excerpt: "A tutorial on creating a To-Do list app with .NET and using Azure App Service, API Apps, SQL, VSTS and CI/CD"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
@@ -38,50 +38,65 @@ Keep in mind : While we won't be going into the deep specifics of how to code, y
 <img src="/files/todolist-diagram.png">
 
 
-# Deploy SQL Database to Azure SQL
+We will use Visual Studio to deploy to Azure in this tutorial. This can also be done by packaging up the files and uploading manually to Azure. Or, you could do it via an automated CI/CD (Build and Release) process which will be shown in upcoming posts. 
 
-1.) Log into the Azure Portal at [portal.azure.com](https://portal.azure.com) if you aren't already logged in.
+## Front-end Angular + Back-end API projects
 
-2.) Create a new SQL Database. Click **New**, select **Databases**, choose **SQL Database**, then lastly hit **Create**.
+Before we begin, I'm assuming you're using the same email address for VSTS that you are using for Azure. 
 
-<img style="border:3px solid #021a40" src="/files/e2e-01SelectSQLDBPortal.png">
+1.) Open the solution file in Visual Studio, if it is not already opened. Login to Visual Studio with the same email address that you used to signup for your Azure account. 
 
-3.) Click on **Server and Pricing Tier** to get a slideout options. In the **Server slideout**, make sure you create a username and password and keep it somewhere safe as you will need this to login using SQL Server Management Studio (SSMS).  In the **Pricing Tier**, change to **Basic** so it only costs about $5 per month. Your screen will look approximately like this:
+2.)  Right click on the API project and choose Publish.
 
-<img style="border:3px solid #021a40" src="/files/e2e-02DBOptions.png">
+<img style="border:3px solid #021a40" src="/files/e2e-08.png"> 
 
-4.) Click on **All Resources** on the left menu. You should see your new SQL Server and SQL Database. Click on the **SQL Database**. 
+3.) Choose an App Service.
 
-<img style="border:3px solid #021a40" src="/files/e2e-03AllResources.png">
+<img style="border:3px solid #021a40" src="/files/e2e-09.png"> 
 
-5.) On the **Overview** tab. Copy the Server name to seomewhere safe. Click on the **Show Connection Strings**  and copy it somewhere safe.
+4.) Fill in all the settings: add in a name, choose the subscription, create a new resource group. For the App Service Plan: choose a name, the closest location to you and Free. Then on the main modal click **Create**. 
 
-<img style="border:3px solid #021a40" src="/files/e2e-05DatabaseOverview.png">
+<img style="border:3px solid #021a40" src="/files/e2e-10.png"> 
 
-The **connection string** will look like this (save this in a Notepad for the web.config in the solution later):
+If you are on the **ToDoListAPI** project, make sure you have API selected. 
 
-<img style="border:3px solid #021a40" src="/files/e2e-06ConnectionString.png">
+<img style="border:3px solid #021a40" src="/files/e2e-18.png">
 
-6.) Open **SSMS** and enter the **Server name, username, and password** as shown below. 
+If you are on the **ToDoListAngular** project, make sure you have Web App selected. 
 
-<img style="border:3px solid #021a40" src="/files/e2e-07SSMS.png">
-      
-**Note** if you cannot login, please go to the Portal and add your **IP address** by clicking on the **SQL Server** you created, then going to **Firewall**.
-{: .notice--info}
+<img style="border:3px solid #021a40" src="/files/e2e-19.png"> 
 
-<img style="border:3px solid #021a40" src="/files/e2e-10.PNG">
+<img style="border:3px solid #021a40" src="/files/e2e-11.png"> 
 
-7.) Go back to [Day 1](https://www.michaelcrump.net/azure-tips-and-tricks101/) and repeat steps 6-13, except use the **Azure SQL Server name** that we created earlier instead of your local DB. 
+5.) Make sure it shows up in the Azure Portal after giving it a few minutes to publish. Click on the API project to go to the overview (red arrow).
 
-8.) Once the DB has been saved to Azure, go into the **connection strings** of your API project that can be found in the **web.config** as shown below.
+<img style="border:3px solid #021a40" src="/files/e2e-12.png"> 
 
-<img style="border:3px solid #021a40" src="/files/e2e-webconfig.jpg">
+6.) Copy the URL of the API App Service as highlighted in the screen-shot. 
 
-9.) In the **web.config**, change your **connection string** so that it points to your **Azure SQL Server connection string** (that you should have saved into Notepad earlier). Make sure you add your username and password for your Azure SQL Server into the connection string. 
+<img style="border:3px solid #021a40" src="/files/e2e-13.png">
 
-<img style="border:3px solid #021a40" src="/files/e2e-webconfig3.jpg">
+7.) Let's connect the front end to the API project.  Open up the **ToDoListAngular** solution.  Go to the **web.config** file of your front end **ToDoListAngular** project. Paste in the URL from the previous step. 
 
-Great, so now you've moved your local instance of SQL db to one hosted in the cloud with Azure! Come back tomorrow and we'll keep moving forward by moving using Azure Deployment to move our Web App & API App to the cloud. 
+<img style="border:3px solid #021a40" src="/files/e2e-14.png">
+
+8.) Let's do the same publishing to Azure for the front end project.  
+
+**Repeat steps 2-5, BUT do it on the front end ToDoListAngular project. Make sure on Step 4 you choose the right option of "Web App" for the Angular Web project.**
+
+9.) Verify once you are done Publishing that it is in the Azure Portal.  Click on the App Service (red arrow in screenshot). 
+
+<img style="border:3px solid #021a40" src="/files/e2e-15.png">
+
+10.) On the **Overview** page, get the URL and copy it. 
+
+<img style="border:3px solid #021a40" src="/files/e2e-16.png">
+
+11.) Paste the URL into your browser and click on the **Todo** tab to see the Todo list. You should now have a working Azure App Service Web  front end talking to an Azure App Service API which connects to Azure SQL. 
+
+<img style="border:3px solid #021a40" src="/files/e2e-17.png">
+
+Great, so now you've moved your Front-end Angular + Back-end API projects to one hosted in the cloud with Azure! Come back tomorrow and we'll keep moving forward by looking at Git and VSTS integration. 
 
 
 ## Want more Azure Tips and Tricks?

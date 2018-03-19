@@ -27,7 +27,7 @@ The process for the app is described below. In Visual Studio, you will start out
 * [02 Local Setup - Visual Studio and Swagger](http://www.michaelcrump.net/azure-tips-and-tricks102/) - Continue Part 1 and use a local instance of Visual Studio and Swagger to communicate to our db.
 * [03 Swagger - Learn how to use Swagger for API management](http://www.michaelcrump.net/azure-tips-and-tricks103/)
 * [04a Azure Deployment - Deploy the SQL database to Azure manually](http://www.michaelcrump.net/azure-tips-and-tricks104/)
-* 04b Azure Deployment - Deploy the front-end Web App and API App to Azure manually
+* [04b Azure Deployment - Deploy the front-end Web App and API App to Azure manually](http://www.michaelcrump.net/azure-tips-and-tricks105/)
 * 05 Adding project to VSTS with Git - I will show you how create a free VSTS account and how to use Git to add your project to VSTS
 * 06 VSTS Continuous Integration - Setup a CI Process in VSTS
 * 07 VSTS Continuous Deployment - Setup a CD Process in VSTS (automated deploy to Azure)
