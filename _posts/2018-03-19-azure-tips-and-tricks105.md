@@ -56,7 +56,7 @@ Before we begin, I'm assuming you're using the same email address for VSTS that 
 
 4.) Fill in all the settings: add in a name, choose the subscription, create a new resource group. For the App Service Plan: choose a name, the closest location to you and Free. Then on the main modal click **Create**. 
 
-<img style="border:3px solid #021a40" src="/files/e2e-10.png"> 
+<img style="border:3px solid #021a40" src="/files/e2e-10-1.png"> 
 
 If you are on the **ToDoListAPI** project, make sure you have API selected. 
 
