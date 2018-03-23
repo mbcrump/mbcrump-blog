@@ -15,6 +15,10 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
+## Video Available
+
+[A video is available for this Tip!](https://www.youtube.com/watch?v=-ORBFkTMb98&feature=youtu.be)
+
 ## Quickly change themes in the Azure Portal
 
 Most developers are aware that you can change themes by going into the Azure portal and selecting Settings and changing the theme as shown below. 
