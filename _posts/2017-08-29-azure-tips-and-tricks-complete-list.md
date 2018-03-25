@@ -7,7 +7,7 @@ share: true
 comments: true
 ---
 
-**Want to Contribute?** I'm currently looking for folks who want to contribute to Azure Tips and Tricks. If you are interested, then [fill out the form here](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR0m_7PjUWSdOsfLRTa0HuzZUQU9JMzJKVEVFVzdHRDNBWU9QVjROTUlKVS4u).
+**Azure Tips and Tricks Videos are NOW Available!** : Get all the goodness of Azure Tips and Tricks in video form. [Read more about it here](http://www.michaelcrump.net/azure-tips-and-tricks106/)
 {: .notice--info}
 
 ## Intro
@@ -123,6 +123,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 103 - Day 3 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks103/)
 * [Azure Tips and Tricks Part 104 - Day 4 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks104/)
 * [Azure Tips and Tricks Part 105 - Day 5 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks105/)
+* [Azure Tips and Tricks Part 106 - Azure Tips and Tricks Part 106 - Introducing Azure Tips and Tricks Video!](http://www.michaelcrump.net/azure-tips-and-tricks106/)
+* [Azure Tips and Tricks Part 107 - Day 6 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks107/)
 
 ## Got a Azure Tip or Trick?
 
