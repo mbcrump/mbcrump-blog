@@ -79,7 +79,9 @@ git push -u origin --all
 
 7.) Go to VSTS and click **Code**, you should see your code there:
 
-<img style="border:3px solid #021a40" src="/files/blog5-05.png">
+<img style="border:3px solid #021a40" src="/files/blog5-mc05.png">
+
+Come back tomorrow and we'll look at VSTS Continuous Integration. 
 
 
 ## Want more Azure Tips and Tricks?
