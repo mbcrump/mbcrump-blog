@@ -33,7 +33,7 @@ The process for the app is described below. In Visual Studio, you will start out
 * [04b Azure Deployment - Deploy the front-end Web App and API App to Azure manually](http://www.michaelcrump.net/azure-tips-and-tricks105/)
 * [05 Adding the project to VSTS with Git](http://www.michaelcrump.net/azure-tips-and-tricks107/) 
 * [06 VSTS Continuous Integration - Setup a CI Process in VSTS](http://www.michaelcrump.net/azure-tips-and-tricks108/) 
-* 07 VSTS Continuous Deployment - Setup a CD Process in VSTS (automated deploy to Azure)
+* [07 VSTS Continuous Deployment - Setup a CD Process in VSTS](http://www.michaelcrump.net/azure-tips-and-tricks109/) 
 * 08 Cleanup - Cleanup and delete the Azure resources created in this tutorial.
 
 Keep in mind : While we won't be going into the deep specifics of how to code, you should be able to use this guide to look at several parts of the Azure technology stack and how you can best implement them in your organization. 

@@ -126,6 +126,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 106 - Azure Tips and Tricks Part 106 - Introducing Azure Tips and Tricks Video!](http://www.michaelcrump.net/azure-tips-and-tricks106/)
 * [Azure Tips and Tricks Part 107 - Day 6 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks107/)
 * [Azure Tips and Tricks Part 108 - Day 7 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks108/)
+* [Azure Tips and Tricks Part 109 - Day 8 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks109/)
 
 ## Got a Azure Tip or Trick?
 
