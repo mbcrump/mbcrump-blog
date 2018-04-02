@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 108 - Day 7 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD"
+title: "Azure Tips and Tricks Part Part 110 - Day 9 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD"
 excerpt: "A tutorial on creating a To-Do list app with .NET and using Azure App Service, API Apps, SQL, VSTS and CI/CD"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
@@ -38,63 +38,28 @@ Keep in mind : While we won't be going into the deep specifics of how to code, y
 
 <img src="/files/todolist-diagram.png">
 
-## Two ways to skin a cat
 
-We have one Visual Studio Solution and 2 web projects that need to be deployed to Azure. We can tackle this in different ways depending on the operation of our team.  
+## Clean-up Resources 
 
-1. If we think that one project will be worked on by one team, and another by a different team, we could separate the code into two solutions and upload both to VSTS.  We could also keep them in the same solution and have two Build (CI) definitions, one to build the Angular project and one to build the API project.  Then we could follow it with two separate Release (CD) definitions so that each part can be separately deployed. 
+We've finally made it to the end of the series and I wanted to use this post to remind you to delete the resources that you created in Azure during this tutorial or during development. 
 
-2. Some enterprises will choose to put all pieces of their solution through as a whole, and some places only want to deploy one part at a time. It depends on the complexity of the code, the amount of CI/CD setup you are willing to setup, how the solution(s)/project(s) are divided, and performance requirements (speed/size of CI/CD process). 
+If you want to remove your resources from Azure now, please see the below instructions:
 
-Note: For the simplicity of this little project and to just teach the basics, I am choosing to group these as one solution that gets built as a whole, then I will have one Release that deploys both parts.
-{: .notice--info}
+1.)  Go to the **Azure Portal**. Click on the **resource group name** (whatever you named it).
 
-## Getting Started
+2.) Click **All Resources**.
 
-1.) Make sure that you've completed the following two steps before moving forward:
+<img style="border:3px solid #021a40" src="/files/blog10-mc01.jpg">
 
-* [04a Azure Deployment - Deploy the SQL database to Azure manually](http://www.michaelcrump.net/azure-tips-and-tricks104/)
-* [04b Azure Deployment - Deploy the front-end Web App and API App to Azure manually](http://www.michaelcrump.net/azure-tips-and-tricks105/)
+3.) Click **Delete** Resource Group.
 
-The resources must exist before you can complete the CI/CD steps. 
+<img style="border:3px solid #021a40" src="/files/blog10-mc02.jpg">
 
-2.)  Click on the **Build** tab then hit **New Build Definition**.
+4.) Confirm the **name**, and click **Delete**. 
 
-<img style="border:3px solid #021a40" src="/files/blog6-mc01.jpg">
+<img style="border:3px solid #021a40" src="/files/blog10-mc03.jpg">
 
-3.) Leave all the **defaults** and hit **Continue**.  
-
-<img style="border:3px solid #021a40" src="/files/blog6-mc02.jpg">
-
-4.) Select the **ASP.NET template**, mouseover it, and hit **Apply**.
-
-<img style="border:3px solid #021a40" src="/files/blog6-mc3.jpg">
-
-5.) You should see the following on the left, choose **Process** first.
-
-<img style="border:3px solid #021a40" src="/files/blog6-mc3b.jpg">
-
-6.) Under **process**, it will populate a name. 
-
-<img style="border:3px solid #021a40" src="/files/blog6-mc4.jpg">
-
-7.) Choose **Save & Queue**.
-
-<img style="border:3px solid #021a40" src="/files/blog6-mc5.jpg">
-
-8.) A modal will popup, leave the **defaults**, hit **Save & Queue**. 
-
-<img style="border:3px solid #021a40" src="/files/blog6-mc6.jpg">
-
-9.) You will see a notification show up with your **Build number/name**, click on it:
-
-<img style="border:3px solid #021a40" src="/files/blog6-mc7.jpg">
-
-10.) You will be brought to a **build screen**, wait for it to complete and it will show that the "Build succeeded".
-
-<img style="border:3px solid #021a40" src="/files/blog6-mc8.jpg">
-
-Come back tomorrow and we'll look at VSTS Continuous Deployment.
+That's a wrap for this 9 day series! But don't worry, there is plenty more Azure Tips and Tricks coming!
 
 ## Want more Azure Tips and Tricks?
 
