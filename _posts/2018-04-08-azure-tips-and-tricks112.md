@@ -20,11 +20,8 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## What is Quick and Dirty User Authentication?
 
-When I'm building out a website with MVC5 and Azure, it typically lands on *.azurewebsites.net and in the past I've **crossed my fingers** and hoped no one found it. That worked for a while until **someone found it**. While it wasn't a super secret site or anything confidential, it was a work in progress that I didn't want public. 
+When I'm building out a website with MVC5 and Azure, it typically lands on *.azurewebsites.net and generally I don't need any user authentication. But if I need it, I typically need 1 administrator account and 0 users. So why didn't I just go to **Settings** -> **Authentication/Authorization** and turn on AAD or create a gmail, twitter, etc. login? Turns out that I could have set something like that up (after spending time researching how), but I really just needed a layer of authentication for myself (the one and only administrator) and prevent anyone else without that password to my site. I didn't want to use any of the built-in authentications methods of ASP.NET either as I didn't want/need a database to maintain.
 
-## I had built-in options, but didn't take them
-
-So why didn't I just go to **Settings** -> **Authentication/Authorization** and turn on AAD or create a gmail, twitter, etc. login? Turns out that I could have set something like that up (after spending time researching how), but I really just needed a layer of authentication for myself (the one and only administrator) and prevent anyone else without that password to my site. I didn't want to use any of the built-in authentications methods of ASP.NET either as I didn't want/need a database to maintain.
 
 ## My Requirements
 
