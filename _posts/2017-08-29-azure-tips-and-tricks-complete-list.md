@@ -128,6 +128,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 108 - Day 7 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks108/)
 * [Azure Tips and Tricks Part 109 - Day 8 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks109/)
 * [Azure Tips and Tricks Part 111 - Deployment Slots for Web Apps using the Azure CLI](http://www.michaelcrump.net/azure-tips-and-tricks111/)
+* [Azure Tips and Tricks Part 112 - Quick and Dirty User Authentication with Azure Web Apps and MVC 5](http://www.michaelcrump.net/azure-tips-and-tricks112/)
 
 ## Got a Azure Tip or Trick?
 
