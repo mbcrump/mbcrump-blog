@@ -52,7 +52,7 @@ Keep in mind : While we won't be going into the deep specifics of how to code, y
 
 <img style="border:3px solid #021a40" src="/files/e2e-03AllResources.png">
 
-5.) On the **Overview** tab. Copy the Server name to seomewhere safe. Click on the **Show Connection Strings**  and copy it somewhere safe.
+5.) On the **Overview** tab. Copy the Server name to somewhere safe. Click on the **Show Connection Strings**  and copy it somewhere safe.
 
 <img style="border:3px solid #021a40" src="/files/e2e-05DatabaseOverview.png">
 
@@ -64,7 +64,7 @@ The **connection string** will look like this (save this in a Notepad for the we
 
 <img style="border:3px solid #021a40" src="/files/e2e-07SSMS.png">
       
-**Note** if you cannot login, please go to the Portal and add your **IP address** by clicking on the **SQL Server** you created, then going to **Firewall**.
+**Note** if you cannot login, please go to the Portal and add your **IP address** by clicking on the **SQL Server** you created, then going to **Firewall**. You may also be able to set the firewall prompt through the SQL Server tool. 
 {: .notice--info}
 
 <img style="border:3px solid #021a40" src="/files/e2e-10.PNG">
