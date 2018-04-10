@@ -15,6 +15,10 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
+## Video Available
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tI66gnK3MBs?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Use the Table Parameter in the Azure CLI
 
 By default the Azure CLI 2.0 returns results from a command in JSON. You can easily modify this by adding `--output Table`. Try out the command found in the Gif below with `az vm image list-publishers --location NorthCentralUS --output Table`

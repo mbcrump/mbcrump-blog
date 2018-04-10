@@ -17,7 +17,7 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## Video Available
 
-[A video is available for this Tip!](https://www.youtube.com/watch?v=-ORBFkTMb98&feature=youtu.be)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-ORBFkTMb98?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Quickly change themes in the Azure Portal
 

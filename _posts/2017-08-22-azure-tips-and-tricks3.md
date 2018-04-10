@@ -15,6 +15,10 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
+## Video Available
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QWi6HvyKeAc?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Drag Tiles to customize your Azure Dashboard
 
 You are probably aware that you can press the "Edit" button on your dashboard to begin customizing your Azure dashboard :

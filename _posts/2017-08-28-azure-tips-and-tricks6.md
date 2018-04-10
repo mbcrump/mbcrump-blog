@@ -15,6 +15,10 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
+## Video Available
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-PGBq9gI75k?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Add and Reorder Favorites in the Azure Dashboard
 
 You can easily add and reorder favorites to customize your Azure service list. Another tip is that you can Shift+Space to toggle favorites after typing a name. For example if you type cosmos and press Shift+Space then you can toggle the favorite flag. 
