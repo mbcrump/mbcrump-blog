@@ -92,7 +92,7 @@ appSecrets.json
 
 You can verify this file is ignored by looking for the **red circle** if using Visual Studio. 
 
-<img style="border:3px solid #021a40" src="/files/azconsecret2.png"/>
+<img style="border:3px solid #021a40" src="/files/azconsecret3.png"/>
 
 Keep in mind that this is one of many approaches and you should use this for dev testing. I hope this helps. 
 
