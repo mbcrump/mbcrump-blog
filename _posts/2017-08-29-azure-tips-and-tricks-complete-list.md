@@ -133,6 +133,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 114 - Send JSON to Azure IoT Hub with C#](http://www.michaelcrump.net/azure-tips-and-tricks114/)
 * [Azure Tips and Tricks Part 115 - Remove Azure Secrets committed to GitHub](http://www.michaelcrump.net/azure-tips-and-tricks115/)
 
+YEAH, baby!
+
 ## Got a Azure Tip or Trick?
 
 I'd also love to hear your tips and tricks for working in Azure, just leave a comment below or send me a [tweet](http://twitter.com/mbcrump). 
