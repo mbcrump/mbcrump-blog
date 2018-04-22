@@ -132,6 +132,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 113 - Prevent secrets from getting out with .NET Core](http://www.michaelcrump.net/azure-tips-and-tricks113/)
 * [Azure Tips and Tricks Part 114 - Send JSON to Azure IoT Hub with C#](http://www.michaelcrump.net/azure-tips-and-tricks114/)
 * [Azure Tips and Tricks Part 115 - Remove Azure Secrets committed to GitHub](http://www.michaelcrump.net/azure-tips-and-tricks115/)
+* [Azure Tips and Tricks Part 116 - Easily Upload and download Azure dashboards](http://www.michaelcrump.net/azure-tips-and-tricks116/)
 
 YEAH, baby!
 
