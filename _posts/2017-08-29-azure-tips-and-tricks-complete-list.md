@@ -135,6 +135,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 116 - Easily Upload and download Azure dashboards](http://www.michaelcrump.net/azure-tips-and-tricks116/)
 * [Azure Tips and Tricks Part 117 - Enable HTTP2 support for Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks117/)
 * [Azure Tips and Tricks Part 118 - FREE E-book titled Azure Quick Start Guide for .NET Developers](http://www.michaelcrump.net/azure-tips-and-tricks118/)
+* [Azure Tips and Tricks Part 119 - Determine the outbound IP addresses of my Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks119/)
 
 YEAH, baby!
 
