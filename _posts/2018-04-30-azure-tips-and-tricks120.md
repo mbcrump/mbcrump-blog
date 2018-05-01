@@ -36,7 +36,7 @@ If you prefer an interactive windows, then click **View** -> **Other Windows** -
 
 <img style="border:3px solid #021a40" src="/files/powershellext3.png">
 
-If you don't have Visual Studio installed, then you can install the PowerShell tools through the install with the Azure workload. 
+If you don't have Visual Studio installed, then you can install the PowerShell tools through the Visual Studio installer with the Azure workload. 
 
 1. Click the **Individual components** tab after selecting Azure development.
 2. Look under **Optional**.
@@ -44,6 +44,8 @@ If you don't have Visual Studio installed, then you can install the PowerShell t
 4. Click **Install**
 
 and you should be off and running! I hope this helps.
+
+<img style="border:3px solid #021a40" src="/files/powershellext4.png">
 
 
 ## Want more Azure Tips and Tricks?
