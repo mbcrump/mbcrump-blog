@@ -136,6 +136,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 117 - Enable HTTP2 support for Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks117/)
 * [Azure Tips and Tricks Part 118 - FREE E-book titled Azure Quick Start Guide for .NET Developers](http://www.michaelcrump.net/azure-tips-and-tricks118/)
 * [Azure Tips and Tricks Part 119 - Determine the outbound IP addresses of my Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks119/)
+* [Azure Tips and Tricks Part 120 - Run Azure Powershell Cmdlets in Visual Studio 2017](http://www.michaelcrump.net/azure-tips-and-tricks120/)
 
 YEAH, baby!
 
