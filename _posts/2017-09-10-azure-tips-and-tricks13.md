@@ -15,6 +15,10 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
+## Video Available
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/abQ7zg3r5Ro?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## What's under the hood of Azure Cloud Shell?
 
 The [Azure Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell/) is something that I've took for granted since it launched at Build 2017. I always knew that I could use it to run [CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest) commands and didn't really stop to think what is "Under the hood"... until now. 

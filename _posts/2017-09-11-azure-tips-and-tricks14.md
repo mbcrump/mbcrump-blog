@@ -13,7 +13,11 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 ## The Complete List
 
-[Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
+[Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/) 
+
+## Video Available
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k3HAoDI70M8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Generate SSH keys to log into Linux VM with Cloud Shell
 

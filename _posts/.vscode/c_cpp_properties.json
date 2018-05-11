@@ -10,7 +10,13 @@
                 "path": [
                     "/Users/mbcrump/Library/Arduino15/packages/AZ3166/hardware/stm32f4/1.3.2/cores/arduino"
                 ]
-            }
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "intelliSenseMode": "clang-x64"
         }
-    ]
+    ],
+    "version": 4
 }

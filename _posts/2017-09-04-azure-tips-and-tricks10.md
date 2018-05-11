@@ -15,6 +15,10 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
+## Video Available 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-qOCdIgsEcs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Quickly Connect to a Linux VM with SSH
 
 You can quickly connect to an existing Linux Virtual Machine by navigating to the "Virtual Machine" blade in the Azure Portal. Once you are on the page, click the "Connect" button at the top of the page. It will provide a command that you can copy and paste into BASH or anywhere that supports SSH. After you paste the command, then it will connect to your Linux Virtual Machine. Provide your username and password and you are logged into your new Virtual Machine. In the example below, I logged into my Ubuntu Linux VM. 

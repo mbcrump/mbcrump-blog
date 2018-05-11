@@ -15,6 +15,10 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Click here to view the complete list of Azure Tips and Tricks ](https://michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
+## Video Available
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ho_zV3jh0xg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Use Tags to quickly organize Azure Resources
 
 If you've ever wanted to quickly organize Azure Resources then you can utilize tags to do so. For example, if you'd like to have a set of Resources for "Production" and another for "Dev", then you can quickly do that. 

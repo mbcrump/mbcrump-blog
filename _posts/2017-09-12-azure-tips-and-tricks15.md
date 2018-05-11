@@ -15,6 +15,10 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Click here to view the complete list of Azure Tips and Tricks ](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
+## Video Available
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MUahW5L2-js?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Underlying Software in Azure Cloud Shell
 
 The Azure Cloud Shell is an extremely powerful feature of Azure and one that I'm a big fan of. In the previous tips, we've talked a bit about [Storage](https://www.michaelcrump.net/azure-tips-and-tricks13/) and then using that [storage to store an SSH key](https://www.michaelcrump.net/azure-tips-and-tricks14/) for a Linux VM. I thought that I should take a step back and talk about the underlying software that is running in an Azure Cloud VM instance. Keep in mind, that I don't work on the Azure Cloud Shell team, this is just my understanding of it. 

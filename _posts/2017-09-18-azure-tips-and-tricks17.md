@@ -15,6 +15,10 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Click here to view the complete list of Azure Tips and Tricks ](https://michaelcrump.net/azure-tips-and-tricks-complete-list/)
 
+## Video Available
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lsQvHopwWIQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Use PowerShell within Azure Cloud Shell
 
 If you've been working with Azure Cloud Shell then you are probably familiar with using BASH as it has been the only supported command language on the platform. We learned in previous blog posts that you can perform a variety of tasks and even looked under the hood with some [OS specific commands](https://www.michaelcrump.net/azure-tips-and-tricks15/). 
