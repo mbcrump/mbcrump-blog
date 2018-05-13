@@ -24,7 +24,7 @@ Last week was Build 2018 and [Cecil Phillip](https://twitter.com/cecilphillip) a
 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/U0pgup73shU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
- ## Bonus Video
+## Bonus Video
 
  I also recorded a fun video with my daughter unboxing the new [IoT Button](http://aka.ms/button) that was handed out at Build 2018 that you might be interested in. 
 
