@@ -7,7 +7,7 @@ share: true
 comments: true
 ---
 
-**Azure Tips and Tricks Videos are NOW Available!** : Get all the goodness of Azure Tips and Tricks in video form. [Read more about it here](http://www.michaelcrump.net/azure-tips-and-tricks106/)
+**Azure Tips and Tricks Videos** : I've also added our current catalog of videos to the bottom of this post. This page now has everything!
 {: .notice--info}
 
 ## Intro
@@ -137,6 +137,26 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 118 - FREE E-book titled Azure Quick Start Guide for .NET Developers](http://www.michaelcrump.net/azure-tips-and-tricks118/)
 * [Azure Tips and Tricks Part 119 - Determine the outbound IP addresses of my Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks119/)
 * [Azure Tips and Tricks Part 120 - Run Azure Powershell Cmdlets in Visual Studio 2017](http://www.michaelcrump.net/azure-tips-and-tricks120/)
+* [Azure Tips and Tricks Part 121 - Live from Build 2018](http://www.michaelcrump.net/azure-tips-and-tricks121/)
+
+
+## YouTube Videos
+
+[Azure Tips and Tricks - Unboxing the IoT Button given away at Build 2018](https://www.youtube.com/watch?v=OdGHWwRBf_c)
+[Azure Tips and Tricks LIVE From Build 2018 -  Become more productive with azure in 20 minutes](https://www.youtube.com/watch?v=U0pgup73shU)
+[Azure Tips and Tricks - Generate SSH public key to log into Linux VM with Cloud Shell](https://www.youtube.com/watch?v=k3HAoDI70M8)
+[Azure Tips and Tricks - Easily Start, Restart, Stop or Delete Multiple VMs](https://www.youtube.com/watch?v=QQj3Ls52qdY)
+[Azure Tips and Tricks - Quickly Connect to a Linux VM with SSH](https://www.youtube.com/watch?v=-qOCdIgsEcs)
+[Azure Tips and Tricks - Quickly Connect to Windows VMs with RDP](https://www.youtube.com/watch?v=ONA71TcG06w)
+[Azure Tips and Tricks - Use Tags to quickly organize Azure Resources](https://www.youtube.com/watch?v=Ho_zV3jh0xg)
+[Azure Tips and Tricks - Use PowerShell with Azure Cloud Shell](https://www.youtube.com/watch?v=lsQvHopwWIQ)[
+[Azure Tips and Tricks - Underlying Software in Azure Cloud Shell](https://www.youtube.com/watch?v=MUahW5L2-js)
+[Azure Tips and Tricks - Demystifying storage in Cloud Shell](https://www.youtube.com/watch?v=abQ7zg3r5Ro)
+[Azure Tips and Tricks - Access Cloud Shell from within Microsoft Docs](https://www.youtube.com/watch?v=eP94B80wJLs)
+[Azure Tips and Tricks - Use the Table Parameter in the Azure CLI](https://www.youtube.com/watch?v=tI66gnK3MBs)
+[Azure Tips and Tricks - Add and Reorder Favorites in the Azure Dashboard](https://www.youtube.com/watch?v=-PGBq9gI75k)
+[Azure Tips and Tricks - Customize and Pin Charts to your Azure Dashboard](https://www.youtube.com/watch?v=ZM1An0HMdHM)
+[Azure Tips and Tricks - Drag Tiles to customize your Azure Dashboard](https://www.youtube.com/watch?v=QWi6HvyKeAc)
 
 YEAH, baby!
 
