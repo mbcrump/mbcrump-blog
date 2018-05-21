@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 122 - Configuring and Exploring the IoT Button Part 1"
+title: "Azure Tips and Tricks Part 122 - Creating an IoT Hub for the IoT Button"
 excerpt: "Learn how to configure and explore working with the IoT Button"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
@@ -15,13 +15,18 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Available Now!](https://michaelcrump.net/azure-tips-and-tricks-complete-list/){: .btn .btn--success} 
 
-## Configuring and Exploring the IoT Button Part 1
+## The Series So Far
+
+At Build 2018, we first saw the [IoT Button](http://aka.ms/button). I started [exploring the device](https://www.youtube.com/watch?v=OdGHWwRBf_c) with the very first unboxing and decided to create a mini-series to walk you how to use the device from start to finish. The series (so far) is located below
+
+* [This post - Creating an IoT for the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks122/)
+* [Configuring and Setting up the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks123/)
+* [Creating the Azure Logic App for our IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks124/)
+* Creating the Azure Function to tie it all together
 
 I recently recorded a fun video with my daughter unboxing the new [IoT Button](http://aka.ms/button) that was handed out at Build 2018. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OdGHWwRBf_c?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-While I was very excited to unbox it, I was more eager to play with it. Over the last couple of days I've used it and wanted to share my experience. 
 
 ## We need an IoT Hub, Captain!
 

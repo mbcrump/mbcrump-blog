@@ -56,7 +56,7 @@ Since we're going to pass a field into this Logic App that writes if the status 
 
 We'll also want to make sure that this is a **POST** method. 
 
-Before we proceed to add an action, we need to open a tab and login to OneDrive to create an Excel book and a table we can use in the next connector. I created one in the following location in my OneDrive `/Excel/Book1.xlsl`. Go ahead and create some data as shown below, with at least a **StartTime** and a **Text** in your OneDrive account.
+Before we proceed to add an action, we need to open a tab and login to OneDrive to create an Excel book and a table we can use in the next connector. I created one in the following location in my OneDrive `/Excel/Book1.xlsx`. Go ahead and create some data as shown below, with at least a **StartTime** and a **Text** in your OneDrive account.
 
 <img style="border:3px solid #021a40" src="/files/iotbutton21.png">
 

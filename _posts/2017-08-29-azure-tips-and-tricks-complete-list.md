@@ -138,7 +138,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 119 - Determine the outbound IP addresses of my Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks119/)
 * [Azure Tips and Tricks Part 120 - Run Azure Powershell Cmdlets in Visual Studio 2017](http://www.michaelcrump.net/azure-tips-and-tricks120/)
 * [Azure Tips and Tricks Part 121 - Live from Build 2018](http://www.michaelcrump.net/azure-tips-and-tricks121/)
-* [Azure Tips and Tricks Part 122 - Creating an IoT for the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks122/)
+* [Azure Tips and Tricks Part 122 - Creating an IoT Hub for the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks122/)
 * [Azure Tips and Tricks Part 123 - Configuring and Setting up the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks123/)
 * [Azure Tips and Tricks Part 124 - Creating the Azure Logic App for our IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks124/)
 

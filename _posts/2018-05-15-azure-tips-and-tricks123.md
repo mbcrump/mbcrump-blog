@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 123 - Configuring and Exploring the IoT Button Part 2"
+title: "Azure Tips and Tricks Part 123 - Configuring and Setting up the IoT Button"
 excerpt: "Learn how to configure and explore working with the IoT Button"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
@@ -18,11 +18,18 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Available Now!](https://michaelcrump.net/azure-tips-and-tricks-complete-list/){: .btn .btn--success} 
 
-## Configuring and Exploring the IoT Button Part 2
+## The Series So Far
 
-Yesterday, I [blogged Part 1](http://www.michaelcrump.net/azure-tips-and-tricks122/) about the [IoT Button](http://aka.ms/button) that was handed out at Build 2018. I also recorded an [unboxing](https://www.youtube.com/watch?v=OdGHWwRBf_c) video if you want to take a look at that. In the blog post, I spent time walking you through creating an IoT Hub that we'll be using in the rest of this series. Now we're going to take a look at configuring the actual IoT Button to make use of our IoT Hub. 
+At Build 2018, we first saw the [IoT Button](http://aka.ms/button). I started [exploring the device](https://www.youtube.com/watch?v=OdGHWwRBf_c) with the very first unboxing and decided to create a mini-series to walk you how to use the device from start to finish. The series (so far) is located below
 
-## Configuring the IoT Button to work with IoT Hub
+* [This post - Creating an IoT for the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks122/)
+* [Configuring and Setting up the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks123/)
+* [Creating the Azure Logic App for our IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks124/)
+* Creating the Azure Function to tie it all together
+
+In the blog post, I spent time walking you through creating an IoT Hub that we'll be using in the rest of this series. Now we're going to take a look at configuring the actual IoT Button to make use of our IoT Hub. 
+
+## Configuring and Setting up the IoT Button
 
 You first need to take the button and hold it down until you see a yellow LED and then release. This will give you access to the AP which you will connect to on your Windows or Mac. Once connected, go to the device configuration page in a web browser http://192.168.4.1 and you'll see the following: 
 
