@@ -45,6 +45,8 @@ After your project is loaded, we need to add an item. So right click the project
 
 Make sure you select **IoT Hub trigger**. 
 
+<img style="border:3px solid #021a40" src="/files/iotbutton25.png">
+
 For the Connection string you need to do a couple of things. 
 
 Go into the IoT Hub that you created, select Endpoints, click on the events endpoint and copy the **Event Hub-compatible endpoint** and also the **Event Hub-compatible name** to notepad somewhere. 
@@ -52,8 +54,6 @@ Go into the IoT Hub that you created, select Endpoints, click on the events endp
 <img style="border:3px solid #021a40" src="/files/iotbutton28.png">
 
 Now append the endpoint with the name. For example mine is `Endpoint=sb://xxxservicebus.windows.net/;SharedAccessKeyName=xxx=;EntityPath=myioteventhubcompatiblename`. Now copy that into the Connection String field and leave the **Path** as-is.
-
-<img style="border:3px solid #021a40" src="/files/iotbutton25.png">
 
 If you run the application now, you'll see our function can accept messages. So go ahead and press your IoT Button and you should see something return. 
 
@@ -109,11 +109,6 @@ We'll initialize the field with the current status as indicated on our file syst
 <img style="border:3px solid #021a40" src="/files/iotbutton29.png">
 
 ```csharp
-MyStatus myStatus = new MyStatus
-{
-    status = persistedCount
-};
-
 var myContent = JsonConvert.SerializeObject(myStatus);
 var buffer = System.Text.Encoding.UTF8.GetBytes(myContent);
 var byteContent = new ByteArrayContent(buffer);
@@ -122,9 +117,11 @@ byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 await client.PostAsync("https://xxx.westus.logic.azure.com:443/workflows/xxx/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=xxx", byteContent);
 ```
 
-Now if we run the Azure Function (either locally or published) and press our IoT Button, then it will call the Logic App and finally insert a Start (or Stop) status along with the DateTime in our Excel workbook. Very cool!
+Now if we run the Azure Function (either locally or published) and press our IoT Button, then it will call the Logic App and finally insert a Start (or Stop) status along with the DateTime in our Excel workbook. 
 
-<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/-EWIbX_DfF0&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/-EWIbX_DfF0&hl=en&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object>
+In the sample below, I'll use the [IoT Button Simulator](https://prodiotsimulator.blob.core.windows.net/site/index.html) to paste in my Connection String, which my Azure Function will process and it will call my Logic App which writes an entry to my table in MS Excel. Very cool!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-EWIbX_DfF0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Let me know other ideas that you might have for the IoT Button!
 
