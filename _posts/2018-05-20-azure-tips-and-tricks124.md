@@ -25,7 +25,7 @@ At Build 2018, we first saw the [IoT Button](http://aka.ms/button). I started [e
 * [Creating an IoT for the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks122/)
 * [Configuring and Setting up the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks123/)
 * [Creating the Azure Logic App for our IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks124/)
-* Creating the Azure Function to tie it all together
+* [Using Azure Function to call our Logic App with the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks125/)
 
 ## Creating the Azure Logic App for our IoT Button
 
