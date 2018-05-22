@@ -47,13 +47,26 @@ Make sure you select **IoT Hub trigger**.
 
 <img style="border:3px solid #021a40" src="/files/iotbutton25.png">
 
-For the Connection string you need to do a couple of things. 
+For the Connection string, give it the name **IoTHubConnectionString** and leave the **Path** as-is and click OK. 
+
+Once your project settles down, go into your `local.settings.json` and add the following placeholder for our connection string (which will be used shortly:
+
+```text
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+    "IoTHubConnectionString": ""
+  }
+}
+```
 
 Go into the IoT Hub that you created, select Endpoints, click on the events endpoint and copy the **Event Hub-compatible endpoint** and also the **Event Hub-compatible name** to notepad somewhere. 
 
 <img style="border:3px solid #021a40" src="/files/iotbutton28.png">
 
-Now append the endpoint with the name. For example mine is `Endpoint=sb://xxxservicebus.windows.net/;SharedAccessKeyName=xxx=;EntityPath=myioteventhubcompatiblename`. Now copy that into the Connection String field and leave the **Path** as-is.
+Now append the endpoint with the name. For example mine is `Endpoint=sb://xxxservicebus.windows.net/;SharedAccessKeyName=xxx=;EntityPath=myioteventhubcompatiblename`. Now copy that into the **IoTHubConnectionString** field in our  `local.settings.json`.
 
 If you run the application now, you'll see our function can accept messages. So go ahead and press your IoT Button and you should see something return. 
 
