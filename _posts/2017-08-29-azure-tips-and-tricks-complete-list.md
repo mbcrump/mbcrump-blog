@@ -141,7 +141,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 122 - Creating an IoT Hub for the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks122/)
 * [Azure Tips and Tricks Part 123 - Configuring and Setting up the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks123/)
 * [Azure Tips and Tricks Part 124 - Creating the Azure Logic App for our IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks124/)
-* [Azure Tips and Tricks Part 125 - Using Azure Function to call our Logic App with the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks124/)
+* [Azure Tips and Tricks Part 125 - Using Azure Function to call our Logic App with the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks125/)
+* [Azure Tips and Tricks Part 126 - Getting Started with Azure IoT Central](http://www.michaelcrump.net/azure-tips-and-tricks126/)
 
 ## YouTube Videos
 
