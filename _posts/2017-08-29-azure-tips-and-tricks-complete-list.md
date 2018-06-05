@@ -145,6 +145,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 126 - Getting Started with Azure IoT Central](http://www.michaelcrump.net/azure-tips-and-tricks126/)
 * [Azure Tips and Tricks Part 127 - Mounting a drive and uploading files to Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks127/)
 * [Azure Tips and Tricks Part 128 - Download all Azure Documentation for offline viewing](http://www.michaelcrump.net/azure-tips-and-tricks128/)
+* [Azure Tips and Tricks Part 129 - Using OCR to extract text from images from the Azure Portal](http://www.michaelcrump.net/azure-tips-and-tricks129/)
 
 ## YouTube Videos
 
