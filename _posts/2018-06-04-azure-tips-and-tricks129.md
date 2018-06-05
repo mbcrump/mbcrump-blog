@@ -22,11 +22,11 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 I recently needed the ability to extract text from an image. I was very cautious as several free alternatives that exist on the web said they may keep the image (and or text). So I did what any developer would do and just rolled my own. But instead of creating an application, I took it upon myself to use the power of the Azure Portal to accomplish this. 
 
-1. Open the [Azure Portal](www.portal.azure.com) and select Cloud Shell from the top menu. Now change the scripting language from BASH to PowerShell. 
+1.) Open the [Azure Portal](www.portal.azure.com) and select Cloud Shell from the top menu. Now change the scripting language from BASH to PowerShell. 
 
 <img style="border:3px solid #021a40" src="/files/powershell1.png">
 
-2. We now need to install the PowerShell Cognitive Services module. You can do so by typing `Install-Module PSCognitiveservice -Verbose -Force`. Sample output is below:
+2.) We now need to install the PowerShell Cognitive Services module. You can do so by typing `Install-Module PSCognitiveservice -Verbose -Force`. Sample output is below:
 
 ```powershell
 PS Azure:\> Install-Module PSCognitiveservice -Verbose -Force
@@ -41,7 +41,7 @@ Azure:\
 PS Azure:\>
 ```
 
-3. Import the module by typing `Import-Module PSCognitiveservice -V` Sample output is below:
+3.) Import the module by typing `Import-Module PSCognitiveservice -V` Sample output is below:
 
 ```powershell
 PS Azure:\> Import-Module PSCognitiveservice -Verbose
@@ -62,13 +62,13 @@ VERBOSE: Importing alias 'thumbnail'.
 Azure:\
 ```
 
-4. Now you'll need to create a cognitive services account. You can do either in the portal (you may already have one) or by typing `New-CognitiveServiceAccount AccountType ComputerVision -Verbose`
+4.) Now you'll need to create a cognitive services account. You can do either in the portal (you may already have one) or by typing `New-CognitiveServiceAccount AccountType ComputerVision -Verbose`
 
 Just make sure you select **Free**. 
 
 <img style="border:3px solid #021a40" src="/files/powershell2.png">
 
-5. Load the configuration into your environment variables with `lcfg -fromAzure -Verbose` Sample output is below:
+5.) Load the configuration into your environment variables with `lcfg -fromAzure -Verbose` Sample output is below:
 
 ```powershell
 PS Azure:\> lcfg -fromAzure -Verbose
@@ -88,7 +88,7 @@ SubscriptionKey                yourkey
 EndPoint                       https://westus.api.cognitive.microsoft.com/vision/v1.0
 ```
 
-6. Type the following line and just replace the **url**
+6.) Type the following line and just replace the **url**
 
 `ocr -URL https://s3-us-west-2.amazonaws.com/i.cdpn.io/10994.zekgx.4df25d8a-eb50-4007-a0df-6ae0aaf87974.png -Verbose | ForEach-Object {$_.regions.lines} | ForEach-Object { $_.words.text -join ' '}`
 
