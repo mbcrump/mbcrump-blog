@@ -26,7 +26,7 @@ Enter PowerShell and Azure Cloud Shell.
 
 Wherever you are logged in with Azure Cloud Shell and are using PowerShell, then you can quickly run this command:
 
-`Get-AzureRmWebApp | foreach-object {$_} | select-object SiteName,DefaultHostName,ResourceGroup`
+`Get-AzureRmWebApp | foreach-object {$_} | select-object SiteName, DefaultHostName, ResourceGroup`
 
 <img style="border:3px solid #021a40" src="/files/powershellallwebsites.png">
 
