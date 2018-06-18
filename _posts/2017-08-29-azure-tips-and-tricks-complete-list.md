@@ -148,6 +148,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 129 - Using OCR to extract text from images from the Azure Portal](http://www.michaelcrump.net/azure-tips-and-tricks129/)
 * [Azure Tips and Tricks Part 130 - Manage Application Settings for Azure Functions within Visual Studio](http://www.michaelcrump.net/azure-tips-and-tricks130/)
 * [Azure Tips and Tricks Part 131 - Quickly display a list of all Azure Web Apps URL from Azure Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks131/)
+* [Azure Tips and Tricks Part 132 - Increase the timeout of ASP.NET Core 2.0 API hosted in Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks132/)
+
 
 ## YouTube Videos
 
