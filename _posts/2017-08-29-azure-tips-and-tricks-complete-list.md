@@ -151,7 +151,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 132 - Increase the timeout of ASP.NET Core 2.0 API hosted in Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks132/)
 * [Azure Tips and Tricks Part 133 - Use the Azure Portal for Durable Functions Development](http://www.michaelcrump.net/azure-tips-and-tricks133/)
 * [Azure Tips and Tricks Part 134 - Use Run-From-Zip to deploy a site to Azure Web Apps or Functions](http://www.michaelcrump.net/azure-tips-and-tricks134/)
-
+* [Azure Tips and Tricks Part 135 - Use Run-From-Zip without Azure Storage to deploy a site to Azure Web Apps or Functions](http://www.michaelcrump.net/azure-tips-and-tricks135/)
 
 ## YouTube Videos
 
