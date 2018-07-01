@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 135 - Quickly Restore your Local Settings File for Azure Functions"
+title: "Azure Tips and Tricks Part 136 - Quickly Restore your Local Settings File for Azure Functions"
 excerpt: "Learn how to quickly restore your local settings file for Azure Functions"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
