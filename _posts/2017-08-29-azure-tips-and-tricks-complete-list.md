@@ -152,6 +152,8 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 133 - Use the Azure Portal for Durable Functions Development](http://www.michaelcrump.net/azure-tips-and-tricks133/)
 * [Azure Tips and Tricks Part 134 - Use Run-From-Zip to deploy a site to Azure Web Apps or Functions](http://www.michaelcrump.net/azure-tips-and-tricks134/)
 * [Azure Tips and Tricks Part 135 - Use Run-From-Zip without Azure Storage to deploy a site to Azure Web Apps or Functions](http://www.michaelcrump.net/azure-tips-and-tricks135/)
+* [Azure Tips and Tricks Part 136 - Quickly Restore your Local Settings File for Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks136/)
+
 
 ## YouTube Videos
 
