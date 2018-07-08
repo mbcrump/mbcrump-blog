@@ -154,6 +154,7 @@ Keep in mind that this is the Azure Tips and Tricks that I've released so far. I
 * [Azure Tips and Tricks Part 135 - Use Run-From-Zip without Azure Storage to deploy a site to Azure Web Apps or Functions](http://www.michaelcrump.net/azure-tips-and-tricks135/)
 * [Azure Tips and Tricks Part 136 - Quickly Restore your Local Settings File for Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks136/)
 * [Azure Tips and Tricks Part 137 - Export Azure Resources to CSV files with PowerShell](http://www.michaelcrump.net/azure-tips-and-tricks137/)
+* [Azure Tips and Tricks Part 138 - Deploy a Static Website using Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks138/)
 
 ## YouTube Videos
 
