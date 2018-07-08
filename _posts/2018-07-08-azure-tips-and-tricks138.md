@@ -33,6 +33,8 @@ Once you press **Save**, you'll see there is a `$web` folder that you can click 
 
 <img style="border:3px solid #021a40" src="/files/azurestoragestaticsite3.png">
 
+<img style="border:3px solid #021a40" src="/files/azurestoragestaticsite5.png">
+
 Once you've uploaded your file to `$web` then go to your browser and paste in the URL provided in the previous step. 
 
 <img style="border:3px solid #021a40" src="/files/azurestoragestaticsite4.png">
