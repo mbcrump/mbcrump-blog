@@ -7,16 +7,14 @@ share: true
 comments: true
 ---
 
-**Azure Tips and Tricks Videos** : I've also added our current catalog of videos to the bottom of this post. This page now has everything!
+**Azure Tips and Tricks Sorted by Services List Now Available** : The [sorted list](https://www.michaelcrump.net/azure-tips-and-tricks-sorted-list/) allows you to quickly find a tip and trick by Azure Services. 
 {: .notice--info}
 
 ## Intro
 
-As requested here is the complete list of all Azure Tips and Tricks. Feel free to follow me on [twitter](http://twitter.com/mbcrump) or stay tuned to this post for additional tips and tricks. 
+As requested here is the complete list of all Azure Tips and Tricks. Feel free to follow me on [twitter](http://twitter.com/mbcrump) or stay tuned to this [blog](https://michaelcrump.net) for future updates. 
 
-## The Complete List (so far!)
-
-Keep in mind that this is the Azure Tips and Tricks that I've released so far. I'm just getting started!
+## The Complete List (Unsorted)
 
 * [Azure Tips and Tricks Part 01 - Use Keyboard Shortcuts in the Azure Portal](http://www.michaelcrump.net/azure-tips-and-tricks1/)
 * [Azure Tips and Tricks Part 02 - Quickly change themes in the Azure Portal](http://www.michaelcrump.net/azure-tips-and-tricks2/)

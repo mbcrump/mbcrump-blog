@@ -1,0 +1,231 @@
+---
+layout: post
+title: "Azure Tips and Tricks - The Complete List Sorted by Azure Services"
+excerpt: "Here is the complete list of ALL Azure Tips and Tricks that is sorted by Azure Services"
+tags: [azure, windows, portal, cloud, developers, tipsandtricks]
+share: true
+comments: true
+---
+
+## Intro
+
+As requested here is the complete list of all Azure Tips and Tricks sorted by Azure Serivces. Feel free to follow me on [twitter](http://twitter.com/mbcrump) or stay tuned to this [blog](https://michaelcrump.net) for future updates. 
+
+The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/) is also available along with the collection of Azure Tips and Tricks video. 
+
+## Table of Contents of the entire Azure Tips and Tricks series (Sorted)
+
+* [AzCopy](#AzCopy)
+* [Azure App Services](#Azure_App_Services")
+* [Azure CLI](#Azure_CLI)
+* [Azure Cloud Shell](#Azure_Cloud_Shell)
+* [Azure Cognitive Services](#Azure_Cognitive_Services)
+* [Azure Containers](#Azure_Containers)
+* [Azure Cosmos DB](#Azure_Cosmos_DB)
+* [Azure Functions](#Azure_Functions)
+* [Azure IaaS (VMs)](#Azure_IaaS_(VMs))
+* [Azure IoT](#Azure_IoT)
+* [Azure Logic Apps ](#Azure_Logic_Apps)
+* [Azure Portal](#Azure_Portal)
+* [Azure PowerShell](#Azure_PowerShell)
+* [Azure Productivity Tips](#Azure_Productivity_Tips)
+* [Azure Search](#Azure_Search)
+* [Azure Storage ](#Azure_Storage)
+* [E2E](#E2E)
+* [Misc Awesomeness](#Misc_Awesomeness)
+* [Third Party Services](#Third_Party_Services)
+
+## AzCopy 
+
+* [Azure Tips and Tricks Part 81 - Working with AzCopy and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks81/)
+* [Azure Tips and Tricks Part 139 - Prevent AzCopy Uploads from maxing out Internet Connection Speed](http://www.michaelcrump.net/azure-tips-and-tricks139/)
+
+## Azure App Services
+
+* [Azure Tips and Tricks Part 16 - Deploy Jekyll Site Hosted on GitHub to Azure](http://www.michaelcrump.net/azure-tips-and-tricks16/)
+* [Azure Tips and Tricks Part 20 - Working with Files in Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks20/)
+* [Azure Tips and Tricks Part 21 - Adding Extensions to Web Apps in Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks21/)
+* [Azure Tips and Tricks Part 22 - Deployment Slots for Web Apps using Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks22/)
+* [Azure Tips and Tricks Part 23 - Testing Web Apps in Production with Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks23/)
+* [Azure Tips and Tricks Part 26 - Load Testing web app with Azure App Services](http://www.michaelcrump.net/azure-tips-and-tricks26/)
+* [Azure Tips and Tricks Part 27 - Working with App Settings and Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks27/)
+* [Azure Tips and Tricks Part 28 - Configure a Backup for your Azure App Service and Database](http://www.michaelcrump.net/azure-tips-and-tricks28/)
+* [Azure Tips and Tricks Part 29 - Cloning Web Apps Using and Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks29/)
+* [Azure Tips and Tricks Part 30 - Working with Log Stream and Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks30/)
+* [Azure Tips and Tricks Part 31 - Setting up Email Alerts with Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks31/)
+* [Azure Tips and Tricks Part 32 - Using Application Insights with Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks32/)
+* [Azure Tips and Tricks Part 33 - Prevent Changes to Resources in Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks33/)
+* [Azure Tips and Tricks Part 112 - Quick and Dirty User Authentication with Azure Web Apps and MVC 5](http://www.michaelcrump.net/azure-tips-and-tricks112/)
+* [Azure Tips and Tricks Part 113 - Prevent secrets from getting out with .NET Core](http://www.michaelcrump.net/azure-tips-and-tricks113/)
+* [Azure Tips and Tricks Part 117 - Enable HTTP2 support for Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks117/)
+* [Azure Tips and Tricks Part 119 - Determine the outbound IP addresses of my Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks119/)
+* [Azure Tips and Tricks Part 132 - Increase the timeout of ASP.NET Core 2.0 API hosted in Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks132/)
+
+## Azure CLI
+
+* [Azure Tips and Tricks Part 07 - Use the Table Parameter in the Azure CLI](http://www.michaelcrump.net/azure-tips-and-tricks7/)
+* [Azure Tips and Tricks Part 08 - Configure the Azure CLI to set Output Defaults and more](http://www.michaelcrump.net/azure-tips-and-tricks8/)
+* [Azure Tips and Tricks Part 19 - Deploy an Azure Web App using only the CLI](http://www.michaelcrump.net/azure-tips-and-tricks19/)
+* [Azure Tips and Tricks Part 34 - Working with the Azure CLI using a Mac](http://www.michaelcrump.net/azure-tips-and-tricks34/)
+* [Azure Tips and Tricks Part 111 - Deployment Slots for Web Apps using the Azure CLI](http://www.michaelcrump.net/azure-tips-and-tricks111/)
+
+## Azure Cloud Shell
+
+* [Azure Tips and Tricks Part 11 - Access Cloud Shell from within Microsoft Docs](http://www.michaelcrump.net/azure-tips-and-tricks11/)
+* [Azure Tips and Tricks Part 13 - Demystifying storage in Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks13/)
+* [Azure Tips and Tricks Part 14 - Generate SSH public key to log into Linux VM with Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks14/)
+* [Azure Tips and Tricks Part 15 - Underlying Software in Azure Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks15/)
+* [Azure Tips and Tricks Part 17 - Use PowerShell with Azure Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks17/)
+* [Azure Tips and Tricks Part 49 - Add Azure Cloud Shell to Visual Studio Code](http://www.michaelcrump.net/azure-tips-and-tricks49/)
+* [Azure Tips and Tricks Part 69 - Access and embed Azure Cloud Shell Anywhere](http://www.michaelcrump.net/azure-tips-and-tricks69/)
+* [Azure Tips and Tricks Part 127 - Mounting a drive and uploading files to Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks127/)
+* [Azure Tips and Tricks Part 131 - Quickly display a list of all Azure Web Apps URL from Azure Cloud Shell](http://www.michaelcrump.net/azure-tips-and-tricks131/)
+
+## Azure Cognitive Services
+
+* [Azure Tips and Tricks Part 70 - Key Phrase Extraction with Cognitive Service and Azure](http://www.michaelcrump.net/azure-tips-and-tricks70/)
+* [Azure Tips and Tricks Part 71 - Language Detection with Cognitive Service and Azure](http://www.michaelcrump.net/azure-tips-and-tricks71/)
+* [Azure Tips and Tricks Part 72 - Sentiment Analysis with Cognitive Service and Azure](http://www.michaelcrump.net/azure-tips-and-tricks72/)
+* [Azure Tips and Tricks Part 129 - Using OCR to extract text from images from the Azure Portal](http://www.michaelcrump.net/azure-tips-and-tricks129/)
+
+## Azure Containers
+
+* [Azure Tips and Tricks Part 45 - Getting Started with Docker and Azure](http://www.michaelcrump.net/azure-tips-and-tricks45/)
+* [Azure Tips and Tricks Part 46 - Run an app inside a Container Image with Docker](http://www.michaelcrump.net/azure-tips-and-tricks46/)
+* [Azure Tips and Tricks Part 47 - Creating a Container Image with Docker](http://www.michaelcrump.net/azure-tips-and-tricks47/)
+* [Azure Tips and Tricks Part 48 - Pushing a Container Image to a Docker Repo](http://www.michaelcrump.net/azure-tips-and-tricks48/)
+* [Azure Tips and Tricks Part 54 - Getting a .NET Core WebAPI Project Ready for Docker](http://www.michaelcrump.net/azure-tips-and-tricks54/)
+* [Azure Tips and Tricks Part 55 - Use .NET Core WebAPI and Docker Compose](http://www.michaelcrump.net/azure-tips-and-tricks55/)
+* [Azure Tips and Tricks Part 56 - Deploy a .NET Core WebAPI Project to Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks56/)
+* [Azure Tips and Tricks Part 57 - Docker Registry vs. Docker Repository](http://www.michaelcrump.net/azure-tips-and-tricks57/)
+* [Azure Tips and Tricks Part 58 - Continuous Deployment with Docker and Web App for Containers](http://www.michaelcrump.net/azure-tips-and-tricks58/)
+* [Azure Tips and Tricks Part 60 - Use Visual Studio 2017 with Docker Compose](http://www.michaelcrump.net/azure-tips-and-tricks60/)
+
+## Azure Cosmos DB
+
+* [Azure Tips and Tricks Part 65 - Use Visual Studio Code to work with Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks65/)
+* [Azure Tips and Tricks Part 66 - Using the Data Migration Tool with Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks66/)
+* [Azure Tips and Tricks Part 67 - Querying documents properties with special characters in Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks67/)
+* [Azure Tips and Tricks Part 68 - Access Cosmos DB through a .NET Application](http://www.michaelcrump.net/azure-tips-and-tricks68/)
+
+## Azure Functions
+
+* [Azure Tips and Tricks Part 35 - Work with the Azure Functions File System using the Console](http://www.michaelcrump.net/azure-tips-and-tricks35/)
+* [Azure Tips and Tricks Part 36 - Quickly Renew or Revoke Azure Functions Keys](http://www.michaelcrump.net/azure-tips-and-tricks36/)
+* [Azure Tips and Tricks Part 50 - Create an Azure Functions project with Visual Studio Code](http://www.michaelcrump.net/azure-tips-and-tricks50/)
+* [Azure Tips and Tricks Part 51 - Debug Azure Functions with Visual Studio Code](http://www.michaelcrump.net/azure-tips-and-tricks51/)
+* [Azure Tips and Tricks Part 52 - Deploy Azure Functions with Visual Studio Code](http://www.michaelcrump.net/azure-tips-and-tricks52/)
+* [Azure Tips and Tricks Part 61 - Java in Azure Function with VS Code](http://www.michaelcrump.net/azure-tips-and-tricks61/)
+* [Azure Tips and Tricks Part 62 - Force HTTPS in Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks62/)
+* [Azure Tips and Tricks Part 63 - Open an existing Azure Function in Visual Studio](http://www.michaelcrump.net/azure-tips-and-tricks63/)
+* [Azure Tips and Tricks Part 64 - Using a different route prefix with Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks64/)
+* [Azure Tips and Tricks Part 94 - Customize the Azure Functions endpoint in no time](http://www.michaelcrump.net/azure-tips-and-tricks94/)
+* [Azure Tips and Tricks Part 97 - Creating an Email Subscription based off an RSS Feed with Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks97/)
+* [Azure Tips and Tricks Part 98 - Creating an Email Subscription with Azure Functions - Storing Emails](http://www.michaelcrump.net/azure-tips-and-tricks98/)
+* [Azure Tips and Tricks Part 99 - Creating an Email Subscription with Azure Functions - Writing the Frontend](http://www.michaelcrump.net/azure-tips-and-tricks99/)
+* [Azure Tips and Tricks Part 100 - Creating an Email Subscription with Azure Functions - Sending Emails](http://www.michaelcrump.net/azure-tips-and-tricks100/)
+* [Azure Tips and Tricks Part 130 - Manage Application Settings for Azure Functions within Visual Studio](http://www.michaelcrump.net/azure-tips-and-tricks130/)
+* [Azure Tips and Tricks Part 133 - Use the Azure Portal for Durable Functions Development](http://www.michaelcrump.net/azure-tips-and-tricks133/)
+* [Azure Tips and Tricks Part 134 - Use Run-From-Zip to deploy a site to Azure Web Apps or Functions](http://www.michaelcrump.net/azure-tips-and-tricks134/)
+* [Azure Tips and Tricks Part 135 - Use Run-From-Zip without Azure Storage to deploy a site to Azure Web Apps or Functions](http://www.michaelcrump.net/azure-tips-and-tricks135/)
+* [Azure Tips and Tricks Part 136 - Quickly Restore your Local Settings File for Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks136/)
+
+## Azure IaaS (VMs)
+
+* [Azure Tips and Tricks Part 09 - Quickly Connect to Windows VMs with RDP](http://www.michaelcrump.net/azure-tips-and-tricks9/)
+* [Azure Tips and Tricks Part 10 - Quickly Connect to a Linux VM with SSH](http://www.michaelcrump.net/azure-tips-and-tricks10/)
+* [Azure Tips and Tricks Part 12 - Easily Start, Restart, Stop or Delete Multiple VMs](http://www.michaelcrump.net/azure-tips-and-tricks12/)
+* [Azure Tips and Tricks Part 53 - Prebuilt Azure VMs ready for Containers](http://www.michaelcrump.net/azure-tips-and-tricks53/)
+
+## Azure IoT
+
+* [Azure Tips and Tricks Part 96 - Getting up and running with Azure IoT MXChip](http://www.michaelcrump.net/azure-tips-and-tricks96/)
+* [Azure Tips and Tricks Part 114 - Send JSON to Azure IoT Hub with C#](http://www.michaelcrump.net/azure-tips-and-tricks114/)
+* [Azure Tips and Tricks Part 122 - Creating an IoT Hub for the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks122/)
+* [Azure Tips and Tricks Part 123 - Configuring and Setting up the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks123/)
+* [Azure Tips and Tricks Part 124 - Creating the Azure Logic App for our IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks124/)
+* [Azure Tips and Tricks Part 125 - Using Azure Function to call our Logic App with the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks125/)
+* [Azure Tips and Tricks Part 126 - Getting Started with Azure IoT Central](http://www.michaelcrump.net/azure-tips-and-tricks126/)
+
+## Azure Logic Apps 
+
+* [Azure Tips and Tricks Part 37 - Parse Emails to be used in a Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks37/)
+* [Azure Tips and Tricks Part 38 - Create a JSON Schema to be used in a Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks38/)
+* [Azure Tips and Tricks Part 39 - Setup an HTTP Request Trigger that is used in an Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks39/)
+* [Azure Tips and Tricks Part 40 - Upload Files from a URL with Azure Logic Apps](http://www.michaelcrump.net/azure-tips-and-tricks40/)
+* [Azure Tips and Tricks Part 41 - Quickly Roll Back to a Previous Version of an Azure Logic App](http://www.michaelcrump.net/azure-tips-and-tricks41/)
+* [Azure Tips and Tricks Part 42 - Modifying an existing API Connection with Azure Logic App](http://www.michaelcrump.net/azure-tips-and-tricks42/)
+* [Azure Tips and Tricks Part 43 - Working with Azure Logic App using Visual Studio 2017](http://www.michaelcrump.net/azure-tips-and-tricks43/)
+* [Azure Tips and Tricks Part 44 - Deploying Azure Logic App through Visual Studio 2017](http://www.michaelcrump.net/azure-tips-and-tricks44/)
+
+## Azure Portal
+
+* [Azure Tips and Tricks Part 01 - Use Keyboard Shortcuts in the Azure Portal](http://www.michaelcrump.net/azure-tips-and-tricks1/)
+* [Azure Tips and Tricks Part 02 - Quickly change themes in the Azure Portal](http://www.michaelcrump.net/azure-tips-and-tricks2/)
+* [Azure Tips and Tricks Part 03 - Drag Tiles to customize your Azure Dashboard](http://www.michaelcrump.net/azure-tips-and-tricks3/)
+* [Azure Tips and Tricks Part 04 - Customize and Pin Charts to your Azure Dashboard](http://www.michaelcrump.net/azure-tips-and-tricks4/)
+* [Azure Tips and Tricks Part 05 - Custom Tile Sizes in the Azure Dashboard](http://www.michaelcrump.net/azure-tips-and-tricks5/)
+* [Azure Tips and Tricks Part 06 - Add and Reorder Favorites in the Azure Dashboard](http://www.michaelcrump.net/azure-tips-and-tricks6/)
+* [Azure Tips and Tricks Part 116 - Easily Upload and download Azure dashboards](http://www.michaelcrump.net/azure-tips-and-tricks116/)
+
+## Azure PowerShell
+
+* [Azure Tips and Tricks Part 24 - Add logic to your Testing in Production sites with PowerShell](http://www.michaelcrump.net/azure-tips-and-tricks24/)
+* [Azure Tips and Tricks Part 120 - Run Azure Powershell Cmdlets in Visual Studio 2017](http://www.michaelcrump.net/azure-tips-and-tricks120/)
+* [Azure Tips and Tricks Part 137 - Export Azure Resources to CSV files with PowerShell](http://www.michaelcrump.net/azure-tips-and-tricks137/)
+
+## Azure Productivity Tips 
+
+* [Azure Tips and Tricks Part 18 - Use Tags to quickly organize Azure Resources](http://www.michaelcrump.net/azure-tips-and-tricks18/)
+* [Azure Tips and Tricks Part 25 - Use the Azure Resource Explorer to quickly explore REST APIs](http://www.michaelcrump.net/azure-tips-and-tricks25/)
+
+## Azure Search 
+
+* [Azure Tips and Tricks Part 90 - Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC](http://www.michaelcrump.net/azure-tips-and-tricks90/)
+* [Azure Tips and Tricks Part 91 - Part 2 - Implementing Azure Search with SQL Server](http://www.michaelcrump.net/azure-tips-and-tricks91/)
+* [Azure Tips and Tricks Part 92 - Part 3 - Querying an Azure Search Index](http://www.michaelcrump.net/azure-tips-and-tricks92/)
+* [Azure Tips and Tricks Part 93 - Part 4 - Searching an index with Azure Search with C#](http://www.michaelcrump.net/azure-tips-and-tricks93/)
+
+## Azure Storage 
+
+* [Azure Tips and Tricks Part 74 - Working with Azure Storage Blobs and Files through the Portal](http://www.michaelcrump.net/azure-tips-and-tricks74/)
+* [Azure Tips and Tricks Part 75 - Create an Azure Storage Blob Container through C#](http://www.michaelcrump.net/azure-tips-and-tricks75/)
+* [Azure Tips and Tricks Part 76 - Uploading and Downloading a Stream into an Azure Storage Blob](http://www.michaelcrump.net/azure-tips-and-tricks76/)
+* [Azure Tips and Tricks Part 77 - Working with Azure Storage Explorer](http://www.michaelcrump.net/azure-tips-and-tricks77/)
+* [Azure Tips and Tricks Part 78 - Copy Azure Storage Blobs and Files via C#](http://www.michaelcrump.net/azure-tips-and-tricks78/)
+* [Azure Tips and Tricks Part 79 - Creating an Azure Blob Hierarchy](http://www.michaelcrump.net/azure-tips-and-tricks79/)
+* [Azure Tips and Tricks Part 80 - Adding Metadata to a file inside Azure Storage Blob Container](http://www.michaelcrump.net/azure-tips-and-tricks80/)
+* [Azure Tips and Tricks Part 82 - Creating your first Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks82/)
+* [Azure Tips and Tricks Part 83 - Adding an item to a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks83/)
+* [Azure Tips and Tricks Part 84 - Reading an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks84/)
+* [Azure Tips and Tricks Part 85 - Updating an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks85/)
+* [Azure Tips and Tricks Part 86 - Deleting an item from a Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks86/)
+* [Azure Tips and Tricks Part 87 - Ensure a clean RowKey in Azure Storage Table](http://www.michaelcrump.net/azure-tips-and-tricks87/)
+* [Azure Tips and Tricks Part 88 - What's the purpose of ETag in Azure Storage Table?](http://www.michaelcrump.net/azure-tips-and-tricks88/)
+* [Azure Tips and Tricks Part 89 - Shared Access Tokens with Azure Storage Blob Containers](http://www.michaelcrump.net/azure-tips-and-tricks89/)
+* [Azure Tips and Tricks Part 95 - Access all files from an Azure Storage Blob Container](http://www.michaelcrump.net/azure-tips-and-tricks95/)
+* [Azure Tips and Tricks Part 138 - Host a Static Website with Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks138/)
+
+## E2E
+
+* [Azure Tips and Tricks Part 101 - Day 1 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks101/)
+* [Azure Tips and Tricks Part 102 - Day 2 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks102/)
+* [Azure Tips and Tricks Part 103 - Day 3 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks103/)
+* [Azure Tips and Tricks Part 104 - Day 4 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks104/)
+* [Azure Tips and Tricks Part 105 - Day 5 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks105/)
+* [Azure Tips and Tricks Part 107 - Day 6 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks107/)
+* [Azure Tips and Tricks Part 108 - Day 7 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks108/)
+* [Azure Tips and Tricks Part 109 - Day 8 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks109/)
+
+## Misc Awesomeness
+
+* [Azure Tips and Tricks Part 59 - FREE E-book titled The Developer’s Guide to Microsoft Azure](http://www.michaelcrump.net/azure-tips-and-tricks59/)
+* [Azure Tips and Tricks Part 106 - Azure Tips and Tricks Part 106 - Introducing Azure Tips and Tricks Video!](http://www.michaelcrump.net/azure-tips-and-tricks106/)
+* [Azure Tips and Tricks Part 115 - Remove Azure Secrets committed to GitHub](http://www.michaelcrump.net/azure-tips-and-tricks115/)
+* [Azure Tips and Tricks Part 118 - FREE E-book titled Azure Quick Start Guide for .NET Developers](http://www.michaelcrump.net/azure-tips-and-tricks118/)
+* [Azure Tips and Tricks Part 121 - Live from Build 2018](http://www.michaelcrump.net/azure-tips-and-tricks121/)
+* [Azure Tips and Tricks Part 128 - Download all Azure Documentation for offline viewing](http://www.michaelcrump.net/azure-tips-and-tricks128/)
+
+## Third Party Services
+
+* [Azure Tips and Tricks Part 73 - Send Emails through Azure with C# and SendGrid](http://www.michaelcrump.net/azure-tips-and-tricks73/)
