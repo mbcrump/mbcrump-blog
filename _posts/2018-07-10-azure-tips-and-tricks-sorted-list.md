@@ -29,8 +29,8 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Portal](#Azure_Portal)
 * [Azure PowerShell](#Azure_PowerShell)
 * [Azure Productivity Tips](#Azure_Productivity_Tips)
-* [Azure Search](#Azure_Search)
 * [Azure Storage ](#Azure_Storage)
+* [Azure SQL and Search](#Azure_SQL_and_Search)
 * [E2E](#E2E)
 * [Misc Awesomeness](#Misc_Awesomeness)
 * [Third Party Services](#Third_Party_Services)
@@ -179,13 +179,6 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 18 - Use Tags to quickly organize Azure Resources](http://www.michaelcrump.net/azure-tips-and-tricks18/)
 * [Azure Tips and Tricks Part 25 - Use the Azure Resource Explorer to quickly explore REST APIs](http://www.michaelcrump.net/azure-tips-and-tricks25/)
 
-## Azure Search 
-
-* [Azure Tips and Tricks Part 90 - Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC](http://www.michaelcrump.net/azure-tips-and-tricks90/)
-* [Azure Tips and Tricks Part 91 - Part 2 - Implementing Azure Search with SQL Server](http://www.michaelcrump.net/azure-tips-and-tricks91/)
-* [Azure Tips and Tricks Part 92 - Part 3 - Querying an Azure Search Index](http://www.michaelcrump.net/azure-tips-and-tricks92/)
-* [Azure Tips and Tricks Part 93 - Part 4 - Searching an index with Azure Search with C#](http://www.michaelcrump.net/azure-tips-and-tricks93/)
-
 ## Azure Storage 
 
 * [Azure Tips and Tricks Part 74 - Working with Azure Storage Blobs and Files through the Portal](http://www.michaelcrump.net/azure-tips-and-tricks74/)
@@ -205,6 +198,15 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 89 - Shared Access Tokens with Azure Storage Blob Containers](http://www.michaelcrump.net/azure-tips-and-tricks89/)
 * [Azure Tips and Tricks Part 95 - Access all files from an Azure Storage Blob Container](http://www.michaelcrump.net/azure-tips-and-tricks95/)
 * [Azure Tips and Tricks Part 138 - Host a Static Website with Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks138/)
+
+## Azure SQL and Search 
+
+* [Azure Tips and Tricks Part 90 - Part 1 - Implementing Azure Search with SQL Server and ASP.NET MVC](http://www.michaelcrump.net/azure-tips-and-tricks90/)
+* [Azure Tips and Tricks Part 91 - Part 2 - Implementing Azure Search with SQL Server](http://www.michaelcrump.net/azure-tips-and-tricks91/)
+* [Azure Tips and Tricks Part 92 - Part 3 - Querying an Azure Search Index](http://www.michaelcrump.net/azure-tips-and-tricks92/)
+* [Azure Tips and Tricks Part 93 - Part 4 - Searching an index with Azure Search with C#](http://www.michaelcrump.net/azure-tips-and-tricks93/)
+* [Azure Tips and Tricks Part 140 - Easily copy your SQL Azure database to your local development server](http://www.michaelcrump.net/azure-tips-and-tricks140/)
+
 
 ## E2E
 

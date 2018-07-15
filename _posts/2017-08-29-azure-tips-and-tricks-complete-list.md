@@ -154,6 +154,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 137 - Export Azure Resources to CSV files with PowerShell](http://www.michaelcrump.net/azure-tips-and-tricks137/)
 * [Azure Tips and Tricks Part 138 - Host a Static Website with Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks138/)
 * [Azure Tips and Tricks Part 139 - Prevent AzCopy Uploads from maxing out Internet Connection Speed](http://www.michaelcrump.net/azure-tips-and-tricks139/)
+* [Azure Tips and Tricks Part 140 - Easily copy your SQL Azure database to your local development server](http://www.michaelcrump.net/azure-tips-and-tricks140/)
 
 ## YouTube Videos
 
