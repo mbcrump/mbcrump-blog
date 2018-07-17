@@ -15,32 +15,32 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 
 ## Table of Contents of the entire Azure Tips and Tricks series (Sorted)
 
-* [AzCopy](#AzCopy)
-* [Azure App Services](#Azure_App_Services")
-* [Azure CLI](#Azure_CLI)
-* [Azure Cloud Shell](#Azure_Cloud_Shell)
-* [Azure Cognitive Services](#Azure_Cognitive_Services)
-* [Azure Containers](#Azure_Containers)
-* [Azure Cosmos DB](#Azure_Cosmos_DB)
-* [Azure Functions](#Azure_Functions)
-* [Azure IaaS (VMs)](#Azure_IaaS_(VMs))
-* [Azure IoT](#Azure_IoT)
-* [Azure Logic Apps ](#Azure_Logic_Apps)
-* [Azure Portal](#Azure_Portal)
-* [Azure PowerShell](#Azure_PowerShell)
-* [Azure Productivity Tips](#Azure_Productivity_Tips)
-* [Azure Storage ](#Azure_Storage)
-* [Azure SQL and Search](#Azure_SQL_and_Search)
-* [E2E](#E2E)
-* [Misc Awesomeness](#Misc_Awesomeness)
-* [Third Party Services](#Third_Party_Services)
+* [AzCopy](#azcopy)
+* [Azure App Services](#azure-app-services)
+* [Azure CLI](#azure-cli)
+* [Azure Cloud Shell](#azure-cloud-shell)
+* [Azure Cognitive Services](#azure-cognitive-services)
+* [Azure Containers](#azure-containers)
+* [Azure Cosmos DB](#azure-cosmos-db)
+* [Azure Functions](#Azure-functions)
+* [Azure IaaS (VMs)](#azure-IaaS-(vms))
+* [Azure IoT](#azure-iot)
+* [Azure Logic Apps ](#azure-logic-apps)
+* [Azure Portal](#azure-portal)
+* [Azure PowerShell](#azure-powershell)
+* [Azure Productivity Tips](#azure-productivity-tips)
+* [Azure Storage ](#azure-storage)
+* [Azure SQL and Search](#azure-sql-and-search)
+* [E2E](#e2e)
+* [Misc Awesomeness](#misc-awesomeness)
+* [Third Party Services](#third-party-services)
 
 # AzCopy 
 
 * [Azure Tips and Tricks Part 81 - Working with AzCopy and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks81/)
 * [Azure Tips and Tricks Part 139 - Prevent AzCopy Uploads from maxing out Internet Connection Speed](http://www.michaelcrump.net/azure-tips-and-tricks139/)
 
-# Azure App Services
+## Azure App Services
 
 * [Azure Tips and Tricks Part 16 - Deploy Jekyll Site Hosted on GitHub to Azure](http://www.michaelcrump.net/azure-tips-and-tricks16/)
 * [Azure Tips and Tricks Part 20 - Working with Files in Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks20/)
