@@ -21,6 +21,9 @@ I've ran across folks at conferences that asked me "How do you copy a SQL Azure 
 
 First off, [download SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) and connect to your SQL Azure database that you want to copy locally.
 
+**Note by cbattlegear** One important caveat to this process (as shown below). If any writes are happening on the database while you do the export the import will be broken. Best practice is to run `CREATE DATABASE AS COPY` to create a copy of the database and create an export of the copy.
+{: .notice--info}
+
 Right-click on the **Database** -> click **Tasks** > **Export data-tier application**
 
 <img style="border:3px solid #021a40" src="/files/sqlazure1.png">
