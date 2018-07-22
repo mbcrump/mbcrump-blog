@@ -22,7 +22,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Cognitive Services](#azure-cognitive-services)
 * [Azure Containers](#azure-containers)
 * [Azure Cosmos DB](#azure-cosmos-db)
-* [Azure Functions](#Azure-functions)
+* [Azure Functions](#azure-functions)
 * [Azure IaaS (VMs)](#azure-IaaS-(vms))
 * [Azure IoT](#azure-iot)
 * [Azure Logic Apps ](#azure-logic-apps)
