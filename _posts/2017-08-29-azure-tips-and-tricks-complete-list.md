@@ -156,7 +156,8 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 139 - Prevent AzCopy Uploads from maxing out Internet Connection Speed](http://www.michaelcrump.net/azure-tips-and-tricks139/)
 * [Azure Tips and Tricks Part 140 - Easily copy your SQL Azure database to your local development server](http://www.michaelcrump.net/azure-tips-and-tricks140/)
 * [Azure Tips and Tricks Part 141 - Generate a Zip file from Azure Blob Storage Files](http://www.michaelcrump.net/azure-tips-and-tricks141/)
-* [Azure Tips and Tricks Part 142 - Quickly edit files within Cloud Shell using Code](http://www.michaelcrump.net/azure-tips-and-tricks141/)
+* [Azure Tips and Tricks Part 142 - Quickly edit files within Cloud Shell using Code](http://www.michaelcrump.net/azure-tips-and-tricks142/)
+* [Azure Tips and Tricks Part 143 - Keep your Azure Web App Hydrated and Responsive](http://www.michaelcrump.net/azure-tips-and-tricks143/)
 
 
 ## YouTube Videos
