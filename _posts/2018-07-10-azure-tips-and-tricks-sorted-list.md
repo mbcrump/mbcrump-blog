@@ -61,6 +61,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 119 - Determine the outbound IP addresses of my Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks119/)
 * [Azure Tips and Tricks Part 132 - Increase the timeout of ASP.NET Core 2.0 API hosted in Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks132/)
 * [Azure Tips and Tricks Part 143 - Keep your Azure Web App Hydrated and Responsive](http://www.michaelcrump.net/azure-tips-and-tricks143/)
+* [Azure Tips and Tricks Part 144 - Swiftly understand what versions of .NET are supported on Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks144/)
 
 # Azure CLI
 
