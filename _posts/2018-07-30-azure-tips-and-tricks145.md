@@ -31,9 +31,9 @@ An easy solution to this is
 
 <img style="border:3px solid #021a40" src="/files/azuresqlpw1.png">
 
-5. Reset password is at the top.
+The **Reset password** option is at the top.
 
-<img style="border:3px solid #021a40" src="/files/azureappkudu3.png">
+<img style="border:3px solid #021a40" src="/files/azuresqlpw2.png">
 
 Please note that if you reset the SQL Database server password during a time when there are active connections to databases on the server, you may want to use the KILL statement to terminate user sessions. This will force client connections to refresh their sessions with the database and the host server. 
 
