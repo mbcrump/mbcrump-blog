@@ -159,6 +159,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 142 - Quickly edit files within Cloud Shell using Code](http://www.michaelcrump.net/azure-tips-and-tricks142/)
 * [Azure Tips and Tricks Part 143 - Keep your Azure Web App Hydrated and Responsive](http://www.michaelcrump.net/azure-tips-and-tricks143/)
 * [Azure Tips and Tricks Part 144 - Swiftly understand what versions of .NET are supported on Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks144/)
+* [Azure Tips and Tricks Part 145 - Easily reset the Administrator password for an Azure SQL database](http://www.michaelcrump.net/azure-tips-and-tricks145/)
 
 ## YouTube Videos
 
