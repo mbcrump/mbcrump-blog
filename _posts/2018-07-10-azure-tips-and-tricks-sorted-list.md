@@ -211,7 +211,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 93 - Part 4 - Searching an index with Azure Search with C#](http://www.michaelcrump.net/azure-tips-and-tricks93/)
 * [Azure Tips and Tricks Part 140 - Easily copy your SQL Azure database to your local development server](http://www.michaelcrump.net/azure-tips-and-tricks140/)
 * [Azure Tips and Tricks Part 145 - Easily reset the Administrator password for an Azure SQL database](http://www.michaelcrump.net/azure-tips-and-tricks145/)
-
+* [Azure Tips and Tricks Part 146 - Rename an Azure SQL database](http://www.michaelcrump.net/azure-tips-and-tricks146/)
 
 # E2E
 
