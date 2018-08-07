@@ -132,6 +132,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 134 - Use Run-From-Zip to deploy a site to Azure Web Apps or Functions](http://www.michaelcrump.net/azure-tips-and-tricks134/)
 * [Azure Tips and Tricks Part 135 - Use Run-From-Zip without Azure Storage to deploy a site to Azure Web Apps or Functions](http://www.michaelcrump.net/azure-tips-and-tricks135/)
 * [Azure Tips and Tricks Part 136 - Quickly Restore your Local Settings File for Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks136/)
+* [Azure Tips and Tricks Part 147 - Run TSQL on an Azure SQL database with Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks147/)
 
 # Azure IaaS (VMs)
 
@@ -212,6 +213,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 140 - Easily copy your SQL Azure database to your local development server](http://www.michaelcrump.net/azure-tips-and-tricks140/)
 * [Azure Tips and Tricks Part 145 - Easily reset the Administrator password for an Azure SQL database](http://www.michaelcrump.net/azure-tips-and-tricks145/)
 * [Azure Tips and Tricks Part 146 - Rename an Azure SQL database](http://www.michaelcrump.net/azure-tips-and-tricks146/)
+* [Azure Tips and Tricks Part 147 - Run TSQL on an Azure SQL database with Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks147/)
 
 # E2E
 

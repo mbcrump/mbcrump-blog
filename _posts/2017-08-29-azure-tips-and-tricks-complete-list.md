@@ -161,6 +161,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 144 - Swiftly understand what versions of .NET are supported on Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks144/)
 * [Azure Tips and Tricks Part 145 - Easily reset the Administrator password for an Azure SQL database](http://www.michaelcrump.net/azure-tips-and-tricks145/)
 * [Azure Tips and Tricks Part 146 - Rename an Azure SQL database](http://www.michaelcrump.net/azure-tips-and-tricks146/)
+* [Azure Tips and Tricks Part 147 - Run TSQL on an Azure SQL database with Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks147/)
 
 ## YouTube Videos
 
