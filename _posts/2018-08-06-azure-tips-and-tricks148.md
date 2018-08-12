@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 147 - Share Business Logic between Azure Functions"
+title: "Azure Tips and Tricks Part 148 - Share Business Logic between Azure Functions"
 excerpt: "Learn how to run share business logic between Azure Functions"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
