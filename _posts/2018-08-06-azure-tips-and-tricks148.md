@@ -35,7 +35,6 @@ A sample in JS could be the following:
 
 ```javascript
 module.exports = function (context, req) {
-    // T
     context.res = {
         body: "<b>Hello World, from Azure Tips and Tricks</b>",
         status: 201,
@@ -55,7 +54,7 @@ var logic = require("../shared/businessLogic.js");
 module.exports = logic;
 ```
 
-Notice that each function has their own function.json. So here you could define them to be different triggers such as `function1` could be: 
+Notice that each function has their own `function.json` file. So here you could define them to be different triggers such as `function1` could be an HTTP Trigger
 
 ```json
 {
@@ -80,24 +79,19 @@ Notice that each function has their own function.json. So here you could define 
 }
 ```
 
-```json
-and `function2` could be:
+and `function2` could be a Timer Trigger
 
+```json
 {
-  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-1.0.0.0",
-  "configurationSource": "attributes",
   "bindings": [
     {
+      "name": "myTimer",
       "type": "timerTrigger",
-      "schedule": "0 0 */6 * * *",
-      "useMonitor": true,
-      "runOnStartup": false,
-      "name": "myTimer"
+      "direction": "in",
+      "schedule": "0 */5 * * * *"
     }
   ],
-  "disabled": false,
-  "scriptFile": "../bin/MichaelTest.dll",
-  "entryPoint": "MichaelTest.SendTweet.Run"
+  "disabled": false
 }
 ```
 
