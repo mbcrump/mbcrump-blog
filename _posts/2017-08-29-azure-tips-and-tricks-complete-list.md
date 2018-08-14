@@ -163,6 +163,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 146 - Rename an Azure SQL database](http://www.michaelcrump.net/azure-tips-and-tricks146/)
 * [Azure Tips and Tricks Part 147 - Run TSQL on an Azure SQL database with Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks147/)
 * [Azure Tips and Tricks Part 148 - Share Business Logic between Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks148/)
+* [Azure Tips and Tricks Part 149 - Use PowerShell to quickly see if your Deployment Slot Swapped Successfully](http://www.michaelcrump.net/azure-tips-and-tricks149/)
 
 ## YouTube Videos
 
