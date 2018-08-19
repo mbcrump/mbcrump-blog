@@ -62,7 +62,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 132 - Increase the timeout of ASP.NET Core 2.0 API hosted in Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks132/)
 * [Azure Tips and Tricks Part 143 - Keep your Azure Web App Hydrated and Responsive](http://www.michaelcrump.net/azure-tips-and-tricks143/)
 * [Azure Tips and Tricks Part 144 - Swiftly understand what versions of .NET are supported on Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks144/)
-* * [Azure Tips and Tricks Part 149 - Use PowerShell to quickly see if your Deployment Slot Swapping Successfully](http://www.michaelcrump.net/azure-tips-and-tricks149/)
+* * [Azure Tips and Tricks Part 149 - Use PowerShell to quickly see if your Deployment Slot Swapped Successfully](http://www.michaelcrump.net/azure-tips-and-tricks149/)
 
 # Azure CLI
 
@@ -236,6 +236,8 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 118 - FREE E-book titled Azure Quick Start Guide for .NET Developers](http://www.michaelcrump.net/azure-tips-and-tricks118/)
 * [Azure Tips and Tricks Part 121 - Live from Build 2018](http://www.michaelcrump.net/azure-tips-and-tricks121/)
 * [Azure Tips and Tricks Part 128 - Download all Azure Documentation for offline viewing](http://www.michaelcrump.net/azure-tips-and-tricks128/)
+* [Azure Tips and Tricks Part 150 - Use the Mac Touch Bar to launch the Azure Portal](http://www.michaelcrump.net/azure-tips-and-tricks150/)
+
 
 # Third Party Services
 

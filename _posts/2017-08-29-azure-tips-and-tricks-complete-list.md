@@ -164,6 +164,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 147 - Run TSQL on an Azure SQL database with Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks147/)
 * [Azure Tips and Tricks Part 148 - Share Business Logic between Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks148/)
 * [Azure Tips and Tricks Part 149 - Use PowerShell to quickly see if your Deployment Slot Swapped Successfully](http://www.michaelcrump.net/azure-tips-and-tricks149/)
+* [Azure Tips and Tricks Part 150 - Use the Mac Touch Bar to launch the Azure Portal](http://www.michaelcrump.net/azure-tips-and-tricks150/)
 
 ## YouTube Videos
 
