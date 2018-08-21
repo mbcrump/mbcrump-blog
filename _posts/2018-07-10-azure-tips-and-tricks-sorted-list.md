@@ -237,7 +237,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 121 - Live from Build 2018](http://www.michaelcrump.net/azure-tips-and-tricks121/)
 * [Azure Tips and Tricks Part 128 - Download all Azure Documentation for offline viewing](http://www.michaelcrump.net/azure-tips-and-tricks128/)
 * [Azure Tips and Tricks Part 150 - Use the Mac Touch Bar to launch the Azure Portal](http://www.michaelcrump.net/azure-tips-and-tricks150/)
-
+* [Azure Tips and Tricks Part 151 - The Developer’s Guide to Azure eBook August Update is now Available](http://www.michaelcrump.net/azure-tips-and-tricks151/)
 
 # Third Party Services
 

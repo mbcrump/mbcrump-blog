@@ -165,7 +165,8 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 148 - Share Business Logic between Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks148/)
 * [Azure Tips and Tricks Part 149 - Use PowerShell to quickly see if your Deployment Slot Swapped Successfully](http://www.michaelcrump.net/azure-tips-and-tricks149/)
 * [Azure Tips and Tricks Part 150 - Use the Mac Touch Bar to launch the Azure Portal](http://www.michaelcrump.net/azure-tips-and-tricks150/)
-
+* [Azure Tips and Tricks Part 151 - The Developer’s Guide to Azure eBook August Update is now Available](http://www.michaelcrump.net/azure-tips-and-tricks151/)
+  
 ## YouTube Videos
 
 The complete list so far! 
