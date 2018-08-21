@@ -20,10 +20,6 @@ I'm pleased to announce a new FREE eBook that myself and [Barry Luijbregts](http
 
 <img style="border:3px solid #021a40" src="/files/azdevguide1.png">
 
-[Download it here](https://aka.ms/azuredevebook)
-
-We’re also pleased to announce that we have added [EPUB](http://aka.ms/azuredevebook/epub) and [Mobi](http://aka.ms/azuredevebook/mobi) (“Save link as” or on Mac: Option+Click / Windows: Alt+Left Click) support in addition to the PDF. You can also [download all formats](http://aka.ms/azuredevebook/zip) at once if you wish. Now you have multiple options and can get up to speed with Azure using your eReader or tablet of choice.
-
 We took a lot of consideration and feedback when construction the book and landed on chapters that cover the following :
 
 * Chapter 1: The Developer’s Guide to Azure
@@ -35,11 +31,16 @@ We took a lot of consideration and feedback when construction the book and lande
 * Chapter 7: Microsoft Azure in Action
 * Chapter 8: Summary and where to go next
 
+[Download it here](https://aka.ms/azuredevebook)
+
+We’re also pleased to announce that we have added [EPUB](http://aka.ms/azuredevebook/epub) and [Mobi](http://aka.ms/azuredevebook/mobi) (“Save link as” or on Mac: Option+Click / Windows: Alt+Left Click) support in addition to the PDF. You can also [download all formats](http://aka.ms/azuredevebook/zip) at once if you wish. Now you have multiple options and can get up to speed with Azure using your eReader or tablet of choice.
+
+Also, as a special bonus - the eBook is now available in the [Microsoft Store](https://www.microsoft.com/en-us/p/the-developers-guide-to-azure/fgqpf3gzx1bk).
+
+<img style="border:3px solid #021a40" src="/files/azdevguide2.jpg">
+
 What are you waiting for? Download it now and [sign up](https://info.microsoft.com/guide-for-developers.html?ls=Website) to be notified of future updates to the guide. We'd also love feedback of any sort, so feel free to contact us via Twitter or comments below. 
 
-
-**Recap Links:** [The latest Azure Developer's Guide eBook can be found here](https://aka.ms/azuredevebook) 
-{: .notice--primary}
 
 ## Want more Azure Tips and Tricks?
 
