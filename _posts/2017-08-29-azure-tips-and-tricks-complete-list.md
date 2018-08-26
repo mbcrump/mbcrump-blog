@@ -166,6 +166,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 149 - Use PowerShell to quickly see if your Deployment Slot Swapped Successfully](http://www.michaelcrump.net/azure-tips-and-tricks149/)
 * [Azure Tips and Tricks Part 150 - Use the Mac Touch Bar to launch the Azure Portal](http://www.michaelcrump.net/azure-tips-and-tricks150/)
 * [Azure Tips and Tricks Part 151 - The Developer’s Guide to Azure eBook August Update is now Available](http://www.michaelcrump.net/azure-tips-and-tricks151/)
+* [Azure Tips and Tricks Part 152 - Get the Record Count in Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks152/)
   
 ## YouTube Videos
 

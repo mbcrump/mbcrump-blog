@@ -111,6 +111,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 66 - Using the Data Migration Tool with Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks66/)
 * [Azure Tips and Tricks Part 67 - Querying documents properties with special characters in Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks67/)
 * [Azure Tips and Tricks Part 68 - Access Cosmos DB through a .NET Application](http://www.michaelcrump.net/azure-tips-and-tricks68/)
+* [Azure Tips and Tricks Part 152 - Get the Record Count in Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks152/)
 
 # Azure Functions
 
