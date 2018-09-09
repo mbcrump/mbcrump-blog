@@ -169,6 +169,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 152 - Get the Record Count in Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks152/)
 * [Azure Tips and Tricks Part 153 - How to get the Azure Account Tenant Id?](http://www.michaelcrump.net/azure-tips-and-tricks153/)
 * [Azure Tips and Tricks Part 154 - How to quickly check the EndPoint API of QnA Maker](http://www.michaelcrump.net/azure-tips-and-tricks154/)
+* [Azure Tips and Tricks Part 155 - Archive the Azure Activity Log](http://www.michaelcrump.net/azure-tips-and-tricks155/)
   
 ## YouTube Videos
 

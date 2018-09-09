@@ -187,6 +187,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 18 - Use Tags to quickly organize Azure Resources](http://www.michaelcrump.net/azure-tips-and-tricks18/)
 * [Azure Tips and Tricks Part 25 - Use the Azure Resource Explorer to quickly explore REST APIs](http://www.michaelcrump.net/azure-tips-and-tricks25/)
 * [Azure Tips and Tricks Part 153 - How to get the Azure Account Tenant Id?](http://www.michaelcrump.net/azure-tips-and-tricks153/)
+* [Azure Tips and Tricks Part 155 - Archive the Azure Activity Log](http://www.michaelcrump.net/azure-tips-and-tricks155/)
 
 # Azure Storage 
 
