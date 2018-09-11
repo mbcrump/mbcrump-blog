@@ -165,6 +165,8 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 42 - Modifying an existing API Connection with Azure Logic App](http://www.michaelcrump.net/azure-tips-and-tricks42/)
 * [Azure Tips and Tricks Part 43 - Working with Azure Logic App using Visual Studio 2017](http://www.michaelcrump.net/azure-tips-and-tricks43/)
 * [Azure Tips and Tricks Part 44 - Deploying Azure Logic App through Visual Studio 2017](http://www.michaelcrump.net/azure-tips-and-tricks44/)
+* [Azure Tips and Tricks Part 156 - Use Azure Logic Apps to Detect when a new SQL record is inserted](http://www.michaelcrump.net/azure-tips-and-tricks156/)
+
 
 # Azure Portal
 
