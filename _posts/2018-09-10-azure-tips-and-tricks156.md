@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Azure Tips and Tricks 155 - Archive the Azure Activity Log"
-excerpt: "Learn how to archive the Azure Activity Log"
+title: "Azure Tips and Tricks 156 - Use Azure Logic Apps to Detect when a new SQL record is inserted"
+excerpt: "Learn how to use Azure Logic Apps to detect when a new SQL record is inserted"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
 comments: true
@@ -14,19 +14,39 @@ comments: true
 
 [Available Now!](https://michaelcrump.net/azure-tips-and-tricks-complete-list/){: .btn .btn--success} 
 
-## Archive the Azure Activity Log
+## Use Azure Logic Apps to Detect when a new SQL record is inserted
 
-The Azure Activity Log is a subscription log that provides insight into subscription-level events that have occurred in Azure. This includes a range of data, from Azure Resource Manager operational data to updates on Service Health events.  You may want to Archive the Azure Activity Log if you want to retain your Activity Log longer than 90 days (with full control over the retention policy) for audit, static analysis, or backup. In this post, I'll show you now to archive it with a couple of clicks. 
+I recently needed the ability to detect when a new SQL record was added and send an email. Since the customer didn't want the existing logic in their app to be modified, I relied on Azure Logic Apps and all their powerful connectors. 
 
-In the portal, search for the **Activity Log** service. Now click on the **Export** button as shown below:
+In the portal, create a new **Azure Logic App** and then select **Start with a blank template**. Under the trigger, choose **New step > Add an action**.
 
-<img style="border:3px solid #021a40" src="/files/azactivitylog1.png">
+In the search box, enter "sql" as your filter. and pick **When an item is created**. 
 
-Select a Subscription, Region and place a checkmark in the **Export to an Azure Storage Account**. Now use the slider to select a number of days (0 to 365) for which Activity Log events should be kept in your storage account. You can may also select 0 to save it indefinitely. Now click Save.
+<img style="border:3px solid #021a40" src="/files/logicsql1.png">
 
-<img style="border:3px solid #021a40" src="/files/azactivitylog2.png">
+You'll be prompted for connection details, so do so now.
 
-Now your logs are safe and sound for the time you specified. 
+<img style="border:3px solid #021a40" src="/files/logicsql2.png">
+
+Now you'll need to select the **Table Name** and how often you want to check for item. We are going to go with every 5 seconds. 
+
+<img style="border:3px solid #021a40" src="/files/logicsql3.png">
+
+Now choose, **New step > Choose an action**.
+
+In the search box, enter "email" as your filter. and pick **Send an email**. 
+
+<img style="border:3px solid #021a40" src="/files/logicsql4.png">
+
+Type the email address and select which fields to send. You can put custom text as shown below:
+
+<img style="border:3px solid #021a40" src="/files/logicsql5.png">
+
+Now insert a record into your database and it should fire (as long as you have the Logic app running)
+
+<img style="border:3px solid #021a40" src="/files/logicsql6.png">
+
+Easy enough!
 
 **ATTENTION:** If you liked this post and want to suggest future topics of Azure Tips and Tricks then [complete this survey.](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR0m_7PjUWSdOsfLRTa0HuzZUNE1PS1ZNR0pOUktSTUE2Wk0yWUxRQVI1WC4u)
 {: .notice--primary}
