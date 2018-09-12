@@ -7,8 +7,8 @@ share: true
 comments: true
 ---
 
-**Azure Tips and Tricks Sorted by Services List Now Available** : The [sorted list](https://www.michaelcrump.net/azure-tips-and-tricks-sorted-list/) allows you to quickly find a tip and trick by Azure Services. 
-{: .notice--info}
+**ATTENTION:** Help shape the future of Azure Tips and Tricks by telling me what you'd like for me to write about! Help me help you by filling out this [quick survey.](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR0m_7PjUWSdOsfLRTa0HuzZUNE1PS1ZNR0pOUktSTUE2Wk0yWUxRQVI1WC4u)
+{: .notice--primary}
 
 ## Intro
 
@@ -177,30 +177,47 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 
 The complete list so far! 
 
-* [Azure Tips and Tricks - Load Testing web app with Azure App Services](https://www.youtube.com/watch?v=4rvVbWBOzko)
-* [Azure Tips and Tricks - Use the Azure Resource Explorer to quickly explore REST APIs](https://www.youtube.com/watch?v=Anj1Nw0XzvM)
-* [Azure Tips and Tricks - Testing Web Apps in Production with Azure App Service](https://www.youtube.com/watch?v=03fOzlmO1NE)
-* [Azure Tips and Tricks - Deployment Slots for Web Apps using Azure App Service](https://www.youtube.com/watch?v=RCWViGMZktc)
-* [Azure Tips and Tricks - Adding Extensions to Web Apps in Azure App Service](https://www.youtube.com/watch?v=51M7XN0ANdE)
-* [Azure Tips and Tricks - Working with Files in Azure App Service](https://www.youtube.com/watch?v=qXBDAFQwnsA)
-* [Azure Tips and Tricks - Deploy an Azure Web App using only the CLI](https://www.youtube.com/watch?v=dQbwKeUrQec)
-* [Azure Tips and Tricks - Unboxing the IoT Button given away at Build 2018](https://www.youtube.com/watch?v=OdGHWwRBf_c)
-* [Azure Tips and Tricks LIVE From Build 2018 -  Become more productive with azure in 20 minutes](https://www.youtube.com/watch?v=U0pgup73shU)
-* [Azure Tips and Tricks - Generate SSH public key to log into Linux VM with Cloud Shell](https://www.youtube.com/watch?v=k3HAoDI70M8)
-* [Azure Tips and Tricks - Easily Start, Restart, Stop or Delete Multiple VMs](https://www.youtube.com/watch?v=QQj3Ls52qdY)
-* [Azure Tips and Tricks - Quickly Connect to a Linux VM with SSH](https://www.youtube.com/watch?v=-qOCdIgsEcs)
-* [Azure Tips and Tricks - Quickly Connect to Windows VMs with RDP](https://www.youtube.com/watch?v=ONA71TcG06w)
-* [Azure Tips and Tricks - Use Tags to quickly organize Azure Resources](https://www.youtube.com/watch?v=Ho_zV3jh0xg)
-* [Azure Tips and Tricks - Use PowerShell with Azure Cloud Shell](https://www.youtube.com/watch?v=lsQvHopwWIQ)
-* [Azure Tips and Tricks - Underlying Software in Azure Cloud Shell](https://www.youtube.com/watch?v=MUahW5L2-js)
-* [Azure Tips and Tricks - Demystifying storage in Cloud Shell](https://www.youtube.com/watch?v=abQ7zg3r5Ro)
-* [Azure Tips and Tricks - Access Cloud Shell from within Microsoft Docs](https://www.youtube.com/watch?v=eP94B80wJLs)
-* [Azure Tips and Tricks - Use the Table Parameter in the Azure CLI](https://www.youtube.com/watch?v=tI66gnK3MBs)
-* [Azure Tips and Tricks - Add and Reorder Favorites in the Azure Dashboard](https://www.youtube.com/watch?v=-PGBq9gI75k)
-* [Azure Tips and Tricks - Customize and Pin Charts to your Azure Dashboard](https://www.youtube.com/watch?v=ZM1An0HMdHM)
-* [Azure Tips and Tricks - Drag Tiles to customize your Azure Dashboard](https://www.youtube.com/watch?v=QWi6HvyKeAc)
+* [Azure Tips and Tricks Video - Unboxing the IoT Button given away at Build 2018](https://www.youtube.com/watch?v=OdGHWwRBf_c)
+* [Azure Tips and Tricks Video - LIVE From Build 2018](Become more productive with Azure in 20 minutes)
+* [Azure Tips and Tricks Video - Generate SSH public key to log into Linux VM with Cloud Shell](https://www.youtube.com/watch?v=k3HAoDI70M8)
+* [Azure Tips and Tricks Video - Easily Start, Restart, Stop or Delete Multiple VMs](https://www.youtube.com/watch?v=QQj3Ls52qdY)
+* [Azure Tips and Tricks Video - Quickly Connect to a Linux VM with SSH](https://www.youtube.com/watch?v=-qOCdIgsEcs)
+* [Azure Tips and Tricks Video - Quickly Connect to Windows VMs with RDP](https://www.youtube.com/watch?v=ONA71TcG06w)
+* [Azure Tips and Tricks Video - Use Tags to quickly organize Azure Resources](https://www.youtube.com/watch?v=Ho_zV3jh0xg)
+* [Azure Tips and Tricks Video - Use PowerShell with Azure Cloud Shell](https://www.youtube.com/watch?v=lsQvHopwWIQ)
+* [Azure Tips and Tricks Video - Underlying Software in Azure Cloud Shell](https://www.youtube.com/watch?v=MUahW5L2-js)
+* [Azure Tips and Tricks Video - Demystifying storage in Cloud Shell](https://www.youtube.com/watch?v=abQ7zg3r5Ro)
+* [Azure Tips and Tricks Video - Access Cloud Shell from within Microsoft Docs](https://www.youtube.com/watch?v=eP94B80wJLs)
+* [Azure Tips and Tricks Video - Use the Table Parameter in the Azure CLI](https://www.youtube.com/watch?v=tI66gnK3MBs)
+* [Azure Tips and Tricks Video - Add and Reorder Favorites in the Azure Dashboard](https://www.youtube.com/watch?v=-PGBq9gI75k)
+* [Azure Tips and Tricks Video - Customize and Pin Charts to your Azure Dashboard](https://www.youtube.com/watch?v=ZM1An0HMdHM)
+* [Azure Tips and Tricks Video - Drag Tiles to customize your Azure Dashboard](https://www.youtube.com/watch?v=QWi6HvyKeAc)
+* [Azure Tips and Tricks Video - Add logic to your Testing in Production sites with PowerShell](https://www.youtube.com/watch?v=pKG0PSNnMUE)
+* [Azure Tips and Tricks Video - Setting up Email Alerts with Azure App Service](https://www.youtube.com/watch?v=CqXVrABbqJg)
+* [Azure Tips and Tricks Video - Working with Log Stream and Azure App Service](https://www.youtube.com/watch?v=jADGXsczCs8)
+* [Azure Tips and Tricks Video - Cloning Web Apps Using and Azure App Service](https://www.youtube.com/watch?v=KcQmjxLHT10)
+* [Azure Tips and Tricks Video - Configure a Backup for your Azure App Service and Database](https://www.youtube.com/watch?v=ITgRBIswQcI)
+* [Azure Tips and Tricks Video - Working with App Settings and Azure App Service](https://www.youtube.com/watch?v=exBvgew8LlU)
+* [Azure Tips and Tricks Video - Load Testing web app with Azure App Services](https://www.youtube.com/watch?v=4rvVbWBOzko)
+* [Azure Tips and Tricks Video - Use the Azure Resource Explorer to quickly explore REST APIs](https://www.youtube.com/watch?v=Anj1Nw0XzvM)
+* [Azure Tips and Tricks Video - Testing Web Apps in Production with Azure App Service](https://www.youtube.com/watch?v=03fOzlmO1NE)
+* [Azure Tips and Tricks Video - Deployment Slots for Web Apps using Azure App Service](https://www.youtube.com/watch?v=RCWViGMZktc)
+* [Azure Tips and Tricks Video - Adding Extensions to Web Apps in Azure App Service](https://www.youtube.com/watch?v=51M7XN0ANdE)
+* [Azure Tips and Tricks Video - Working with Files in Azure App Service](https://www.youtube.com/watch?v=qXBDAFQwnsA)
+* [Azure Tips and Tricks Video - Deploy an Azure Web App using only the CLI](https://www.youtube.com/watch?v=dQbwKeUrQec)
+* [Azure Tips and Tricks Video - Add logic to your Testing in Production sites with PowerShell](https://www.youtube.com/watch?v=pKG0PSNnMUE)
+* [Azure Tips and Tricks Video - Create a JSON Schema to be used in a Azure Logic Apps](https://www.youtube.com/watch?v=4_L2xXM-gwg)
+* [Azure Tips and Tricks Video - Quickly Renew or Revoke Azure Functions Keys](https://www.youtube.com/watch?v=_sRin9uHNLI)
+* [Azure Tips and Tricks Video - Work with the Azure Functions File System using the Console](https://www.youtube.com/watch?v=HjqazRHHRd4)
+* [Azure Tips and Tricks Video - Working with the Azure CLI using a Mac](https://www.youtube.com/watch?v=y8jnnBImFYQ)
+* [Azure Tips and Tricks Video - Prevent Changes to Resources in Azure App Service](https://www.youtube.com/watch?v=FDBfGrOEWnM)
+* [Azure Tips and Tricks Video - Quick update on Azure Tips and Tricks Video [IG]](https://www.youtube.com/watch?v=-fgOSXa3I80)
+* [Azure Tips and Tricks Video - Setup an HTTP Request Trigger that is used in an Azure Logic Apps](https://www.youtube.com/watch?v=-VHh4KjCz9U)
+* [Azure Tips and Tricks Video - Create a JSON Schema to be used in a Azure Logic Apps](https://www.youtube.com/watch?v=4_L2xXM-gwg)
+* [Azure Tips and Tricks Video - Quickly Renew or Revoke Azure Functions Keys](https://www.youtube.com/watch?v=_sRin9uHNLI)
 
-YEAH, baby!
+**ATTENTION:** Help shape the future of Azure Tips and Tricks by telling me what you'd like for me to write about! Help me help you by filling out this [quick survey.](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR0m_7PjUWSdOsfLRTa0HuzZUNE1PS1ZNR0pOUktSTUE2Wk0yWUxRQVI1WC4u)
+{: .notice--primary}
 
 ## Got a Azure Tip or Trick?
 
