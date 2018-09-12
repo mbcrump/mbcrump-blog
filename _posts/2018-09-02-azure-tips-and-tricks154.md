@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks 154 - How to quickly check the EndPoint API of QnA Maker"
+title: "Azure Tips and Tricks Part 154 - How to quickly check the EndPoint API of QnA Maker"
 excerpt: "Learn how to quickly test the QnA Maker knowledge base with Fiddler"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true

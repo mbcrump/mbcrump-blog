@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks 151 - The Developer’s Guide to Azure August Update is now Available"
+title: "Azure Tips and Tricks Part 151 - The Developer’s Guide to Azure August Update is now Available"
 excerpt: "Learn how to get your free copy of the The Developer's Guide to Microsoft Azure"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true

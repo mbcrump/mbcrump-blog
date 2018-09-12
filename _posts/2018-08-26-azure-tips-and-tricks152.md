@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks 152 - Get the Record Count in Cosmos DB"
+title: "Azure Tips and Tricks Part 152 - Get the Record Count in Cosmos DB"
 excerpt: "Learn how to get the record count in Azure Cosmos DB"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true

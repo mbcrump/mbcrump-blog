@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks 153 - How to get the Azure Account Tenant Id?"
+title: "Azure Tips and Tricks Part 153 - How to get the Azure Account Tenant Id?"
 excerpt: "Learn how to quickly get the Azure Account Tenant ID"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true

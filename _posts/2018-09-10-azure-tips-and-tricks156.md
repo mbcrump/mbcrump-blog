@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks 156 - Use Azure Logic Apps to Detect when a new SQL record is inserted"
+title: "Azure Tips and Tricks Part 156 - Use Azure Logic Apps to Detect when a new SQL record is inserted"
 excerpt: "Learn how to use Azure Logic Apps to detect when a new SQL record is inserted"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true

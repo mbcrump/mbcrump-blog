@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks 155 - Archive the Azure Activity Log"
+title: "Azure Tips and Tricks Part 155 - Archive the Azure Activity Log"
 excerpt: "Learn how to archive the Azure Activity Log"
 tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
