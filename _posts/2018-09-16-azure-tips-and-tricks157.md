@@ -2,7 +2,7 @@
 layout: post
 title: "Azure Tips and Tricks Part 157 - Part 1 Create Thumbnail Images with Azure Functions and Azure Storage"
 excerpt: "Learn how to create a thumbnail images with Azure Functions and Azure Storage"
-tags: [azure, addatag, addanothertag, etc, etc, etc]
+tags: [azure, windows, portal, cloud, developers, tipsandtricks]
 share: true
 comments: true
 ---
@@ -35,7 +35,7 @@ Go ahead and click on **Blobs** and create a **Container** and give it the name 
 
 <img style="border:3px solid #021a40" src="/files/imageresizer2.png">
 
-We're going to need our Access Key shortly, so look under **Settings**, then **Access Keys** and copy the connection string to your clipboard.
+We're going to need our Access Key shortly, so look under **Settings**, then **Access Keys** and copy the **connection string** to your clipboard.
 
 **What is an Access Key?** This string will allow us to connect to the Storage Account.
 {: .notice--primary}
@@ -52,7 +52,7 @@ Under Storage, change the default emulator to the **Azure Storage Account** that
 
 <img style="border:3px solid #021a40" src="/files/imageresizer4.png">
 
-We'll begin by using the **Timer Trigger** and leaving everything as the defaults. 
+We'll begin by using the **Timer Trigger** and **Azure Function v1** leaving everything as the defaults. 
 
 <img style="border:3px solid #021a40" src="/files/imageresizer5.png">
 

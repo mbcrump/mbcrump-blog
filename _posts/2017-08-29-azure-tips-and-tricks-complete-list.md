@@ -172,7 +172,8 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 155 - Archive the Azure Activity Log](http://www.michaelcrump.net/azure-tips-and-tricks155/)
 * [Azure Tips and Tricks Part 156 - Use Azure Logic Apps to Detect when a new SQL record is inserted](http://www.michaelcrump.net/azure-tips-and-tricks156/)
 * [Azure Tips and Tricks Part 157 - Part 1 Create Thumbnail Images with Azure Functions and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks157/)
-  
+* [Azure Tips and Tricks Part 158 - Part 2 Create Thumbnail Images with Azure Functions and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks158/)
+
 ## YouTube Videos
 
 The complete list so far! 
