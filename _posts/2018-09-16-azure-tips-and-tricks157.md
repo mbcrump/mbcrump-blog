@@ -18,6 +18,9 @@ comments: true
 
 In this mini-series, we're going to create an Azure Function that detects when a new image is added to Azure Storage and automatically creates a thumbnail image for us.
 
+* [Azure Tips and Tricks Part 157 - Part 1 Create Thumbnail Images with Azure Functions and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks157/)
+* [Azure Tips and Tricks Part 158 - Part 2 Create Thumbnail Images with Azure Functions and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks158/)
+
 ## Part 1 (Setup) Azure Portal
  
 Go ahead and open the **Azure Portal** and click **Create a Resource** and select **Azure Storage**. We’ll keep it simple as shown below to get started.
