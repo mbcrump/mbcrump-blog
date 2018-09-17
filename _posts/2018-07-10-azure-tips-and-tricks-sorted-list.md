@@ -137,7 +137,8 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 136 - Quickly Restore your Local Settings File for Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks136/)
 * [Azure Tips and Tricks Part 147 - Run TSQL on an Azure SQL database with Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks147/)
 * [Azure Tips and Tricks Part 148 - Share Business Logic between Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks148/)
-* 
+* [Azure Tips and Tricks Part 157 - Part 1 Create Thumbnail Images with Azure Functions and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks157/)
+  
 # Azure IaaS (VMs)
 
 * [Azure Tips and Tricks Part 09 - Quickly Connect to Windows VMs with RDP](http://www.michaelcrump.net/azure-tips-and-tricks9/)

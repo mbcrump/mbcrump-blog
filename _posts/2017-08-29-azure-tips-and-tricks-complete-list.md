@@ -171,7 +171,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 154 - How to quickly check the EndPoint API of QnA Maker](http://www.michaelcrump.net/azure-tips-and-tricks154/)
 * [Azure Tips and Tricks Part 155 - Archive the Azure Activity Log](http://www.michaelcrump.net/azure-tips-and-tricks155/)
 * [Azure Tips and Tricks Part 156 - Use Azure Logic Apps to Detect when a new SQL record is inserted](http://www.michaelcrump.net/azure-tips-and-tricks156/)
-  
+* [Azure Tips and Tricks Part 157 - Part 1 Create Thumbnail Images with Azure Functions and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks157/)
   
 ## YouTube Videos
 
@@ -215,6 +215,8 @@ The complete list so far!
 * [Azure Tips and Tricks Video - Setup an HTTP Request Trigger that is used in an Azure Logic Apps](https://www.youtube.com/watch?v=-VHh4KjCz9U)
 * [Azure Tips and Tricks Video - Create a JSON Schema to be used in a Azure Logic Apps](https://www.youtube.com/watch?v=4_L2xXM-gwg)
 * [Azure Tips and Tricks Video - Quickly Renew or Revoke Azure Functions Keys](https://www.youtube.com/watch?v=_sRin9uHNLI)
+* [Azure Tips and Tricks Video - Upload Files from a URL with Azure Logic Apps](https://www.youtube.com/watch?v=wTRbjmmaEBg)
+
 
 **ATTENTION:** Help shape the future of Azure Tips and Tricks by telling me what you'd like for me to write about! Help me help you by filling out this [quick survey.](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR0m_7PjUWSdOsfLRTa0HuzZUNE1PS1ZNR0pOUktSTUE2Wk0yWUxRQVI1WC4u)
 {: .notice--primary}
