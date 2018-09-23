@@ -16,7 +16,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 ## Table of Contents of the entire Azure Tips and Tricks series (Sorted)
 
 - [AzCopy](#azcopy)
-    - [Azure App Services](#azure-app-services)
+- [Azure App Services](#azure-app-services)
 - [Azure CLI](#azure-cli)
 - [Azure Cloud Shell](#azure-cloud-shell)
 - [Azure Cognitive Services](#azure-cognitive-services)
@@ -40,7 +40,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 81 - Working with AzCopy and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks81/)
 * [Azure Tips and Tricks Part 139 - Prevent AzCopy Uploads from maxing out Internet Connection Speed](http://www.michaelcrump.net/azure-tips-and-tricks139/)
 
-## Azure App Services
+# Azure App Services
 
 * [Azure Tips and Tricks Part 16 - Deploy Jekyll Site Hosted on GitHub to Azure](http://www.michaelcrump.net/azure-tips-and-tricks16/)
 * [Azure Tips and Tricks Part 20 - Working with Files in Azure App Service](http://www.michaelcrump.net/azure-tips-and-tricks20/)
@@ -168,7 +168,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 43 - Working with Azure Logic App using Visual Studio 2017](http://www.michaelcrump.net/azure-tips-and-tricks43/)
 * [Azure Tips and Tricks Part 44 - Deploying Azure Logic App through Visual Studio 2017](http://www.michaelcrump.net/azure-tips-and-tricks44/)
 * [Azure Tips and Tricks Part 156 - Use Azure Logic Apps to Detect when a new SQL record is inserted](http://www.michaelcrump.net/azure-tips-and-tricks156/)
-
+* [Azure Tips and Tricks Part 159 - Use Azure Logic Apps and CosmosDB to monitor and archive Twitter hashtags](http://www.michaelcrump.net/azure-tips-and-tricks159)
 
 # Azure Portal
 
