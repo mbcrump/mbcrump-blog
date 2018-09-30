@@ -13,7 +13,7 @@ comments: true
 ## The Complete List of Azure Tips and Tricks
  
 [Available Now!](https://michaelcrump.net/azure-tips-and-tricks-complete-list/)
-{: .btn .btn--success}
+{: .btn--success}
 
 
 ## The BEST of Azure Tips and Tricks is now available as a FREE ebook
@@ -49,10 +49,10 @@ PS:
 
 You can stay up to date with the latest Azure Tips and Tricks at:
 
-* (Blog)[azuredev.tips]
-* (Videos)[videos.azuredev.tips]
-* (eBook)[ebook.azuredev.tips]
-* (Survey)[survey.azuredev.tips]
+* [Blog](azuredev.tips)
+* [Videos](videos.azuredev.tips)
+* [eBook](ebook.azuredev.tips)
+* [Survey](survey.azuredev.tips)
 
  
 ## Want more Azure Tips and Tricks?
