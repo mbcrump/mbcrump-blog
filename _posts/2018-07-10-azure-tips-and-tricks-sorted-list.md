@@ -138,7 +138,8 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 147 - Run TSQL on an Azure SQL database with Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks147/)
 * [Azure Tips and Tricks Part 148 - Share Business Logic between Azure Functions](http://www.michaelcrump.net/azure-tips-and-tricks148/)
 * [Azure Tips and Tricks Part 157 - Part 1 Create Thumbnail Images with Azure Functions and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks157/)
-* [Azure Tips and Tricks Part 158 - Part 2 Create Thumbnail Images with Azure Functions and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks158/)  
+* [Azure Tips and Tricks Part 158 - Part 2 Create Thumbnail Images with Azure Functions and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks158/) 
+* [Azure Tips and Tricks Part 161 - Change the Azure Function runtime version after Deployment](http://www.michaelcrump.net/azure-tips-and-tricks161) 
 
 # Azure IaaS (VMs)
 
