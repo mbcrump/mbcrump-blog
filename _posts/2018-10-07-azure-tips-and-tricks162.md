@@ -7,8 +7,8 @@ share: true
 comments: true
 ---
 
-**Like what you seee?:** Subscribe to my weekly email newsletter to get a recap of the latest blog posts and videos! Just scroll to the very bottom of this page and enter your email address. NO SPAM! I promise.
-{: .notice--primary}
+**Like what you see?:** Subscribe to my weekly email newsletter to get a recap of the latest blog posts and videos! Just scroll to the very bottom of this page and enter your email address. NO SPAM! I promise.
+{: .notice--primary} 
 
 ## The Complete List of Azure Tips and Tricks
 
