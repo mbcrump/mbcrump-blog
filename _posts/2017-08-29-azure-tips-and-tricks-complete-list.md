@@ -176,6 +176,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 159 - Use Azure Logic Apps and CosmosDB to monitor and archive Twitter hashtags](http://www.michaelcrump.net/azure-tips-and-tricks159)
 * [Azure Tips and Tricks Part 160 - The BEST of Azure Tips and Tricks is now available as a FREE ebook](http://www.michaelcrump.net/azure-tips-and-tricks160)
 * [Azure Tips and Tricks Part 161 - Change the Azure Function runtime version after Deployment](http://www.michaelcrump.net/azure-tips-and-tricks161)
+* [Azure Tips and Tricks Part 162 - ARM Templates Demystified](http://www.michaelcrump.net/azure-tips-and-tricks162/)
 
 ## YouTube Videos
 
