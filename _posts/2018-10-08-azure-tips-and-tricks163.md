@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 163 - Provide Static App Settings Values to an ARM Template"
+title: "Azure Tips and Tricks Part 163 - Provide Static App Settings Values in an ARM Template"
 excerpt: "Learn how to use provide static values to ARM templates"
 tags: [azure, arm, templates, appsettings]
 share: true
@@ -16,7 +16,9 @@ comments: true
 
 # Azure Tips and Tricks – Copying Application Settings with an ARM Template
 
-[Part 1](https://www.michaelcrump.net/azure-tips-and-tricks162/) | [Part 2 - This Post](https://www.michaelcrump.net/azure-tips-and-tricks163/)  | [Part 3 - Coming soon]()
+* [Part 1](https://www.michaelcrump.net/azure-tips-and-tricks162/)
+* [Part 2 - This Post](https://www.michaelcrump.net/azure-tips-and-tricks163/)  
+* [Part 3 - Coming soon]()
 
 ## Yesterday on Azure Tips and Tricks
 
@@ -24,19 +26,25 @@ Building on my previous Azure Tips and Tricks post about what ARM templates are 
 
 ## Getting Started
 
-Go ahead and create a resource inside the Azure Portal for a Web App.
+Go ahead and click **Create a resource** inside the Azure Portal and select **Web App**.
 
-Enter a name and a resource group for your web app and click **Automation options** in order to start creating your ARM template.
+Enter a **Name** and a **Resource Group** for your web app and click **Automation options** at the bottom before you hit **Create** in order to start creating your ARM template.
+
+<img style="border:3px solid #021a40" src="/files/new_webapp.png">
+
+After you click **Automation options**, then this is what you will see:
 
 <img style="border:3px solid #021a40" src="/files/arm_template.png">
 
-As you can see, your template is JSON with multiple values describing how your web app is going to be deployed.
+The template to create a web app (or any other Azure resource) is simply a JSON file with multiple values describing how your web app is going to be deployed.
 
-### Static App Settings for your Azure App Service
+## Create Static App Settings for your Azure App Service
 
 To make things as easy as possible, let’s assume for now that you want to add the exact same settings every time you deploy your web app template. 
 
 Go to **Deploy** then **Edit Template** and paste the following settings fragment overwriting your template’s resource section. (You could, of course, add as many keys as your web app needs.)
+
+Make note that we are adding three names and 3 values for **MyFirstName**, **MyLastName**, and **MySSN**.
 
 ```
   "resources": [
@@ -76,15 +84,13 @@ Press **Save** and ensure the **Basic** and **Settings** is filled out. Agree to
 Note: If it says failure to deploy, then give it a shot again. I have had this happened but maybe it is only happening since I use the Preview. 
 {: .notice--primary}
 
-<img style="border:3px solid #021a40" src="/files/create_resource1.png">
+ Your Azure App Settings (for **MyFirstName**, **MyLastName**, and **MySSN**) will now be deployed. 
 
- Your app settings will now be deployed with your web app. Save your template and keep it in the freezer until you need to pull it out again.
-
-After deployment, navigate to your **App Service** and go to **Application Settings** and you'll see your site deployed  with the settings we specified earlier. 
+After deployment, navigate to your **App Service** and go to **Application Settings** and you'll see your site deployed along with the settings (for **MyFirstName**, **MyLastName**, and **MySSN**)that we specified earlier. 
 
 <img style="border:3px solid #021a40" src="/files/create_resource1.png">
 
-Come back tomorrow and we'll take a look at adding parameters
+Come back tomorrow and we'll take a look at adding parameters!
 
 **ATTENTION:** If you liked this post and want to suggest future topics of Azure Tips and Tricks then [complete this survey.](http://survey.azuredev.tips)
 {: .notice--primary}
