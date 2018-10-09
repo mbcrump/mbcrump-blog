@@ -86,7 +86,7 @@ Note: If it says failure to deploy, then give it a shot again. I have had this h
 
  Your Azure App Settings (for **MyFirstName**, **MyLastName**, and **MySSN**) will now be deployed. 
 
-After deployment, navigate to your **App Service** and go to **Application Settings** and you'll see your site deployed along with the settings (for **MyFirstName**, **MyLastName**, and **MySSN**)that we specified earlier. 
+After deployment, navigate to your **App Service** and go to **Application Settings** and you'll see your site deployed along with the settings (for **MyFirstName**, **MyLastName**, and **MySSN**) that we specified earlier. 
 
 <img style="border:3px solid #021a40" src="/files/create_resource1.png">
 
