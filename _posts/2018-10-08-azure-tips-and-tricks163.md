@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 163 - Provide Static Values to ARM Template"
+title: "Azure Tips and Tricks Part 163 - Provide Static App Settings Values to an ARM Template"
 excerpt: "Learn how to use provide static values to ARM templates"
 tags: [azure, arm, templates, appsettings]
 share: true
@@ -22,7 +22,6 @@ comments: true
 
 Building on my previous Azure Tips and Tricks post about what ARM templates are and why you should care, I wanted to give you a quick recipe for a common development task. You’ve already seen that you can automate deploying a web app (and many other resources), but can you also copy configuration information like app settings with your ARM template? Yes! 
 
-
 ## Getting Started
 
 Go ahead and create a resource inside the Azure Portal for a Web App.
@@ -33,7 +32,7 @@ Enter a name and a resource group for your web app and click **Automation option
 
 As you can see, your template is JSON with multiple values describing how your web app is going to be deployed.
 
-### Static Settings
+### Static App Settings for your Azure App Service
 
 To make things as easy as possible, let’s assume for now that you want to add the exact same settings every time you deploy your web app template. 
 
