@@ -18,6 +18,10 @@ Most folks aren't aware of how powerful the [Azure](http://www.azure.com) platfo
 
 [Available Now!](https://michaelcrump.net/azure-tips-and-tricks-complete-list/){: .btn .btn--success} 
 
+## Special Thanks
+
+Special Thanks to [Stefan Wick](http://twitter.com/StefanWickDev) on the Azure IoT Team for his review and edits on this post. 
+
 ## The Series so Far
 
 At Build 2018, we first saw the [IoT Button](http://aka.ms/button). I started [exploring the device](https://www.youtube.com/watch?v=OdGHWwRBf_c) with the very first unboxing and decided to create a mini-series to walk you how to use the device from start to finish. The series (so far) is located below
@@ -62,11 +66,11 @@ Once your project settles down, go into your `local.settings.json` and add the f
 }
 ```
 
-Go into the IoT Hub that you created, select Endpoints, click on the events endpoint and copy the **Event Hub-compatible endpoint** and also the **Event Hub-compatible name** to notepad somewhere. 
+Go into the IoT Hub that you created, select Built-in endpoints, and copy the **Event Hub-compatible endpoint** to notepad somewhere. 
 
 <img style="border:3px solid #021a40" src="/files/iotbutton28.png">
 
-Now append the endpoint with the name. For example mine is `Endpoint=sb://xxxservicebus.windows.net/;SharedAccessKeyName=xxx=;EntityPath=myioteventhubcompatiblename`. Now copy that into the **IoTHubConnectionString** field in our  `local.settings.json`.
+For example mine is `Endpoint=sb://xxxservicebus.windows.net/;SharedAccessKeyName=xxx=;EntityPath=myioteventhubcompatiblename`. Now copy that into the **IoTHubConnectionString** field in our  `local.settings.json`.
 
 If you run the application now, you'll see our function can accept messages. So go ahead and press your IoT Button and you should see something return. 
 
