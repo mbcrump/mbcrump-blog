@@ -16,7 +16,9 @@ comments: true
 
 # Azure Tips and Tricks – Copying Application Settings with an ARM Template
 
-[Part 1](https://www.michaelcrump.net/azure-tips-and-tricks162/) | [Part 2 - This Post](https://www.michaelcrump.net/azure-tips-and-tricks163/) | [Part 3 - This Post]
+* [Part 1](https://www.michaelcrump.net/azure-tips-and-tricks162/)
+* [Part 2](https://www.michaelcrump.net/azure-tips-and-tricks163/) 
+* [Part 3 - This Post]
 
 ## Yesterday on Azure Tips and Tricks
 
