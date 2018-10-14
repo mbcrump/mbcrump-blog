@@ -178,6 +178,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 161 - Change the Azure Function runtime version after Deployment](http://www.michaelcrump.net/azure-tips-and-tricks161)
 * [Azure Tips and Tricks Part 162 - ARM Templates Demystified](http://www.michaelcrump.net/azure-tips-and-tricks162/)
 * [Azure Tips and Tricks Part 163 - Provide Static App Settings Values to an ARM Template](http://www.michaelcrump.net/azure-tips-and-tricks163/)
+* [Azure Tips and Tricks Part 164 - Defining Parameters to be used with ARM Templates](http://www.michaelcrump.net/azure-tips-and-tricks164/)
 
 ## YouTube Videos
 

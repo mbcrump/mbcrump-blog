@@ -28,7 +28,9 @@ You’ve already seen that you can automate deploying static configuration infor
 
 Go ahead and search for **Templates** inside the Azure Portal and click **Add** to create a new one.
 
-Enter a **name** and a **description** and on the ARM Template. 
+Enter a **name** and a **description** on the ARM Template. 
+
+<img style="border:3px solid #021a40" src="/files/customdeploy5.png">
 
 ## Fill-in-the-blank settings
 
