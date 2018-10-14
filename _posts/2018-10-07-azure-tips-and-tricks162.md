@@ -16,7 +16,9 @@ comments: true
 
 ## Azure Tips and Tricks - ARM Templates Demystified
 
-[Part 1 - This Post](https://www.michaelcrump.net/azure-tips-and-tricks162/) | [Part 2](https://www.michaelcrump.net/azure-tips-and-tricks163/) | [Part 3 - Coming soon]()
+* [Part 1 - This Post](https://www.michaelcrump.net/azure-tips-and-tricks162/)
+* [Part 2](https://www.michaelcrump.net/azure-tips-and-tricks163/) 
+* [Part 3](https://www.michaelcrump.net/azure-tips-and-tricks164/)
 
 ## Intro
 

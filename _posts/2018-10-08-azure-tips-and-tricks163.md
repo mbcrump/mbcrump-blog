@@ -18,7 +18,7 @@ comments: true
 
 * [Part 1](https://www.michaelcrump.net/azure-tips-and-tricks162/)
 * [Part 2 - This Post](https://www.michaelcrump.net/azure-tips-and-tricks163/)  
-* [Part 3 - Coming soon]()
+* [Part 3](https://www.michaelcrump.net/azure-tips-and-tricks164/)
 
 ## Yesterday on Azure Tips and Tricks
 
