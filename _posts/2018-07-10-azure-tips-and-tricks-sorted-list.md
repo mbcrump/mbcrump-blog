@@ -113,6 +113,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 67 - Querying documents properties with special characters in Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks67/)
 * [Azure Tips and Tricks Part 68 - Access Cosmos DB through a .NET Application](http://www.michaelcrump.net/azure-tips-and-tricks68/)
 * [Azure Tips and Tricks Part 152 - Get the Record Count in Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks152/)
+* [Azure Tips and Tricks Part 166 - Data Storage Options with Azure Storage and Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks166)
 
 # Azure Functions
 
@@ -217,6 +218,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 95 - Access all files from an Azure Storage Blob Container](http://www.michaelcrump.net/azure-tips-and-tricks95/)
 * [Azure Tips and Tricks Part 138 - Host a Static Website with Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks138/)
 * [Azure Tips and Tricks Part 141 - Generate a Zip file from Azure Blob Storage Files](http://www.michaelcrump.net/azure-tips-and-tricks141/)
+* [Azure Tips and Tricks Part 166 - Differences between Azure Table Storage and Azure Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks166)
 
 # Azure SQL and Search 
 
