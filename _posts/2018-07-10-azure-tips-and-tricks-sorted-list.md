@@ -114,6 +114,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 68 - Access Cosmos DB through a .NET Application](http://www.michaelcrump.net/azure-tips-and-tricks68/)
 * [Azure Tips and Tricks Part 152 - Get the Record Count in Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks152/)
 * [Azure Tips and Tricks Part 166 - Data Storage Options with Azure Storage and Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks166)
+* [Azure Tips and Tricks Part 167 - Migrating Data from Cosmos DB to Local JSON files](http://www.michaelcrump.net/azure-tips-and-tricks167)
 
 # Azure Functions
 

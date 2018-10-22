@@ -181,6 +181,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 164 - Defining Parameters to be used with ARM Templates](http://www.michaelcrump.net/azure-tips-and-tricks164/)
 * [Azure Tips and Tricks Part 165 - Live from Ignite 2018](http://www.michaelcrump.net/azure-tips-and-tricks165)
 * [Azure Tips and Tricks Part 166 - Data Storage Options with Azure Storage and Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks166)
+* [Azure Tips and Tricks Part 167 - Migrating Data from Cosmos DB to Local JSON files](http://www.michaelcrump.net/azure-tips-and-tricks167)
 
 ## YouTube Videos
 
