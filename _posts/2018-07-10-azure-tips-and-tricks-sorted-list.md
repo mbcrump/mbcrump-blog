@@ -242,6 +242,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 107 - Day 6 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks107/)
 * [Azure Tips and Tricks Part 108 - Day 7 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks108/)
 * [Azure Tips and Tricks Part 109 - Day 8 - An end to end scenario with Azure App Service, API Apps, SQL, VSTS and CI/CD](http://www.michaelcrump.net/azure-tips-and-tricks109/)
+* [Azure Tips and Tricks Part 168 - Part 1 - A quick tour around Azure DevOps Projects using Node.js and AKS](http://www.michaelcrump.net/azure-tips-and-tricks168)
 
 # Misc Awesomeness
 
