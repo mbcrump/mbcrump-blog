@@ -183,6 +183,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 166 - Data Storage Options with Azure Storage and Cosmos DB](http://www.michaelcrump.net/azure-tips-and-tricks166)
 * [Azure Tips and Tricks Part 167 - Migrating Data from Cosmos DB to Local JSON files](http://www.michaelcrump.net/azure-tips-and-tricks167)
 * [Azure Tips and Tricks Part 168 - Part 1 - A quick tour around Azure DevOps Projects using Node.js and AKS](http://www.michaelcrump.net/azure-tips-and-tricks168)
+* [Azure Tips and Tricks Part 169 - Part 2 - A quick tour around Azure DevOps Projects using Node.js and AKS](http://www.michaelcrump.net/azure-tips-and-tricks169)
 
 ## YouTube Videos
 
