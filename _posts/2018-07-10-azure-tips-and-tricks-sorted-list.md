@@ -29,6 +29,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 - [Azure Portal](#azure-portal)
 - [Azure PowerShell](#azure-powershell)
 - [Azure Productivity Tips](#azure-productivity-tips)
+- [Azure SAP](#azure-sap)
 - [Azure Storage](#azure-storage)
 - [Azure SQL and Search](#azure-sql-and-search)
 - [E2E](#e2e)
@@ -198,6 +199,10 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 162 - ARM Templates Demystified](http://www.michaelcrump.net/azure-tips-and-tricks162/)
 * [Azure Tips and Tricks Part 163 - Provide Static App Settings Values to an ARM Template](http://www.michaelcrump.net/azure-tips-and-tricks163/)
 * [Azure Tips and Tricks Part 164 - Defining Parameters to be used with ARM Templates](http://www.michaelcrump.net/azure-tips-and-tricks164/)
+
+# Azure SAP
+
+* [Azure Tips and Tricks Part 170 - SAP on Azure in Plain English Part 1 of 2](http://www.michaelcrump.net/azure-tips-and-tricks170)
 
 # Azure Storage 
 
