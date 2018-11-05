@@ -18,8 +18,8 @@ comments: true
  
 In this series, I take a look at SAP coming from someone who hasn't used it before. 
 
-* [Part 1 - This post]
-* [Part 2 - Coming tomorrow]()
+* [Part 1 - This post](http://www.michaelcrump.net/azure-tips-and-tricks170)
+* [Part 2](http://www.michaelcrump.net/azure-tips-and-tricks171)
 
 ## SAP - A brief history lesson from 1973 - 2018
 

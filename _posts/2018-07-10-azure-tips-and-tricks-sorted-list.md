@@ -203,6 +203,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 # Azure SAP
 
 * [Azure Tips and Tricks Part 170 - SAP on Azure in Plain English Part 1 of 2](http://www.michaelcrump.net/azure-tips-and-tricks170)
+* [Azure Tips and Tricks Part 171 - SAP on Azure in Plain English Part 2 of 2](http://www.michaelcrump.net/azure-tips-and-tricks171)
 
 # Azure Storage 
 
