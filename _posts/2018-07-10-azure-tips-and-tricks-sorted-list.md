@@ -23,6 +23,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 - [Azure Containers](#azure-containers)
 - [Azure Cosmos DB](#azure-cosmos-db)
 - [Azure Functions](#azure-functions)
+- [Azure HDInsight](#azure-hdinsight)
 - [Azure IaaS (VMs)](#azure-iaas-vms)
 - [Azure IoT](#azure-iot)
 - [Azure Logic Apps](#azure-logic-apps)
@@ -143,6 +144,10 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 157 - Part 1 Create Thumbnail Images with Azure Functions and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks157/)
 * [Azure Tips and Tricks Part 158 - Part 2 Create Thumbnail Images with Azure Functions and Azure Storage](http://www.michaelcrump.net/azure-tips-and-tricks158/) 
 * [Azure Tips and Tricks Part 161 - Change the Azure Function runtime version after Deployment](http://www.michaelcrump.net/azure-tips-and-tricks161) 
+
+# Azure HDInsight
+
+* [Azure Tips and Tricks Part 172 - Getting Started with HDInsight](http://www.michaelcrump.net/azure-tips-and-tricks172)
 
 # Azure IaaS (VMs)
 
