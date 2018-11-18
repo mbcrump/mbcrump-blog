@@ -94,6 +94,8 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 72 - Sentiment Analysis with Cognitive Service and Azure](http://www.michaelcrump.net/azure-tips-and-tricks72/)
 * [Azure Tips and Tricks Part 129 - Using OCR to extract text from images from the Azure Portal](http://www.michaelcrump.net/azure-tips-and-tricks129/)
 * [Azure Tips and Tricks Part 154 - How to quickly check the EndPoint API of QnA Maker](http://www.michaelcrump.net/azure-tips-and-tricks154/)
+* [Azure Tips and Tricks Part 174 - Machine Learning with ML.NET, Azure Functions and VS Code - Part 1 of 2](http://www.michaelcrump.net/azure-tips-and-tricks174)
+
 
 # Azure Containers
 
