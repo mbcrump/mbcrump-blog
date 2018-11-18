@@ -28,7 +28,7 @@ This is part 1 of a two part post [part 1 - this post]() | [part 2]() on ML.NET 
 
 For the ML.NET portion of this quick project, let’s build the iris categorization model from the [Getting started in 10 minutes](https://www.microsoft.com/net/learn/machine-learning-and-ai/get-started-with-ml-dotnet-tutorial) ML.NET tutorial. As a prerequisite, you’ll want to install [Azure CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest),  [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local) and a recent version of [.NET Core](https://www.microsoft.com/net/download/dotnet-core/2.2).
 
-<img style="border:3px solid #021a40" src="./files/iris-machinelearning.png">
+<img style="border:3px solid #021a40" src="/files/iris-machinelearning.png">
 
 Open a command prompt and create a new folder for your ML.NET project.
 
@@ -168,7 +168,7 @@ Congratulations! You’ve trained a machine learning model with ML.NET that cate
 
 We'll use Azure Cloud Shell which uses the [Azure CLI](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest) to set up our Azure environment. The easiest way to do this is to sign in to your Azure portal account and click on the **cloud shell icon**  shown below to open a bash shell or go to [shell.azure.com](http://shell.azure.com). 
 
-<img style="border:3px solid #021a40" src="./files/cloudshell.PNG">
+<img style="border:3px solid #021a40" src="/files/cloudshell.PNG">
 
 Once logged in, create a new resource group for this project in the bash shell (and replace “mlnetdemo” as well as the location with one of your own).
 
@@ -219,7 +219,7 @@ Use the following command to create a new directory called `models` to put your 
 
 `$ az storage container create --name models --account-key YOURKEY --account-name mlnetdemostorage1`
 
-<img style="border:3px solid #021a40" src="./files/blob_model.png">
+<img style="border:3px solid #021a40" src="/files/blob_model.png">
 
 Since we are using Cloud Shell, it will be easier to use the Azure Portal for this step. You can also use the Azure CLI if you wish.  Browse to your version of the **mlnetdemo** resource group and drill down to your storage resource that you created earlier. Drill into the blobs and you see the new folder `models` subdirectory. Upload the **model.zip** here which can be found on your hard drive.
 
