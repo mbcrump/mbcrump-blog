@@ -22,7 +22,7 @@ Machine learning can be tricky. Fortunately, Azure is coming up with ways to mak
 
 ## Serverless Machine Learning
 
-This is part 1 of a two part post [part 1 - this post]() | [part 2]() on ML.NET inspired by Luis Quintanilla’s [article](http://luisquintanilla.me/2018/08/21/serverless-machine-learning-mlnet-azure-functions/) about using ML.NET with Azure Functions, where he took these two great ideas and combined them. You will use ML.NET locally to train your machine learning model. Then you will create an Azure environment with a storage account and Azure Function to host your machine learning app. The final step, building an app that uses your model, will be covered in the next post.
+This is part 1 of a two part post on ML.NET inspired by Luis Quintanilla’s [article](http://luisquintanilla.me/2018/08/21/serverless-machine-learning-mlnet-azure-functions/) about using ML.NET with Azure Functions, where he took these two great ideas and combined them. You will use ML.NET locally to train your machine learning model. Then you will create an Azure environment with a storage account and Azure Function to host your machine learning app. The final step, building an app that uses your model, will be covered in the next post.
 
 ## Create your model
 
@@ -206,7 +206,7 @@ You'll see the following:
   {
     "keyName": "key1",
     "permissions": "Full",
-    "value": "YhztFt0+wMvQa4WJGOOwNuNBmh5EIOo00Nk+TQZpkDQtvTTYhU9LcIaE0YN8tTOscckrWVmrK8ep4TEvjHVFYg=="
+    "value": "YOURKEY"
   },
   {
     "keyName": "key2",
