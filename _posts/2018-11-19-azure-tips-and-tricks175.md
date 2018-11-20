@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 175 - Machine Learning with ML.NET, Azure Functions and VS Code - Part 2 of 2"
+title: "Azure Tips and Tricks Part 175 - Machine Learning with ML.NET and Azure Functions - Part 2 of 2"
 excerpt: "In part 1 of this post on ML.NET and Azure Functions, you created a machine learning model with ML.NET that categorizes irises. You also set up a serverless architecture environment with Azure Functions and uploaded your model to it. In this post, you’re going to finish by building an app that uses your machine learning model."
 tags: [azure, ML.NET, Azure Functions, Machine Learning, AI]
 share: true
@@ -21,8 +21,7 @@ comments: true
 
  Machine learning can be tricky. Fortunately, Azure is coming up with ways to make it easier for developers to jump into machine learning. In part 1 of this post on ML.NET and Azure Functions, you created a machine learning model with [ML.NET](https://www.microsoft.com/net/apps/machinelearning-ai/ml-dotnet)  that categorizes irises. You also set up a serverless architecture environment with Azure Functions and uploaded your model to it. In this post, you’re going to finish by building an app that uses your machine learning model.
 
-
- ## Identify irisis like a Machine
+## Identify irisis like a Machine
 
  This is [part 2](https://www.michaelcrump.net/azure-tips-and-tricks175/) of a two part post on ML.NET inspired by Luis Quintanilla’s [article](http://luisquintanilla.me/2018/08/21/serverless-machine-learning-mlnet-azure-functions/) about using ML.NET with Azure Functions, where he took these two great ideas and combined them. Picking up [with Part 1](https://www.michaelcrump.net/azure-tips-and-tricks145/), you are going to create a new Azure Function project using Visual Studio.
 
