@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 174 - Machine Learning with ML.NET, Azure Functions and VS Code - Part 1 of 2"
+title: "Azure Tips and Tricks Part 174 - Machine Learning with ML.NET and Azure Functions - Part 1 of 2"
 excerpt: "ML.NET is the machine learning framework that Microsoft Research made just for .NET developers so you can do everything inside Visual Studio. And when you are ready to deploy your ML.NET algorithm, you can use serverless architecture through Azure Functions--the “don’t worry about it” option when you want to get an app up and running."
 tags: [azure, ML.NET, Azure Functions, Machine Learning, AI]
 share: true
@@ -14,7 +14,7 @@ comments: true
 
 [Available Now!](https://michaelcrump.net/azure-tips-and-tricks-complete-list/){: .btn .btn--success}
 
-## Azure Tips and Tricks Part 174 - Machine Learning with ML.NET, Azure Functions and VS Code - Part 1 of 2
+## Azure Tips and Tricks Part 174 - Machine Learning with ML.NET and Azure Functions - Part 1 of 2
 
 ## Intro
 
@@ -22,7 +22,7 @@ Machine learning can be tricky. Fortunately, Azure is coming up with ways to mak
 
 ## Serverless Machine Learning
 
-This is part 1 of a two part post on ML.NET inspired by Luis Quintanilla’s [article](http://luisquintanilla.me/2018/08/21/serverless-machine-learning-mlnet-azure-functions/) about using ML.NET with Azure Functions, where he took these two great ideas and combined them. You will use ML.NET locally to train your machine learning model. Then you will create an Azure environment with a storage account and Azure Function to host your machine learning app. The final step, building an app that uses your model, will be covered in the next post.
+This is [part 1](https://www.michaelcrump.net/azure-tips-and-tricks174/) of a [two part](https://www.michaelcrump.net/azure-tips-and-tricks175/) post on ML.NET inspired by Luis Quintanilla’s [article](http://luisquintanilla.me/2018/08/21/serverless-machine-learning-mlnet-azure-functions/) about using ML.NET with Azure Functions, where he took these two great ideas and combined them. You will use ML.NET locally to train your machine learning model. Then you will create an Azure environment with a storage account and Azure Function to host your machine learning app. The final step, building an app that uses your model, will be covered in the next post.
 
 ## Create your model
 

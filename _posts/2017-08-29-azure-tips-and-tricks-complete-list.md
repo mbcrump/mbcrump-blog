@@ -188,7 +188,8 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 171 - SAP on Azure in Plain English Part 2 of 2](http://www.michaelcrump.net/azure-tips-and-tricks171)
 * [Azure Tips and Tricks Part 172 - Getting Started with HDInsight](http://www.michaelcrump.net/azure-tips-and-tricks172)
 * [Azure Tips and Tricks Part 173 - Get the most out of Azure Advisor](http://www.michaelcrump.net/azure-tips-and-tricks173)
-* [Azure Tips and Tricks Part 174 - Machine Learning with ML.NET, Azure Functions and VS Code - Part 1 of 2](http://www.michaelcrump.net/azure-tips-and-tricks174)
+* [Azure Tips and Tricks Part 174 - Machine Learning with ML.NET and Azure Functions - Part 1 of 2](http://www.michaelcrump.net/azure-tips-and-tricks174)
+* [Azure Tips and Tricks Part 175 - Machine Learning with ML.NET and Azure Functions - Part 2 of 2](http://www.michaelcrump.net/azure-tips-and-tricks175)
 
 ## YouTube Videos
 
