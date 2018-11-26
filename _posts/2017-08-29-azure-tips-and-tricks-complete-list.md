@@ -190,6 +190,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 173 - Get the most out of Azure Advisor](http://www.michaelcrump.net/azure-tips-and-tricks173)
 * [Azure Tips and Tricks Part 174 - Machine Learning with ML.NET and Azure Functions - Part 1 of 2](http://www.michaelcrump.net/azure-tips-and-tricks174)
 * [Azure Tips and Tricks Part 175 - Machine Learning with ML.NET and Azure Functions - Part 2 of 2](http://www.michaelcrump.net/azure-tips-and-tricks175)
+* [Azure Tips and Tricks Part 176 - Azure Lab Services Demystified](http://www.michaelcrump.net/azure-tips-and-tricks176)
 
 ## YouTube Videos
 

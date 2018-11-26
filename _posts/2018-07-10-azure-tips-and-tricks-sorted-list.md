@@ -208,6 +208,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 163 - Provide Static App Settings Values to an ARM Template](http://www.michaelcrump.net/azure-tips-and-tricks163/)
 * [Azure Tips and Tricks Part 164 - Defining Parameters to be used with ARM Templates](http://www.michaelcrump.net/azure-tips-and-tricks164/)
 * [Azure Tips and Tricks Part 173 - Get the most out of Azure Advisor](http://www.michaelcrump.net/azure-tips-and-tricks173)
+* [Azure Tips and Tricks Part 176 - Azure Lab Services Demystified](http://www.michaelcrump.net/azure-tips-and-tricks176)
 
 # Azure SAP
 
