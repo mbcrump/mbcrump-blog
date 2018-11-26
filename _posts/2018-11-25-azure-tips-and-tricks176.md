@@ -25,7 +25,7 @@ Historically, if you wanted to set up a lab for educational or research use, you
 Azure Lab Services does everything you'd expect from a traditional computer lab and then some. Because you're running on virtual machines, there's no painful copy-and-install process. Instead, you can scale your lab up easily from a common template. 
 Use the Azure portal to create a new Lab Services account. This must have a unique name and can be in a new or existing resource group.
 
-<img style="border:3px solid #021a40" src="/files/azure-labs-new-account.png">
+<img style="border:3px solid #021a40" src="/files/azure-labs-newaccount.png">
 
 Unlike most other Azure services, this one has its own portal. You manage the labs through https://labs.azure.com. This is where you set up machines, users, and all other lab settings.
 
