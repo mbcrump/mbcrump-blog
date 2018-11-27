@@ -191,6 +191,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 174 - Machine Learning with ML.NET and Azure Functions - Part 1 of 2](http://www.michaelcrump.net/azure-tips-and-tricks174)
 * [Azure Tips and Tricks Part 175 - Machine Learning with ML.NET and Azure Functions - Part 2 of 2](http://www.michaelcrump.net/azure-tips-and-tricks175)
 * [Azure Tips and Tricks Part 176 - Azure Lab Services Demystified](http://www.michaelcrump.net/azure-tips-and-tricks176)
+* [Azure Tips and Tricks Part 177 - Getting Started with Azure Information Protection](http://www.michaelcrump.net/azure-tips-and-tricks177)
 
 ## YouTube Videos
 
@@ -239,6 +240,13 @@ The complete list so far!
 * [Azure Tips and Tricks Video - Deploying Azure Logic App through Visual Studio 2017](https://www.youtube.com/watch?v=VHYlepYg2-o)
 * [Azure Tips and Tricks Video - Working with Azure Logic App using Visual Studio 2017](https://www.youtube.com/watch?v=ODDwsjMGDtk)
 * [Azure Tips and Tricks Video - Modifying an existing API Connection with Azure Logic App](https://www.youtube.com/watch?v=_jKV0n1oYxs)
+* [Azure Tips and Tricks Video - Create an Azure Functions project with Visual Studio Code](https://www.youtube.com/watch?v=dgHZCrOSA3o)
+* [Azure Tips and Tricks Video - Add Azure Cloud Shell to Visual Studio Code](https://www.youtube.com/watch?v=-HYP-iuxqJY)
+* [Azure Tips and Tricks Video - Pushing a Container Image to a Docker Repo](https://www.youtube.com/watch?v=z2I82XTgW8k)
+* [Azure Tips and Tricks Video - Creating a Container Image with Docker](https://www.youtube.com/watch?v=JxPmCgGCaBQ)
+* [Azure Tips and Tricks Video - Run an app inside a Container Image with Docker](https://www.youtube.com/watch?v=kE2KY_RFEo8)
+* [Azure Tips and Tricks Video - Getting Started with Docker and Azure](https://www.youtube.com/watch?v=Mfqv2lEpaBU)
+* [Azure Tips and Tricks Video - Live from Ignite 2018](https://www.youtube.com/watch?v=GJCtGSx5QT0)
 
 
 **ATTENTION:** Help shape the future of Azure Tips and Tricks by telling me what you'd like for me to write about! Help me help you by filling out this [quick survey.](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR0m_7PjUWSdOsfLRTa0HuzZUNE1PS1ZNR0pOUktSTUE2Wk0yWUxRQVI1WC4u)
