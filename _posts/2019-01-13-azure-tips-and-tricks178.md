@@ -66,7 +66,7 @@ Note that the `amp` object has a number of [options](https://amp.azure.net/libs/
 
 For more details on specific capabilities, as well as code for a variety of scenarios, be sure to check out the latest [docs](http://amp.azure.net/libs/amp/latest/docs/index.html) and particularly [these samples](http://amp.azure.net/libs/amp/latest/docs/samples.html), which show how to exercise more of the player options themselves like playback speed, localization of captions, and event handling.
 
-Come back tomorrow and we'll talk about Azure Media Analytics. 
+Come back [tomorrow](http://www.michaelcrump.net/azure-tips-and-tricks179) and we'll talk about Azure Media Analytics. 
 
 **ATTENTION:** Help shape the future of Azure Tips and Tricks by telling me what you'd like for me to write about! Help me help you by filling out this [quick survey.](http://survey.azuredev.tips)
 {: .notice--primary}
