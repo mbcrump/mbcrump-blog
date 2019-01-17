@@ -192,6 +192,8 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 175 - Machine Learning with ML.NET and Azure Functions - Part 2 of 2](http://www.michaelcrump.net/azure-tips-and-tricks175)
 * [Azure Tips and Tricks Part 176 - Azure Lab Services Demystified](http://www.michaelcrump.net/azure-tips-and-tricks176)
 * [Azure Tips and Tricks Part 177 - Getting Started with Azure Information Protection](http://www.michaelcrump.net/azure-tips-and-tricks177)
+* [Azure Tips and Tricks Part 178 - A Lap Around Azure Media Player](http://www.michaelcrump.net/azure-tips-and-tricks178)
+* [Azure Tips and Tricks Part 179 - Using Azure Media Analytics to search for specific terms in a Video](http://www.michaelcrump.net/azure-tips-and-tricks179)
 
 ## YouTube Videos
 
