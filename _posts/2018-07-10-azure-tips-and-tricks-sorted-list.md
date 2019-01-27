@@ -26,6 +26,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 - [Azure HDInsight](#azure-hdinsight)
 - [Azure IaaS (VMs)](#azure-iaas-vms)
 - [Azure IoT](#azure-iot)
+- [Azure Key Vault](@azure-key-vault)
 - [Azure Logic Apps](#azure-logic-apps)
 - [Azure Portal](#azure-portal)
 - [Azure PowerShell](#azure-powershell)
@@ -168,6 +169,10 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 * [Azure Tips and Tricks Part 124 - Creating the Azure Logic App for our IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks124/)
 * [Azure Tips and Tricks Part 125 - Using Azure Function to call our Logic App with the IoT Button](http://www.michaelcrump.net/azure-tips-and-tricks125/)
 * [Azure Tips and Tricks Part 126 - Getting Started with Azure IoT Central](http://www.michaelcrump.net/azure-tips-and-tricks126/)
+
+# Azure Key Vault
+
+* [Azure Tips and Tricks Part 180 - Taking a peek at Azure Key Vault Part 1 of 2](http://www.michaelcrump.net/azure-tips-and-tricks180)
 
 # Azure Logic Apps 
 
