@@ -16,12 +16,14 @@ comments: true
 
 
 ## Taking a peek at Azure Key Vault Part 1 of 2
+
+[This post]() | [Part 2 - coming tomorrow]()
  
 One of the more vexing problems for developers is securing access to other services used by their applications. Databases and other restricted resources need authentication, and your apps need to provide that, but how? Passwords within your code? (Un)encrypted configuration files? Certificate stores? Hardware? And who safeguards and manages these resources?
 
 Addressing these concerns is the primary objective of [Azure Key Vault](https://azure.microsoft.com/en-us/services/key-vault/), a globally available service to store and manage three types of assets:
 
-- Secrets - sensitive strings like passwords and database connection strings. You might store your application�s database password as a secret, for instance.
+- Secrets - sensitive strings like passwords and database connection strings. You might store your application's database password as a secret, for instance.
 - Encryption keys - RSA or Elliptic Curve keys that you would use for cryptographic operations such as encrypting application data for transit or storage.
 - Certificates - X.509 certificates that you may provision through Azure Key Vault or via other providers like DigiCert.
 
@@ -37,7 +39,7 @@ Access to the Key Vault is managed via policies to which principals (like users 
 
 <img style="border:3px solid #021a40" src="/files/create-kv-policy.png">
 
-Indeed, across the three entities (keys, secrets, and certificates), there are 40 permissions that can be individually granted, thus supporting the [principle of least privilege](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models).  For instance, a web API that is accessing SQL Server might have GET permission on the secrets store, but only members of the security team would have SET permission to modify the database password. That�s a simplistic example, so [here�s another scenario](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-secure-your-key-vault#example) involving developers, the security team, and even auditors.
+Indeed, across the three entities (keys, secrets, and certificates), there are 40 permissions that can be individually granted, thus supporting the [principle of least privilege](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models).  For instance, a web API that is accessing SQL Server might have GET permission on the secrets store, but only members of the security team would have SET permission to modify the database password. That's a simplistic example, so [here's another scenario](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-secure-your-key-vault#example) involving developers, the security team, and even auditors.
 
 ### Adding a Secret
 
