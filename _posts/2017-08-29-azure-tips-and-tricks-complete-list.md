@@ -195,6 +195,7 @@ As requested here is the complete list of all Azure Tips and Tricks. Feel free t
 * [Azure Tips and Tricks Part 178 - A Lap Around Azure Media Player](http://www.michaelcrump.net/azure-tips-and-tricks178)
 * [Azure Tips and Tricks Part 179 - Using Azure Media Analytics to search for specific terms in a Video](http://www.michaelcrump.net/azure-tips-and-tricks179)
 * [Azure Tips and Tricks Part 180 - Taking a peek at Azure Key Vault Part 1 of 2](http://www.michaelcrump.net/azure-tips-and-tricks180)
+* [Azure Tips and Tricks Part 181 - Taking a peek at Azure Key Vault Part 2 of 2](http://www.michaelcrump.net/azure-tips-and-tricks181)
 
 ## YouTube Videos
 

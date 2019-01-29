@@ -173,6 +173,7 @@ The [unsorted list](https://www.michaelcrump.net/azure-tips-and-tricks-complete-
 # Azure Key Vault
 
 * [Azure Tips and Tricks Part 180 - Taking a peek at Azure Key Vault Part 1 of 2](http://www.michaelcrump.net/azure-tips-and-tricks180)
+* [Azure Tips and Tricks Part 181 - Taking a peek at Azure Key Vault Part 2 of 2](http://www.michaelcrump.net/azure-tips-and-tricks181)
 
 # Azure Logic Apps 
 
