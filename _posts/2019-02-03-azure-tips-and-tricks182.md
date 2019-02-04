@@ -61,8 +61,6 @@ Once this side of the peering is ready, it will show the status as **Initiated**
 
 * I repeat the above steps and add the peering for the **hub-spoke1-peer**.
 
-<img style="border:3px solid #021a40" src="/files/peering5.png">
-
 That sets up the hub side of the peering. The next step is the spoke side.
 
 **Part 2:**
