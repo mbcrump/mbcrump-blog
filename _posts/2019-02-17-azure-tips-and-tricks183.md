@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Azure Tips and Tricks Part 183 - Optimize what you spend on the cloud with Azure Cost Management"
-excerpt: "Learn how to use optimize what you spend on the cloud with azure cost management"
+title: "Azure Tips and Tricks Part 183 - Optimize what you spend on the cloud with Cloudyn"
+excerpt: "Learn how to use optimize what you spend on the cloud with Cloudyn"
 tags: [azure, cost management, cloudyn, cost savings]
 share: true
 comments: true
@@ -14,24 +14,26 @@ comments: true
  
 [Available Now!](https://michaelcrump.net/azure-tips-and-tricks-complete-list/){: .btn .btn--success}
  
-## Optimize what you spend on the cloud with Azure Cost Management
+## Optimize what you spend on the cloud with Cloudyn
  
 With your personal finances, if you’ve ever wondered where all your money goes or exactly what you are spending your money on, you may have purchased an application such a Quicken. Quicken connects with your bank and credit card accounts to show you exactly where your money is going with different charts, graphs, and detailed tables of data. Once you know where your money is going, you can start to optimize what you spend your money on. 
 
-[Azure Cost Management](https://azure.microsoft.com/en-us/services/cost-management/) is like Quicken on steroids for your cloud costs on Azure.
+Cloudyn is like Quicken on steroids for your cloud costs on Azure.
+
+Note Cloudyn is related to, but separate from native [Azure Cost Management](https://azure.microsoft.com/services/cost-management/). Cost Management has no onboarding, ~8-hour data latency, and is [integrated into the Azure portal](https://aka.ms/costmgmt). Cost Management is recommended for individiuals and organizations with Enterprise Aggreement (EA), pay-as-you-go, dev/test, and free/trial subscriptions. Cloud Solution Provider (CSP) customers should start with Cloudyn.
  
-### How to set up Azure Cost Management
+### How to set up Cloudyn
 
-To use Cost Management, first you need to register your subscription to get the billing information shared with the Cost Management portal.
+To use Cloudyn, first you need to register your subscription to get the billing information shared with the Cloudyn portal.
 
-In the Azure Portal, select **Cost Management + Billing**, select **Cost Management** and then click the Cloudyn then click the **Go to Cloudyn** button.  
+In the Azure Portal, select **Cost Management + Billing**, select [**Cost Management**](https://aka.ms/costmgmt) (if available), then **Cloudyn** and finally click the **Go to Cloudyn** button.
 
 <img style="border:3px solid #021a40" src="/files/costmanagement1.png">
 
-You will now be on the Cloudyn portal registration (Cloudyn is a Microsoft subsidiary), fill out the registration steps and then you’ll need to wait a good 24 hours un  til the billing data has been pulled into the Cost Management portal.
+You will now be on the Cloudyn portal registration (Cloudyn is a Microsoft subsidiary), fill out the registration steps and then you’ll need to wait a good 24 hours until the billing data has been pulled into the Cloudyn portal.
 
-### Cost Management views that I’ve found useful
-Once you’ve waited a day or so  for Cost Management to connect with billing, you can start learning where you are spending your money.
+### Cloudyn views that I’ve found useful
+Once you’ve waited a day or so for Cloudyn to connect with billing, you can start learning where you are spending your money.
 
 #### Cost Controller
 
