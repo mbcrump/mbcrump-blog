@@ -33,4 +33,4 @@ There is also a set of other cool features such as:
 Check it out and LMK what you think!
 
 ## Do you want more articles like this?
-If you'd like to learn more Tips and Tricks, then follow me on [twitter - http://twitter.com/mbcrump) or stay tuned to this blog! I'd also love to hear your tips and tricks, just leave a comment below.
+If you'd like to learn more Tips and Tricks, then follow me on [Twitter](http://twitter.com/mbcrump) or stay tuned to this blog! I'd also love to hear your tips and tricks, just leave a comment below.
