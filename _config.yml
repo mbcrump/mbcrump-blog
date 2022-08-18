@@ -81,7 +81,7 @@ analytics:
 author:
   name             : "Michael Crump"
   avatar           : "https://www.michaelcrump.net/files/michael-profile-pic.jpg"
-  bio              : "Works at Microsoft on Azure"
+  bio              : "Works at Vonage in Developer Relations"
   location         : "Redmond, WA"
   email            : "michael@michaelcrump.net"
   uri              : "https://www.michaelcrump.net"
@@ -107,7 +107,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "https://youtube.com/c/mbcrump"
+  youtube          : ""
 
 
 # Reading Files

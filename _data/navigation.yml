@@ -3,9 +3,6 @@ main:
   - title: "Posts"
     url: /year-archive/
 
-  - title: "Azure Tips and Tricks"
-    url: https://www.michaelcrump.net/azure-tips-and-tricks-complete-list/
-
   - title: "Media"
     url: /media/    
 
